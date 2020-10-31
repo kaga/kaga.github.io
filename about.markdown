@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+#### 2006 - First Apple computer, an intel Macbook
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+#### 2007 - 跟(錯?!) Supervisor 做 iPhone 的 FYP - First iOS App School Project
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+#### 2009 - First App [五色學倉頡](https://apps.apple.com/hk/app/五色學倉頡-online/id382024751)
 
+#### 2012 - Work at [~~Telogis~~ Verizon Connect](https://www.verizonconnect.com/nz/)
 
-[jekyll-organization]: https://github.com/jekyll
+#### 2016 - Work at Foodstuffs South Island
