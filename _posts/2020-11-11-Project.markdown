@@ -1,0 +1,11 @@
+layout: post
+title:  "Debugging Team"
+date:   2020-10-31 21:56:49 +1300
+categories: Project
+---
+
+Workflow
+Milestone
+Meeting Expectation / Trust
+Agreement
+
