@@ -5,6 +5,8 @@ date:   2021-01-18 21:05:49 +1300
 categories: Dev
 ---
 
+![Waterfall Finial](./assets/Waterfall_4.jpeg)
+
 The word “Waterfall” often talked about in the software development world. Sometimes it is being used as a “dirty” word in a conversation as a reason to go “agile”, without much understanding to the methodology.
 
 很多人成日都放「Waterfall」喺嘴邊，但有幾多人真正地了解過它的意思？還是只是用來作為「Agile」的對立面？用來把自己放在高一個層次從而鄙視其他人？
