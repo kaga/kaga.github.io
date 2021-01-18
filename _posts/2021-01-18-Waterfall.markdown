@@ -5,7 +5,7 @@ date:   2021-01-18 21:05:49 +1300
 categories: Dev
 ---
 
-![Waterfall Finial](../images/Waterfall_4.jpeg)
+![Waterfall Finial](/assets/Waterfall_4.jpeg)
 
 The word “Waterfall” often talked about in the software development world. Sometimes it is being used as a “dirty” word in a conversation as a reason to go “agile”, without much understanding to the methodology.
 
@@ -18,7 +18,7 @@ This is an introduction to the Winston Royce’s original paper on
 
 ## Version 0.1 - Analysis -> Coding 
 
-![Waterfall 0.1](../images/Waterfall_1.jpeg)
+![Waterfall 0.1](/assets/Waterfall_1.jpeg)
 
 This is as simple as the title suggests. This strategy works well when the work is fairly simple, such as a “single page” application or feature enhancement to an existing solution. The whole process usually goes for few months and rarely past a year. 
 
@@ -63,7 +63,7 @@ Release note for version 1.2
 - Added ability to jump back to program design & software requirement 
 ```
 
-![Waterfall v1.2](../images/Waterfall_3.jpeg)
+![Waterfall v1.2](/assets/Waterfall_3.jpeg)
 
 With the modern culture of expecting projects to overrun and delay. The disadvantages of this method are often ignored, and going further to different models will be difficult. 
 
@@ -73,7 +73,7 @@ With the modern culture of expecting projects to overrun and delay. The disadvan
 
 ## Waterfall 2.0 - What Royce’s Wanted 
 
-![Waterfall Finial](../images/Waterfall_4.jpeg)￼
+![Waterfall Finial](/assets/Waterfall_4.jpeg)￼
 
 The picture at the start of this blog was actually describe this model. I put it up there to mess with you.
 
