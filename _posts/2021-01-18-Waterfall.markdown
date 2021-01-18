@@ -16,7 +16,7 @@ This is an introduction to the Winston Royce’s original paper on
 
 這是一個簡單分成三部分介紹 Winston Royce 關於設計大型系統的文章。
 
-## Version 0.1 - Analysis -> Coding 
+## Version 0.1 - Analysis → Coding 
 
 ![Waterfall 0.1](/assets/Waterfall_1.jpeg)
 
@@ -75,6 +75,7 @@ With the modern culture of expecting projects to overrun and delay. The disadvan
 ## Waterfall 2.0 - What Royce’s Wanted 
 
 ![Waterfall 2.0](/assets/Waterfall_4.jpeg)
+*System Requirement → Software Requirement → Analysis → Program Design → Coding → Testing → Operations*
 
 The picture at the start of this blog was actually describe this model. I put it up there to mess with you.
 
