@@ -39,6 +39,7 @@ It is difficult to have complex projects successfully implemented using this met
 ## Waterfall 1.0 - The Infamous “Waterfall” Model 
 
 ![Waterfall 1.0](/assets/Waterfall_2.jpeg)
+*System Requirement → Software Requirement → Analysis → Program Design → Coding → Testing → Operations*
 
 The is widely misunderstood as “the waterfall” model and commonly used. I think the misconception came from the author described the concept with the famous graph too soon and reader took it as a gist of “waterfall” and stopped reading. 
 
@@ -75,7 +76,6 @@ With the modern culture of expecting projects to overrun and delay. The disadvan
 ## Waterfall 2.0 - What Royce’s Wanted 
 
 ![Waterfall 2.0](/assets/Waterfall_4.jpeg)
-*System Requirement → Software Requirement → Analysis → Program Design → Coding → Testing → Operations*
 
 The picture at the start of this blog was actually describe this model. I put it up there to mess with you.
 
