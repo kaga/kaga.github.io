@@ -5,8 +5,6 @@ date:   2021-01-18 21:05:49 +1300
 categories: Dev
 ---
 
-![Waterfall Finial](/assets/Waterfall_4.jpeg)
-
 The word “Waterfall” often talked about in the software development world. Sometimes it is being used as a “dirty” word in a conversation as a reason to go “agile”, without much understanding to the methodology.
 
 很多人成日都放「Waterfall」喺嘴邊，但有幾多人真正地了解過它的意思？還是只是用來作為「Agile」的對立面？用來把自己放在高一個層次從而鄙視其他人？
@@ -17,8 +15,6 @@ This is an introduction to the Winston Royce’s original paper on
 這是一個簡單分成三部分介紹 Winston Royce 關於設計大型系統的文章。
 
 ## Version 0.1 - Analysis -> Coding 
-
-![Waterfall 0.1](/assets/Waterfall_1.jpeg)
 
 This is as simple as the title suggests. This strategy works well when the work is fairly simple, such as a “single page” application or feature enhancement to an existing solution. The whole process usually goes for few months and rarely past a year. 
 
@@ -37,7 +33,6 @@ It is difficult to have complex projects successfully implemented using this met
 雖然最後成品會有「頭痛醫頭，腳痛醫腳」，但想完成 BAU 以内的工作很多時都只能這樣。就算是 Project based 的工作，如果其他人只係形式上存在而變成 Developer 獨自負擔的話，其實都只是這一個  Methodology 的變體。很難在大型系統中成功用這個方法。
 
 ## Waterfall 1.0 - The Infamous “Waterfall” Model 
-
 
 The is widely misunderstood as “the waterfall” model and commonly used. I think the misconception came from the author described the concept with the famous graph too soon and reader took it as a gist of “waterfall” and stopped reading. 
 
@@ -63,8 +58,6 @@ Release note for version 1.2
 - Added ability to jump back to program design & software requirement 
 ```
 
-![Waterfall v1.2](/assets/Waterfall_3.jpeg)
-
 With the modern culture of expecting projects to overrun and delay. The disadvantages of this method are often ignored, and going further to different models will be difficult. 
 
 依家人普遍都習慣了 Software Development 就係會延遲同貴，而且當大家忽略運用這個方法去建設一個大型系統的缺點，就很難去檢視用其他可能更加好的方法。
@@ -72,8 +65,6 @@ With the modern culture of expecting projects to overrun and delay. The disadvan
 ---
 
 ## Waterfall 2.0 - What Royce’s Wanted 
-
-![Waterfall Finial](/assets/Waterfall_4.jpeg)￼
 
 The picture at the start of this blog was actually describe this model. I put it up there to mess with you.
 
