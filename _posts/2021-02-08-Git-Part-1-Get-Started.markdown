@@ -38,6 +38,8 @@ Although Git is not a replacement to backup. It helps keeping disruption to a mi
 
 Git usually associated with software development, but it supports all files.
 
+---
+
 ## How to use it (GUI)
 
 It is very easy to get started with a graphical user interface client, here are some of the clients that I recommend.
@@ -47,7 +49,9 @@ It is very easy to get started with a graphical user interface client, here are 
 1. [Github Desktop](https://desktop.github.com/)
 1. [Sourcetree](https://www.sourcetreeapp.com/)
 
-I am getting increasingly dissatisfy with the recent releases of Soucetree. It has becoming slower and [not available on Linux](https://community.atlassian.com/t5/Sourcetree-questions/SourceTree-for-Linux/qaq-p/255473). I have been transitioning to built-in solution from IDEs (Android Studio & Visual Studio Code) as well as Github Desktop. Github Desktop covers most of the day to day use cases and it is constantly improving. For new user starting out, I would strongly recommend trying out Github Desktop first.
+> I am getting increasingly dissatisfy with the recent releases of Soucetree. It has becoming slower and [not available on Linux](https://community.atlassian.com/t5/Sourcetree-questions/SourceTree-for-Linux/qaq-p/255473). I have been transitioning to built-in solution from IDEs (Android Studio & Visual Studio Code) as well as Github Desktop. 
+
+Github Desktop covers most of the day to day use cases and it is constantly improving. For new user starting out, I would strongly recommend trying out Github Desktop first.
 
 ### Adding a New Repository
 
@@ -60,6 +64,8 @@ you can choose to try it on a new project before making a decision to migrate ev
 ### Commit / Saving Changes
 
 Once you have a repository, you can start committing! Although I recommend to keep short message for reference in the future, you can just use the default message.
+
+---
 
 ## How to use it (Command Line)
 
@@ -116,6 +122,8 @@ nothing added to commit but untracked files present (use "git add" to track)
  1 file changed, 1 insertion(+)
  create mode 100644 readme.md
 ```
+
+---
 
 ## Commit History
 
