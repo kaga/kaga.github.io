@@ -63,6 +63,8 @@ you can choose to try it on a new project before making a decision to migrate ev
 
 ### Commit / Saving Changes
 
+![Commit Message](/assets/git/github-desktop-commit-message.png)
+
 Once you have a repository, you can start committing! Although I recommend to keep short message for reference in the future, you can just use the default message.
 
 ---
@@ -129,7 +131,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 ![Github Desktop - 1st cmd commit](/assets/git/github-desktop-first-commit.png)
 
-Once you have committed, it looks like this in Github Desktop. You can see your file change history here, go back and get that specific version.
+Once you have committed, it looks like this in Github Desktop. You can see your file change history here, go back and get that specific version. You can experiment as much as you want without fear of modified the known good version.
 
 That's it! Remember to **commit early commit often. Keep committing**.
 
