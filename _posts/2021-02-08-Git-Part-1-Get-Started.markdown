@@ -63,8 +63,6 @@ you can choose to try it on a new project before making a decision to migrate ev
 
 Once you have a repository, you can start committing! Although I recommend to keep short message for reference in the future, you can just use the default message.
 
-That's it!
-
 ## How to use it (Command Line)
 
 For those who do software development, I would strongly recommend trying out the command line version to better understand what is happening behind the scene.
@@ -121,17 +119,14 @@ nothing added to commit but untracked files present (use "git add" to track)
  create mode 100644 readme.md
 ```
 
-Once you have committed, it looks like this in Github Desktop.
-
-
 ## Commit History
 
-## Conclusion
+![Github Desktop - 1st cmd commit](/assets/git/github-desktop-first-commit.png)
 
-Keep committing
+Once you have committed, it looks like this in Github Desktop. You can see your file change history here, go back and get that specific version.
 
----
+## That's it
 
-## 
+> Commit early commit often. Keep committing.
 
 [Getting Started - About Version Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
