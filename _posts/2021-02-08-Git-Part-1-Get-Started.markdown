@@ -5,6 +5,9 @@ date:   2021-02-08 12:05:49 +1300
 categories: Version control
 ---
 
+![Reddit Meme](/assets/git/reddit-meme.jpg)
+[From Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/9cakf8/laughs_in_source_control/)
+
 Have you used some software that once you saved the file, you cannot go back to previous saved version? You might copy the file and start naming the file like this.
 
 ```bash
