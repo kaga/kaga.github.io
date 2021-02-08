@@ -43,18 +43,20 @@ Git usually associated with software development, but it supports all files.
 
 ---
 
-## How to use it (GUI)
+## How to use it ( GUI )
 
-It is very easy to get started with a graphical user interface client, here are some of the clients that I recommend.
+It is very easy to get started with a graphical user interface client, here are some of the standalone clients that I recommend.
 
 ![Github Desktop](/assets/git/github-desktop.png)
 
 1. [Github Desktop](https://desktop.github.com/)
 1. [Sourcetree](https://www.sourcetreeapp.com/)
 
-> I am getting increasingly dissatisfy with the recent releases of Soucetree. It has becoming slower and [not available on Linux](https://community.atlassian.com/t5/Sourcetree-questions/SourceTree-for-Linux/qaq-p/255473). I have been transitioning to built-in solution from IDEs (Android Studio & Visual Studio Code) as well as Github Desktop. 
+![VSCode](/assets/git/vscode-commit.png)
 
-Github Desktop covers most of the day to day use cases and it is constantly improving. For new user starting out, I would strongly recommend trying out Github Desktop first.
+> I am getting increasingly dissatisfy with the recent releases of Sourcetree. It has becoming slower and [not available on Linux](https://community.atlassian.com/t5/Sourcetree-questions/SourceTree-for-Linux/qaq-p/255473). I have been transitioning to built-in solution from IDEs (Android Studio & Visual Studio Code) as well as Github Desktop.
+
+Github Desktop covers most of the day to day use cases and it is constantly improving. For new user starting out, I would strongly recommend trying out Github Desktop first. If you are using Android Studio ( [Intellij](https://www.jetbrains.com/idea/) ) or [Visual Studio Code](https://code.visualstudio.com/), give the built-in tool a try too.
 
 ### Adding a New Repository
 
@@ -72,7 +74,7 @@ Once you have a repository, you can start committing! Although I recommend to ke
 
 ---
 
-## How to use it (Command Line)
+## How to use it ( Command Line )
 
 For those who do software development, I would strongly recommend trying out the command lines to better understand what is happening behind the scene.
 
@@ -113,7 +115,7 @@ No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	readme.md
+    readme.md
 
 nothing added to commit but untracked files present (use "git add" to track)
 ➜  git-example git:(master) ✗ git add readme.md
