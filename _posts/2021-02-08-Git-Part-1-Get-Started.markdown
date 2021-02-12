@@ -23,7 +23,7 @@ This is a multi-part introduction on source control ( or version control ). This
 There are many version control softwares available on the market, but I will just focusing on [Git](https://git-scm.com/) alone. Git has becoming very popular in the last few years and it is easier to find learning resource.
 
 * Part 1 - Get Started
-* Part 2 - Working with Others
+* Part 2 - [Git With Github]({% post_url 2021-02-08-Git-Part-1-Get-Started %})
 * Part 3 - Git Deep Dive
 * Part 4 - Github Deep Dive
 * Part 5 - How to Pull Request
