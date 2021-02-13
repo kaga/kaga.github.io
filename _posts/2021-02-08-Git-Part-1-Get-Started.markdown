@@ -2,7 +2,8 @@
 layout: post
 title:  "Git - Get Started - Part 1"
 date:   2021-02-08 12:05:49 +1300
-categories: Version control
+categories: Version-control
+tags: git
 ---
 
 ![Reddit Meme](/assets/git/reddit-meme.jpg)

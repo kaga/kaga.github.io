@@ -2,7 +2,8 @@
 layout: post
 title: "Git - With Github"
 date: 2021-02-13 13:05:49 +1300
-categories: Version control
+categories: Version-control
+tags: git github github-desktop
 ---
 
 ![Github New Repo](/assets/git/github-new-repo-1.png)
