@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git - With Github"
-date: 2021-02-10 23:05:49 +1300
+date: 2021-02-13 13:05:49 +1300
 categories: Version control
 ---
 
@@ -9,12 +9,12 @@ categories: Version control
 
 This is the 2nd part on source control introduction.
 
-- [Part 1 - Get Started]({% post_url 2021-02-08-Git-Part-1-Get-Started %})
-- Part 2 - Git With Github
-- Part 3 - Git Deep Dive
-- Part 4 - Github Deep Dive
-- Part 5 - How to Pull Request
-- Part 6 - Git Tips
+* [Part 1 - Get Started]({% post_url 2021-02-08-Git-Part-1-Get-Started %})
+* [Part 2 - Git With Github]({% post_url 2021-02-13-Git-Part-2-Collaboration %})
+* Part 3 - Git Deep Dive
+* Part 4 - Github Deep Dive
+* Part 5 - How to Pull Request
+* Part 6 - Git Tips
 
 There is come a time where you are going to work in a team environment, or you working between multiple locations. A git service provider is going to help serve as a central place to share your work.
 
@@ -36,22 +36,22 @@ There is come a time where you are going to work in a team environment, or you w
 
 There are many consideration when picking a git service provider, such as support for private repositories, service availability and features. You can even [host your own](https://hub.docker.com/r/gitlab/gitlab-ee/)! It the future I will talk about my experience on set up different service provider ( BitBucket and Github ) for work environment.
 
-This blog will just focusing on the basic features of those service. Github is very popular, if not the most popular service provider, which I will be using it with Github Desktop in the following blogs.
+This blog will just focusing on the basic features of those service. Github is very popular, if not the most popular service provider, which I will be using it with Github Desktop in the following blogs, and the knowledge should be transferable.
 
 ## Prerequisite
 
-[Github](https://github.com/)
-[Github Desktop](https://desktop.github.com/) or [Linux variant here](https://github.com/shiftkey/desktop)
+1. [Github](https://github.com/)
+1. [Github Desktop](https://desktop.github.com/) or [Linux variant here](https://github.com/shiftkey/desktop)
 
 ## Github Desktop To Create Repository
 
 If you have followed [part 1]({% post_url 2021-02-08-Git-Part-1-Get-Started %}). You can open Github Desktop and hit that **Publish repository** button. It will do all the magic for you. Which make creating new repository a lot easier.
 
+> Tip - Give your project a good name while you are here will definitely helps in the future.
+
 ![Github Desktop Create and Push Repository](/assets/git/github-desktop-create-repo-1.png)
 
 ![Github Desktop Create and Push Repository](/assets/git/github-desktop-create-repo-2.png)
-
-> Tip - Give your project a good name while you are here will definitely helps in the future.
 
 ---
 
@@ -65,7 +65,7 @@ There are 2 options, **Add a README file** & **Add .gitignore**, which we will d
 
 ![Github Create Repo - 1](/assets/git/github-new-repo-2.png)
 
-### 2) Set Your Local Repository To Point to Github
+### 2) Set Your Local Repository Pointing to Github
 
 ![Github Create Repo - 2](/assets/git/github-new-repo-3.png)
 
@@ -93,16 +93,16 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 It is usually render as the first page when visiting repository's page. Since it is usually the first document a newly onboard developer read about your project. It is very important to keep this file up-to-date and include all relevant information for your target audience.
 
-Here is some of the information I usually includes:
+Here is some of the information I usually include:
 
-- An overview for this project
-- Project statuses
-- How to run the application
-- How to setup development environment
-- How to run unit test the application
-- How to manually build the application for deployment
-- Common Setup Issues and Solutions
-- Deployment Environment
+* An overview for this project
+* Project statuses
+* How to run the application
+* How to setup development environment
+* How to run unit test the application
+* How to manually build the application for deployment
+* Common Setup Issues and Solutions
+* Deployment Environment
 
 There are many great resources for how to create a good readme document. Such as this one [makeareadme.com](https://www.makeareadme.com/)
 
@@ -110,15 +110,15 @@ There are many great resources for how to create a good readme document. Such as
 
 ## How About **.gitignore**
 
-This is a file where you tell git to ignore certain files, but if those files added to git before updating the .gitignore file, Git is going to track changes once it was removed.
+This is a file where you tell git to ignore certain files, but if those files were added to git before updating the .gitignore file, Git is going to keep track changes once it was removed.
 
 A common file to .gitignore would be:
 
-- IDE generated files (i.e. .idea)
-- OS generated files (i.e. .DS_Store)
-- Build folders (i.e. build)
-- Sensitive Information (i.e. keystore, private keys, passwords)
-- File that unique to each development environment (i.e. local.properties points to android sdk location)
+* IDE generated files (i.e. .idea)
+* OS generated files (i.e. .DS_Store)
+* Build folders (i.e. build)
+* Sensitive Information (i.e. keystore, private keys, passwords)
+* File that unique to each development environment (i.e. local.properties points to android sdk location)
 
 ```.gitignore
 # Example .gitignore
@@ -151,7 +151,7 @@ yarn-error.log*
 
 ## Pulling Changes Into Your Local Environment `git pull`
 
-Once you start collaborating, you can pull to get the latest changes. Most GUI clients, such as Github Desktop, will notify you when there are new changes. In a time where I was involved in building a feature in a team environment. I would pull at each morning to get myself up-to-date.
+Once you start collaborating, you can **pull** to get the latest changes. Most GUI clients, such as Github Desktop, will notify you when there are new changes. In a time where I am building a feature in a team environment. I would pull at each morning to make sure I am up-to-date.
 
 ![github desktop clone repo](/assets/git/github-desktop-clone.png)
 
@@ -172,17 +172,19 @@ Fast-forward
 
 ## Tags `git tag`
 
-Tag is a great way to identify a major milestone of your project.
+Tag is a great way to identify a major milestones of your project.
 
 Although you can use command line to start tagging ( `git tag -a v1.0.0 -m "version 1.0.0"` ), I actually recommend using github releases to create the tag. As we can utilize Github Actions to drive more automation.
 
 ![Github Create Release - 1](/assets/git/github-release-1.png)
 
-[Github Managing Releases](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository)
+See [Github Managing Releases](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository)
 
 ## Get a Fresh Copy `git clone`
 
-Last but not least, for sharing the repository you can share the repository url and everything should be self-explaining by **readme.md**.  
+Last but not least, for sharing the repository you can share the repository url and everything should be self-explaining by **readme.md**.
+
+> Tip - When the newly onboard developer is having trouble following the **readme.md**. Try having them to update it so the next onboarding experience is smoother. It is also a great opportunity for the new member too.
 
 ![Github Clone](/assets/git/github-clone.png)
 
