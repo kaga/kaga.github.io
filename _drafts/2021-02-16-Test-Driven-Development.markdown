@@ -25,7 +25,10 @@ This is not the only way to develop software
 
 > The Dao ( Truth/Path ) that can be trodden is not the enduring and unchanging Dao. The name that can be named is not the enduring and unchanging name. [道可道 非常道 名可名 非常名](https://ctext.org/dao-de-jing/zh?en=on)
 
+~~The~~ 3 Stages of TDD
 
+it is not game
+level 3 is better than level 2 is better than level 1
 
 * Part 1 - Write Unit Test to Discover Mistakes
 * Part 2 - Write Unit Test to Design System
