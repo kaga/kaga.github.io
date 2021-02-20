@@ -102,7 +102,7 @@ Not Available
 Not Available
 ```
 
-### The Test Program ( [Full version here](./assets/test-driven-development/PrintLocationTest.part1.kt) )
+### The Test Program ( [Full version here](/assets/test-driven-development/PrintLocationTest.part1.kt) )
 
 We start by writing **Unit Test**, it is a file where each function is a test.
 
