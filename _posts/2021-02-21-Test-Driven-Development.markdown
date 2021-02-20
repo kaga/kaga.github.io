@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Test Driven Development - Part 1 - Write Unit Test To Discover Mistakes"
-date:   2021-02-17 12:05:49 +1300
+title:  "Test Driven Development - Write Unit Test To Discover Mistakes (Part 1)"
+date:   2021-02-21 00:09:49 +1300
 categories: TDD
 tags: unit-test
 ---
