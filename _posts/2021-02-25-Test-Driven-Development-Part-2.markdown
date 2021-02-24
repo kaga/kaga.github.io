@@ -127,7 +127,7 @@ fun printLocation(location: String?): String {
 }
 ```
 
-When in doubt on the exact behavior on certain inputs and outputs. It is a good opportunity here to involve customer and get clarification.
+When in doubt on the exact behavior on certain inputs and outputs. It is a good opportunity here to involve customer to get clarifications. It is not surprising to discover more requirements at this stage, but that's another topic for anther day.
 
 It is also a good opportunity to review the choice of method name, input and output types. I found myself less attached to the code and tend to make more modifications.
 
