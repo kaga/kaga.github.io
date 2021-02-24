@@ -8,7 +8,7 @@ tags: unit-test
 
 This title is common used as a title in Test Driven Development articles. Such as [this one](https://blog.jbrains.ca/permalink/tdd-isnt-about-testing-revisited).
 
-I have even said it many times in the past too, but it is important not to say it in a condescending way. 
+I have even said it many times in the past too, but it is important not to say it in a condescending way.
 
 i.e.
 > ~~Test Driven Development isn't about Testing, you idiot!~~
@@ -135,7 +135,7 @@ It is also a good opportunity to review the choice of method name, input and out
 
 Hopefully by now you understand the title - `Test Driven Development isn't About Testing`. It is because of large amount of time focusing on documenting how the code should work, rather than fixing it.
 
-I think it is very important to choose which area to focus depending on the situation. If number of mistakes are high after the design, it is okay to focus back on discovering mistakes.
+It is very important to choose appropriate area to focus depending on the situation. If number of mistakes are high after the design, it is okay to focus back on discovering mistakes.
 
 I think the interaction between focusing mistake discovery and design lead to higher quality work, because it created the opportunity to rewrite the solution for number of times without customer discover the mistakes the hard way.
 
