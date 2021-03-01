@@ -8,8 +8,9 @@ tags: unit-test
 
 As I am on my way to write a 6-part series on general git usage. I would like to give myself a break to start reviewing a blog series I made on Test Driven Development back in 2016.
 
-* [Part 1 - Write Unit Test to Discover Mistakes]({% post_url 2021-02-21-Test-Driven-Development %})
-* [Part 2 - Write Unit Test to Design System]({% post_url 2021-02-25-Test-Driven-Development-Part-2 %})
+* [Part 1 - Write Unit Test to Discover Mistakes (You are here)]({% post_url 2021-02-21-Test-Driven-Development %})
+* [Part 2 - Write Unit Test to Design]({% post_url 2021-02-25-Test-Driven-Development-Part-2 %})
+* [Part 3 - How Test Driven Development Drive Better Design]({% post_url 2021-02-28-Test-Driven-Development-Part-3 %})
 
 ## Why Test Driven Development ( TDD for short )
 
@@ -41,10 +42,9 @@ I also talked about criticisms of TDD, which I decided to put it at the end of t
 
 This time I will be focusing on the main area of focus when using TDD to change the code confidently, and better organize code.
 
-1. [Write Unit Test to Discover Mistakes]({% post_url 2021-02-21-Test-Driven-Development %})
-1. [Write Unit Test to Design System]({% post_url 2021-02-25-Test-Driven-Development-Part-2 %})
-1. Tools For Test Driven Development
-1. How Test Driven Development Drive Better Design
+* [Part 1 - Write Unit Test to Discover Mistakes]({% post_url 2021-02-21-Test-Driven-Development %})
+* [Part 2 - Write Unit Test to Design]({% post_url 2021-02-25-Test-Driven-Development-Part-2 %})
+* [Part 3 - How Test Driven Development Drive Better Design]({% post_url 2021-02-28-Test-Driven-Development-Part-3 %})
 
 > This is not game with levels to concurs. This is also not **The 3 Stages of TDD**. Being ~~**The 3rd Stage TDD developer**~~ does not mean you are better developer than everyone else.
 
