@@ -10,7 +10,7 @@ This is a multi-part series on Test Driven Development.
 
 * [Part 1 - Write Unit Test to Discover Mistakes]({% post_url 2021-02-21-Test-Driven-Development %})
 * [Part 2 - Write Unit Test to Design]({% post_url 2021-02-25-Test-Driven-Development-Part-2 %})
-* [Part 3 - How Test Driven Development Drive Better Design (You are here)]({% post_url 2021-02-28-Test-Driven-Development-Part-3 %})
+* [Part 3 - How Test Driven Development Drive Better Design (You are here)]({% post_url 2021-03-02-Test-Driven-Development-Part-3 %})
 
 ## The Road So Far
 
