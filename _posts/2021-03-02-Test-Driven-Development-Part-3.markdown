@@ -148,7 +148,7 @@ The invalid location test case unveil the initial design that:
 
 This quick feedback cycles help improve the design in short amount of time. It is like compressing years of development in few key stokes.
 
-### Top-Down vs Bottom-Up Design
+### Top-Down vs Bottom-Up
 
 When I first started using TDD to drive design, I used to prefer a top-down approach, and staring at the test for long period of time thinking really hard about the public interface design.
 
