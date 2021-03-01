@@ -22,9 +22,9 @@ This time, we are going to explore using TDD to give a pleasant development expe
 
 As you have seen previously, I am once again redefining Test Driven Development.
 
-> \- Test Driven Development is writing small programs to record the desire behavior.
+> \+ Test Driven Development is writing small programs to record the desire behavior.
 >
-> \- Test Driven Development is about writing unit test to document the expected inputs & outputs for a module.
+> \+ Test Driven Development is about writing unit test to document the expected inputs & outputs for a module.
 >
 > \+ Test Driven Development uses unit test as a technique to design software in a sustainable way.
 
@@ -32,7 +32,7 @@ As you have seen previously, I am once again redefining Test Driven Development.
 
 ![Clean Code - WTF](/assets/test-driven-development/clean-code-wtf.png)
 
-I personally like the WTFs/Minute metric in [Robert C. Martin's Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/) to measure a good software design. But let's use J.Brains's [4 elements of simple design](https://blog.jbrains.ca/permalink/the-four-elements-of-simple-design) as a concrete starting point.
+I personally liked the WTFs/Minute metric in [Robert C. Martin's Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/) to measure a good software design. But let's use J.Brains's [4 elements of simple design](https://blog.jbrains.ca/permalink/the-four-elements-of-simple-design) as a concrete starting point.
 
 > 1. ~~Passes its tests~~
 > 1. Minimizes duplication
@@ -41,7 +41,7 @@ I personally like the WTFs/Minute metric in [Robert C. Martin's Clean Code](http
 
 ### Creating Modular Design
 
-One way and a common way to achieve this goal is breaking a solution down into many modules.
+One way and a common way to achieve this goal of simple design is breaking a solution down into many modules.
 
 One can use **Single-Responsibility Principle** to guide their decisions. With clear separation of between modules, this Top-down approach can work well in different situations, from creating an online shopping platform down to a single mobile application.
 
@@ -83,7 +83,7 @@ The **HTTP Library** is interesting and important in this case. I could have sim
 
 ### Creating Stable Modules From the Ground Up
 
-In this example, the **HTTP Library** handles all the complexity of making a request, such as URL request generation, CSRF token validation, authentication, request optimization etc. It helps abstract away the complexity of making HTTP request. The **Network Repo** is simply piecing different REST APIs together.
+In this example, the **HTTP Library** handles all the complexity of making a request, such as URL request generation, CSRF token validation, authentication, request optimization etc. It helps abstract away the complexity of making HTTP requests. The **Network Repo** is simply piecing different REST APIs together.
 
 By creating layers of abstraction so we can put more focus on the higher level of abstractions, and eventually free up our capacity to interact with customer.
 
@@ -122,7 +122,7 @@ The nature of minimum effort allow us to focus more on:
 * The expected usage
 * Select appropriate software design patterns
 * Reviewing the choice of name for clarity
-* Inspecting any leaky abstraction
+* Inspecting any leaky abstractions
 
 I think it is the place where the [SOLID principles](https://en.wikipedia.org/wiki/SOLID) come to shine.
 
@@ -152,13 +152,13 @@ This quick feedback cycles help improve the design in short amount of time. It i
 
 When I first started using TDD to drive design, I used to prefer a top-down approach, and staring at the test for long period of time thinking really hard about the public interface design.
 
-Later I started writing more tests to demonstrate different scenarios, just like this example. Sometimes it is faster and enough to get a good design.
+Later I started writing more tests to demonstrate different scenarios, just like this example. Sometimes it is faster and create enough examples to get a good design.
 
 In other times, I would stop the top-down thinking and start building the module from the ground up. With enough unit test and continuous refactoring, I found this bottom-up approach embrace the idea of **evolutionary design**, and produce the same if not better results.
 
 I am probably not the first one to say it, but I think TDD also short for **Test Driven Design**.
 
-This is the revised test case and design after just 1 iteration, which addressed both issues mentioned above.
+This is the revised test case and design after another iteration, which addressed both issues mentioned above. From this point, I am quite confident to revise the design according to new requirements.
 
 ```kotlin
 @Test
@@ -216,11 +216,15 @@ fun String.toLocation(): Location {
 +----------------------------------------------------+
 ```
 
-At last, going back to the first point of simple design. A good design for me is about putting even more emphasis in unit testing.
+At last, going back to the first point of simple design. A good design for me is about putting even more emphasis in unit testing. Test should become easier to write and fast to run.
 
 The quote was not about not writing a single integration test because it is a **"Scam"**. It is about using unit test to show the correctness of the program.
 
 This ever thinner layer of Integration test is very useful if not necessary to make sure external systems, such as a REST API service implemented by a contractor, honour the agreed contract.
+
+## That's It
+
+This is my integration on Test Driven Development with 3 areas of focus. This work is not original and heavily inspired by talks given by J. B. Rainsberger.
 
 ## Reference
 
