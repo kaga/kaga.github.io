@@ -72,7 +72,7 @@ Many will stop at this point and think it is a limitation of TDD. Or is it ?
 
 ## Write Unit Test to Design
 
-> \- Test Driven Development is writing small programs to record the desire behavior.
+> \+ Test Driven Development is writing small programs to record the desire behavior.
 >
 > \+ Test Driven Development is about writing unit test to document the expected inputs & outputs for a module
 
