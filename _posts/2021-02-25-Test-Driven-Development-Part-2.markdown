@@ -142,4 +142,5 @@ I think the interaction between focusing mistake discovery and design lead to hi
 
 ## Reference
 
+* [Integrated Test Are a Scam](https://www.youtube.com/watch?v=VDfX44fZoMc)
 * [Some Underrated Elements Of Success For the Modern Programmer](https://www.youtube.com/watch?v=mbcV_Qdb7Ts)
