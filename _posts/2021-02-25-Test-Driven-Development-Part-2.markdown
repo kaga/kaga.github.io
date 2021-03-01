@@ -17,8 +17,7 @@ This is a multi-part series on Test Driven Development.
 
 * [Part 1 - Write Unit Test to Discover Mistakes]({% post_url 2021-02-21-Test-Driven-Development %})
 * [Part 2 - Write Unit Test to Design (You are here)]({% post_url 2021-02-25-Test-Driven-Development-Part-2 %})
-* Part 3 - Tools For Test Driven Development
-* Part 4 - How Test Driven Development Drive Better Design
+* [Part 3 - How Test Driven Development Drive Better Design]({% post_url 2021-03-02-Test-Driven-Development-Part-3 %})
 
 ## Where Are We So Far
 
@@ -143,4 +142,5 @@ I think the interaction between focusing mistake discovery and design lead to hi
 
 ## Reference
 
+* [Integrated Test Are a Scam](https://www.youtube.com/watch?v=VDfX44fZoMc)
 * [Some Underrated Elements Of Success For the Modern Programmer](https://www.youtube.com/watch?v=mbcV_Qdb7Ts)

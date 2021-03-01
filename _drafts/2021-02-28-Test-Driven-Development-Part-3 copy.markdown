@@ -1,10 +1,22 @@
 ---
 layout: post
 title:  "\"Test Driven Development isn't About Testing\" - Part 2"
-date:   2021-02-18 12:05:49 +1300
+date:   2021-02-28 12:05:49 +1300
 categories: TDD
 tags: unit-test
 ---
+
+Paid off 
+
+On Going development is easier 
+
+Confident in Refactoring to improve clarity and remove duplications 
+
+TDD for the last 2 areas were about the mechanics of TDD
+
+
+Test Driven Development to Drive Better Design
+
 
 
 ## Continuous Integration
@@ -105,3 +117,6 @@ It has some mistakes
 - Doesn't work well with multi thread
 
 
+Q & A
+
+How to start TDD with existing code base
