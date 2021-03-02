@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Git - Branching"
+title:  "Git - Branching - Part 3"
 date:   2021-03-02 12:05:49 +1300
 categories: Version-control
 tags: git
