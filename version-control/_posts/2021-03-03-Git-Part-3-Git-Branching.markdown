@@ -114,25 +114,57 @@ Create a branch working on a feature means there is a point in time to bring it 
 
 There is a way to merge using command line and github desktop, but using Github to do it is highly recommended.
 
+```bash
+➜  git-example git:(some-other-feature) git checkout master 
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+➜  git-example git:(master) git merge some-other-feature 
+Updating 48c008d..ed50239
+Fast-forward
+ readme.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
+### Use Github To Merge
+
+Github use the term **Pull Request**, but ignore the name and associate features for now.
+
+Here is the steps
+
+1. Create Pull Request from Github Desktop, or in repository's **Pull Requests** at Github
+1. Select **Create Pull Request**
+1. Click **Merge**
+
+Using Github to merge branch has a **Files changed** feature, which can be used to review the changes before merging to **main**.
+
+Github also provide a way to **Delete Branch** to keep the git repo clean and tidy.
+
+![Github Create PR](/assets/git/github-desktop-create-pr.png)
+
+## Handling Merge Conflicts
+
+Although there are many ways to reduce this happening, sometimes git just couldn't handle the merge automatically and require your decision.
+
+A common cause of conflict is modify the same line from 2 branches, which is caused by a massive refactor on variable, function names.
+
+It is possible to use any text editor to resolve the conflict, but I prefer using Visual Studio Code as a merge tool.
+
+Some IDEs, such as Android Studio, are excellent in resolve those conflicts automagically, but it is important to review the conflict resolution 
+
+just in case the "automagically" doesn't work
 
 
-## Keep Branch Small
+### Keep Branch and Changes Small
+
+Breaking the work to 
+Within a week
+
+### Pull Changes Frequently
 
 
 
-
-
-> Tip - Keep Branch Small and Short Live
-
-Create a separate beast
-
-### Merge Frequently
-
-### Merge Conflict
+## Reference
 
 [Atlassian Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=Gitflow%20Workflow%20is%20a%20Git,designed%20around%20the%20project%20release.)
-
 [Github Flow](https://guides.github.com/introduction/flow/)
 [Git Branching Basic](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-
-Keeping change small
