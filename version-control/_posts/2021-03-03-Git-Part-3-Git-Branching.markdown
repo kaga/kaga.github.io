@@ -8,9 +8,9 @@ tags: git
 
 This is the 3rd part on source control introduction.
 
-* [Part 1 - Get Started]({% post_url 2021-02-08-Git-Part-1-Get-Started %})
-* [Part 2 - Git With Github]({% post_url 2021-02-13-Git-Part-2-Collaboration %})
-* [Part 3 - Git Branching]({% post_url 2021-03-03-Git-Part-3-Git-Branching %})
+* [Part 1 - Get Started]({% post_url version-control/2021-02-08-Git-Part-1-Get-Started %})
+* [Part 2 - Git With Github]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
+* [Part 3 - Git Branching (You are here)]({% post_url version-control/2021-03-03-Git-Part-3-Git-Branching %})
 * Part 4 - Github Deep Dive
 * Part 5 - How to Pull Request
 * Part 6 - Git Tips

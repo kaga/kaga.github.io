@@ -10,8 +10,8 @@ tags: git github github-desktop
 
 This is the 2nd part on source control introduction.
 
-* [Part 1 - Get Started]({% post_url 2021-02-08-Git-Part-1-Get-Started %})
-* [Part 2 - Git With Github]({% post_url 2021-02-13-Git-Part-2-Collaboration %})
+* [Part 1 - Get Started]({% post_url version-control/2021-02-08-Git-Part-1-Get-Started %})
+* [Part 2 - Git With Github]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
 * Part 3 - Git Deep Dive
 * Part 4 - Github Deep Dive
 * Part 5 - How to Pull Request
@@ -46,7 +46,7 @@ This blog will just focusing on the basic features of those service. Github is v
 
 ## Github Desktop To Create Repository
 
-If you have followed [part 1]({% post_url 2021-02-08-Git-Part-1-Get-Started %}). You can open Github Desktop and hit that **Publish repository** button. It will do all the magic for you. Which make creating new repository a lot easier.
+If you have followed [part 1]({% post_url version-control/2021-02-08-Git-Part-1-Get-Started %}). You can open Github Desktop and hit that **Publish repository** button. It will do all the magic for you. Which make creating new repository a lot easier.
 
 > Tip - Give your project a good name while you are here will definitely helps in the future.
 
