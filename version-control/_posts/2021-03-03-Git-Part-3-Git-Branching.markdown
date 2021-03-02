@@ -15,10 +15,14 @@ This is the 3rd part on source control introduction.
 * Part 5 - How to Pull Request
 * Part 6 - Git Tips
 
-main branch, pushing changes to github
-marking some release
+I found with Part 1 and Part 2 alone, which we have explored the basic usage of git and github, are suffice for starting out. The following parts are slightly more advance and beneficial working in a larger team environment.
 
 ## Branching `git checkout -b`
+
+* experiment a feature
+* concurrent development with one developer works on feature A, and another developer works on feature B
+* a feature needs to wait for other features to complete
+* represent the corresponding state in a multi-landscape architecture, such as SAP
 
 ```bash
                                                                                                      
@@ -42,6 +46,8 @@ marking some release
 ➜  git-example git:(master) git checkout -b some-other-feature
 Switched to a new branch 'some-other-feature'
 ```
+
+> Tip - Put issue tracking reference, [such as jira](https://support.atlassian.com/jira-cloud-administration/docs/enable-smart-commits/), in a branch name to enable automation
 
 [Github Flow](https://guides.github.com/introduction/flow/)
 [Git Branching Basic](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
@@ -87,32 +93,7 @@ Fast-forward
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
-## Commit Tips
 
-### File Line-Ending
-
-[Handle Line Ending](https://docs.github.com/en/github/using-git/configuring-git-to-handle-line-endings)
-
-While you are here, set the [newline at end of file](https://thoughtbot.com/blog/no-newline-at-end-of-file) too.
-
-### Renaming Files `git mv`
-
-There will be a time where you would like to relocate a file into different folders 
-
-This will help tracking the file changes over long period of time.
-files that relocated into different folders
-
-> Tip - Commit Changes Before Renaming
-
-#### It is Sightly Trickier For Changing Letter Case
-
-1. Commit changes first
-1. Rename the file to something else, commit
-1. Rename teh file to correct letter case, commit
-
-I recently had an experience where the code looks like this, and because this feature was not used,
-
-a way to easily find out the reason for this change was no longer possible
 
 
 [Atlassian Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=Gitflow%20Workflow%20is%20a%20Git,designed%20around%20the%20project%20release.)
