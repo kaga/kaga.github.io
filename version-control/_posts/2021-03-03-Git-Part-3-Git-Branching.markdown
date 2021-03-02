@@ -19,44 +19,74 @@ I found with Part 1 and Part 2 alone, which we have explored the basic usage of 
 
 ## Branching `git checkout -b`
 
+> Branching means you diverge from the main line of development and continue to do work without messing with that main line. [Git Branching - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+
+In general, I would like to keep the **main** branch store the latest stable version of the code base.
+
+It is a safe base where I can:
+
 * experiment a feature
-* concurrent development with one developer works on feature A, and another developer works on feature B
 * a feature needs to wait for other features to complete
+* concurrent development with one developer works on feature A, and another developer works on feature B
 * represent the corresponding state in a multi-landscape architecture, such as SAP
 
 ```bash
-                                                                                                     
-                                                                                                     
-                                                                                                     
- +---+             +---+              Main             +---+                                +---+    
- |   |--------------   \--------------------------------   ----------------------------------   |    
- +--\+            /+---+-\                           -/+---+ -\                           -/+---+    
-     -\          /        -\                        /          -\                       -/           
-       -\  +---+/           -\+---+          +---+-/             -\+---+        +---+ -/             
-         --|   /              -  -------------   /                 -   ----------   -/               
-           +---+              +---+          +---+                 +---+        +---+                
-                                                                                                     
-         Feature A                 Feature B                            Feature C                    
-                                                                                                     
-                                                                                                     
-                                                                                                     
+                                                             
+                                                             
+                                                             
+ +---+             +---+              Main             +---+ 
+ |   |--------------   \--------------------------------   - 
+ +--\+            /+---+-\                           -/+---+ 
+     -\          /        -\                        /        
+       -\  +---+/           -\+---+          +---+-/         
+         --|   /              -  -------------   /           
+           +---+              +---+          +---+           
+                                                             
+         Feature A                 Feature B                 
+                                                             
+                                                             
 ```
+
+This is how a typical branching looks like, where **Feature A** is developed on a separate branch, and merge back to the **main** branch. In the graph, **Feature B** is started after **Feature A** completed, but it is possible to start **Feature A** and **Feature B** at the same time.
+
+```bash
+                                                             
++---+        Main         +---+       +---+                  
+|   |---------------------|   |-------|   |                  
++---\                   -/+---+      /+---+                  
+  \  ---\             -/            /                        
+   \     ---\ +---+ -/             /                         
+    \        --   -/              /                          
+     \        +---+              /                           
+      \     Feature A           /                            
+       \                       /                             
+        \                     /                              
+         \+---+        +---+ /                               
+          |   |--------+   |/                                
+          +---+        +---+                                 
+              Feature B                                      
+                                                             
+```
+
+### Creating a Branch
 
 ```bash
 ➜  git-example git:(master) git checkout -b some-other-feature
 Switched to a new branch 'some-other-feature'
 ```
 
-> Tip - Put issue tracking reference, [such as jira](https://support.atlassian.com/jira-cloud-administration/docs/enable-smart-commits/), in a branch name to enable automation
+![github-desktop-create-branch-1](/assets/git/github-desktop-create-branch-1.png)
 
-[Github Flow](https://guides.github.com/introduction/flow/)
-[Git Branching Basic](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+![github-desktop-create-branch-2](/assets/git/github-desktop-create-branch-2.png)
 
-Keeping change small
+> Tip - Put issue tracking reference, [such as jira reference](https://support.atlassian.com/jira-cloud-administration/docs/enable-smart-commits/), in a branch name to enable automation
+> i.e. JIRA-123-Feature-A
+>
+> Tip - With Jira and BitBucket integration, you can create branch from Jira, with suggested name.
 
 ### How about larger feature
 
-Create a new branch 
+It is possible to create a branch based on a branch
 
 ```bash
                                                                                                    
@@ -78,22 +108,31 @@ Create a new branch
                                                                                                    
 ```
 
-### Handling Hotfix / Patches
-
 ## Merging `git merge`
 
-```bash
-➜  git-example git:(some-other-feature) git checkout master 
-Switched to branch 'master'
-Your branch is up to date with 'origin/master'.
-➜  git-example git:(master) git merge some-other-feature 
-Updating 48c008d..ed50239
-Fast-forward
- readme.md | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-```
+Create a branch working on a feature means there is a point in time to bring it back to the **main** branch.
+
+There is a way to merge using command line and github desktop, but using Github to do it is highly recommended.
 
 
 
+## Keep Branch Small
+
+
+
+
+
+> Tip - Keep Branch Small and Short Live
+
+Create a separate beast
+
+### Merge Frequently
+
+### Merge Conflict
 
 [Atlassian Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=Gitflow%20Workflow%20is%20a%20Git,designed%20around%20the%20project%20release.)
+
+[Github Flow](https://guides.github.com/introduction/flow/)
+[Git Branching Basic](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+
+Keeping change small
