@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git - With Github"
+title: "Git - With Github - Part 2"
 date: 2021-02-13 13:05:49 +1300
 categories: Version-control
 tags: git github github-desktop
@@ -10,11 +10,11 @@ tags: git github github-desktop
 
 This is the 2nd part on source control introduction.
 
-* [Part 1 - Get Started]({% post_url 2021-02-08-Git-Part-1-Get-Started %})
-* [Part 2 - Git With Github]({% post_url 2021-02-13-Git-Part-2-Collaboration %})
-* Part 3 - Git Deep Dive
-* Part 4 - Github Deep Dive
-* Part 5 - How to Pull Request
+* [Part 1 - Get Started]({% post_url version-control/2021-02-08-Git-Part-1-Get-Started %})
+* [Part 2 - Git With Github (You are here)]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
+* [Part 3 - Git Branching]({% post_url version-control/2021-03-03-Git-Part-3-Git-Branching %})
+* Part 4 - Github Pull Request
+* Part 5 - Github Actions
 * Part 6 - Git Tips
 
 There is come a time where you are going to work in a team environment, or you working between multiple locations. A git service provider is going to help serve as a central place to share your work.
@@ -46,7 +46,7 @@ This blog will just focusing on the basic features of those service. Github is v
 
 ## Github Desktop To Create Repository
 
-If you have followed [part 1]({% post_url 2021-02-08-Git-Part-1-Get-Started %}). You can open Github Desktop and hit that **Publish repository** button. It will do all the magic for you. Which make creating new repository a lot easier.
+If you have followed [part 1]({% post_url version-control/2021-02-08-Git-Part-1-Get-Started %}). You can open Github Desktop and hit that **Publish repository** button. It will do all the magic for you. Which make creating new repository a lot easier.
 
 > Tip - Give your project a good name while you are here will definitely helps in the future.
 
