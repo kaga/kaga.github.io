@@ -13,8 +13,8 @@ This is the 2nd part on source control introduction.
 * [Part 1 - Get Started]({% post_url version-control/2021-02-08-Git-Part-1-Get-Started %})
 * [Part 2 - Git With Github (You are here)]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
 * [Part 3 - Git Branching]({% post_url version-control/2021-03-03-Git-Part-3-Git-Branching %})
-* Part 4 - Github Deep Dive
-* Part 5 - How to Pull Request
+* Part 4 - Github Pull Request
+* Part 5 - Github Actions
 * Part 6 - Git Tips
 
 There is come a time where you are going to work in a team environment, or you working between multiple locations. A git service provider is going to help serve as a central place to share your work.

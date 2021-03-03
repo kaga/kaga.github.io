@@ -56,7 +56,7 @@ i.e.
                                                              
 ```
 
-This is how a typical branching looks like, where **Feature A** is developed on a separate branch, and merge back to the **main** branch. In the graph above, **Feature B** is started after **Feature A** completed, but it is possible to start **Feature A** and **Feature B** at the same time as well.
+This is how a typical branching looks like, where **Feature A** is developed on a separate branch, and merge back to the **main** branch. In the graph above, **Feature B** is started after **Feature A** completed, but it is possible to start **Feature A** and **Feature B** at the same time.
 
 ```bash
                                                              
@@ -94,7 +94,7 @@ Switched to a new branch 'some-other-feature'
 >
 > Tip 2 - With Jira and BitBucket integration, you can create branch from Jira, with suggested name.
 
-### How about large feature
+### How About Large Feature
 
 It is possible to create a branch based on another branch.
 
@@ -143,7 +143,7 @@ Here are the overview processes:
 
 1. Create Pull Request from Github Desktop, or in repository's **Pull Requests** at Github
 1. Select **Create Pull Request**
-1. Click **Merge**
+1. Click **Merge pull request**
 
 Using Github to merge branch has a **Files changed** feature, which can be used to review the changes before merging to **main**.
 
