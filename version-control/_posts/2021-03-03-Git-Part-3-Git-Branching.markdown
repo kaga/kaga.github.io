@@ -11,24 +11,33 @@ This is the 3rd part on source control introduction.
 * [Part 1 - Get Started]({% post_url version-control/2021-02-08-Git-Part-1-Get-Started %})
 * [Part 2 - Git With Github]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
 * [Part 3 - Git Branching (You are here)]({% post_url version-control/2021-03-03-Git-Part-3-Git-Branching %})
-* Part 4 - Github Deep Dive
-* Part 5 - How to Pull Request
-* Part 6 - Git Tips
+* Part 4 - Github Pull Request
+* Part 5 - Github Actions
 
-I found with Part 1 and Part 2 alone, which we have explored the basic usage of git and github, are suffice for starting out. The following parts are slightly more advance and beneficial working in a larger team environment.
+I found with Part 1 and Part 2 alone, which explored the basic usage of Git and Github, are suffice for starting out for day to day usage.
+
+The following parts are slightly more advance and beneficial working in a larger team environment. I will slowly start putting less focus on the mechanics of Git, which can easily found on the internet, and more on the concepts.
 
 ## Branching `git checkout -b`
 
 > Branching means you diverge from the main line of development and continue to do work without messing with that main line. [Git Branching - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
-In general, I would like to keep the **main** branch store the latest stable version of the code base.
+In general, I would like to keep the **main** branch to store the latest stable version of the code base.
 
-It is a safe base where I can:
+Branching create a safe base where I can:
 
 * experiment a feature
-* a feature needs to wait for other features to complete
-* concurrent development with one developer works on feature A, and another developer works on feature B
-* represent the corresponding state in a multi-landscape architecture, such as SAP
+* create a separate on what is ready to go and a feature that depending on other features to complete
+* allow concurrent development with one developer works on feature A, and another developer works on feature B
+
+Some may have multiple branches to represent the corresponding state in a multi-landscape architecture, such as SAP.
+
+i.e.
+> main -> production system
+>
+> test -> test system
+>
+> dev -> dev system
 
 ```bash
                                                              
@@ -47,7 +56,7 @@ It is a safe base where I can:
                                                              
 ```
 
-This is how a typical branching looks like, where **Feature A** is developed on a separate branch, and merge back to the **main** branch. In the graph, **Feature B** is started after **Feature A** completed, but it is possible to start **Feature A** and **Feature B** at the same time.
+This is how a typical branching looks like, where **Feature A** is developed on a separate branch, and merge back to the **main** branch. In the graph above, **Feature B** is started after **Feature A** completed, but it is possible to start **Feature A** and **Feature B** at the same time as well.
 
 ```bash
                                                              
@@ -80,11 +89,12 @@ Switched to a new branch 'some-other-feature'
 ![github-desktop-create-branch-2](/assets/git/github-desktop-create-branch-2.png)
 
 > Tip - Put issue tracking reference, [such as jira reference](https://support.atlassian.com/jira-cloud-administration/docs/enable-smart-commits/), in a branch name to enable automation
+>
 > i.e. JIRA-123-Feature-A
 >
-> Tip - With Jira and BitBucket integration, you can create branch from Jira, with suggested name.
+> Tip 2 - With Jira and BitBucket integration, you can create branch from Jira, with suggested name.
 
-### How about larger feature
+### How about large feature
 
 It is possible to create a branch based on a branch
 
@@ -112,7 +122,7 @@ It is possible to create a branch based on a branch
 
 Create a branch working on a feature means there is a point in time to bring it back to the **main** branch.
 
-There is a way to merge using command line and github desktop, but using Github to do it is highly recommended.
+There is a way to merge using command line and github desktop, but **using Github to perform this task is highly recommended**.
 
 ```bash
 ➜  git-example git:(some-other-feature) git checkout master 
@@ -129,7 +139,7 @@ Fast-forward
 
 Github use the term **Pull Request**, but ignore the name and associate features for now.
 
-Here are the steps:
+Here are the overview steps:
 
 1. Create Pull Request from Github Desktop, or in repository's **Pull Requests** at Github
 1. Select **Create Pull Request**
