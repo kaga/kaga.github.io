@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git - Branching - Part 3"
-date:   2021-03-02 12:05:49 +1300
+date:   2021-03-03 17:05:49 +1300
 categories: Version-control
 tags: git
 ---
@@ -154,6 +154,8 @@ Github also provides a way to **Delete Branch** after merge to keep the reposito
 ![Github Create PR 2](/assets/git/github-desktop-create-pr-2.png)
 
 ![Github Merge PR](/assets/git/github-desktop-create-pr-3.png)
+
+![Github Delete Branch](/assets/git/github-desktop-create-pr-4.png)
 
 ## Handling Merge Conflicts
 
