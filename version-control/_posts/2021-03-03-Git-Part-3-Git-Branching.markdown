@@ -149,15 +149,19 @@ Using Github to merge branch has a **Files changed** feature, which can be used 
 
 Github also provide a way to **Delete Branch** to keep the git repo clean and tidy.
 
-![Github Create PR](/assets/git/github-desktop-create-pr.png)
+![Github Create PR](/assets/git/github-desktop-create-pr-1.png)
+
+![Github Create PR 2](/assets/git/github-desktop-create-pr-2.png)
+
+![Github Merge PR](/assets/git/github-desktop-create-pr-3.png)
 
 ## Handling Merge Conflicts
 
 ![git merge conflict warning](/assets/git/git-merge-conflict-1.png)
 
-Sometimes Git just couldn't handle the merge automatically and require your attention.
+Sometimes Git just couldn't handle the merge automatically and requires your attention.
 
-A common cause of conflict is modifying the same line from 2 branches, or a massive rename on variable, function names.
+A common cause of conflicts is modifying the same line from 2 branches, or a massive rename on variables, functions, classes.
 
 It is possible to use any text editor to resolve the conflicts, and I prefer using Visual Studio Code. Some IDEs, such as Android Studio, are excellent in resolve those conflicts automagically, but it is important to review what the tool has done. It might be decided to delete changes from 1 side and keep the other.
 
@@ -165,9 +169,9 @@ It is possible to use any text editor to resolve the conflicts, and I prefer usi
 
 ![git merge conflict 3](/assets/git/git-merge-conflict-3.png)
 
-In other cases, there will be no merge conflict warnings. It is usually comes from relocate files to a different directory while modifying it at the same time.
+In other cases, there will be no merge conflict warnings. It usually comes from relocate files to a different directory while modifying it at the same time.
 
-Here is some of the advices I think it is useful in reducing merge conflicts.
+Here are some of the advices I think it is useful in reducing merge conflicts.
 
 ### Keep Branch and Changes Small
 
@@ -185,6 +189,6 @@ I usually pull the latest changes at least once a day, first thing in the mornin
 
 ## Reference
 
-[Github Flow](https://guides.github.com/introduction/flow/)
-[Git Branching Basic](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-[Atlassian Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=Gitflow%20Workflow%20is%20a%20Git,designed%20around%20the%20project%20release.)
+* [Github Flow](https://guides.github.com/introduction/flow/)
+* [Git Branching Basic](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+* [Atlassian Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=Gitflow%20Workflow%20is%20a%20Git,designed%20around%20the%20project%20release.)
