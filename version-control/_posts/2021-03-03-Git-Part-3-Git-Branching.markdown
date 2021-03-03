@@ -129,7 +129,7 @@ Fast-forward
 
 Github use the term **Pull Request**, but ignore the name and associate features for now.
 
-Here is the steps
+Here are the steps:
 
 1. Create Pull Request from Github Desktop, or in repository's **Pull Requests** at Github
 1. Select **Create Pull Request**
@@ -143,28 +143,38 @@ Github also provide a way to **Delete Branch** to keep the git repo clean and ti
 
 ## Handling Merge Conflicts
 
-Although there are many ways to reduce this happening, sometimes git just couldn't handle the merge automatically and require your decision.
+![git merge conflict warning](/assets/git/git-merge-conflict-1.png)
 
-A common cause of conflict is modify the same line from 2 branches, which is caused by a massive refactor on variable, function names.
+Sometimes Git just couldn't handle the merge automatically and require your attention.
 
-It is possible to use any text editor to resolve the conflict, but I prefer using Visual Studio Code as a merge tool.
+A common cause of conflict is modifying the same line from 2 branches, or a massive rename on variable, function names.
 
-Some IDEs, such as Android Studio, are excellent in resolve those conflicts automagically, but it is important to review the conflict resolution 
+It is possible to use any text editor to resolve the conflicts, and I prefer using Visual Studio Code. Some IDEs, such as Android Studio, are excellent in resolve those conflicts automagically, but it is important to review what the tool has done. It might be decided to delete changes from 1 side and keep the other.
 
-just in case the "automagically" doesn't work
+![git merge conflict 2](/assets/git/git-merge-conflict-2.png)
 
+![git merge conflict 3](/assets/git/git-merge-conflict-3.png)
+
+In other cases, there will be no merge conflict warnings. It is usually comes from relocate files to a different directory while modifying it at the same time.
+
+Here is some of the advices I think it is useful in reducing merge conflicts.
 
 ### Keep Branch and Changes Small
 
-Breaking the work to 
-Within a week
+> the only way you can make good at branching is to break down changes to smaller pieces and then break down some more.
+
+A piece of work can be broken down into many features, which a feature can be a separate branch and completed in few weeks. Later a feature can be broken down into many stages, which a stage can be a separate branch and completed in few days or even few hours.
+
+It is not a game. A developer that create and merge a branch in 5 minutes is not a better developer than the one that open a branch for 2 weeks.
 
 ### Pull Changes Frequently
 
+With few developers working on a project, it is common to have tens of, if not hundreds of, changes merging back to **main** branch. Keeping your working branch up to date and handle merge conflicts in small and frequently will help.
 
+I usually pull the latest changes at least once a day, first thing in the morning. Sometimes I would do it as I commit changes when working closely with another team member.
 
 ## Reference
 
-[Atlassian Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=Gitflow%20Workflow%20is%20a%20Git,designed%20around%20the%20project%20release.)
 [Github Flow](https://guides.github.com/introduction/flow/)
 [Git Branching Basic](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+[Atlassian Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=Gitflow%20Workflow%20is%20a%20Git,designed%20around%20the%20project%20release.)
