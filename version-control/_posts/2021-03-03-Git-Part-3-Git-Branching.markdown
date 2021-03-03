@@ -16,7 +16,7 @@ This is the 3rd part on source control introduction.
 
 I found with Part 1 and Part 2 alone, which explored the basic usage of Git and Github, are suffice for starting out for day to day usage.
 
-The following parts are slightly more advance and beneficial working in a larger team environment. I will slowly start putting less focus on the mechanics of Git, which can easily found on the internet, and more on the concepts.
+The following parts are slightly more advance and beneficial working in a team environment. I will slowly start putting less focus on the mechanics of Git, which can easily found on the internet, and more on the concepts.
 
 ## Branching `git checkout -b`
 
@@ -27,17 +27,17 @@ In general, I would like to keep the **main** branch to store the latest stable 
 Branching create a safe base where I can:
 
 * experiment a feature
-* create a separate on what is ready to go and a feature that depending on other features to complete
+* create a separation on what is ready to go and a feature that depending on other features to complete
 * allow concurrent development with one developer works on feature A, and another developer works on feature B
 
 Some may have multiple branches to represent the corresponding state in a multi-landscape architecture, such as SAP.
 
 i.e.
-> main -> production system
+> main branch -> production system
 >
-> test -> test system
+> test branch -> test system
 >
-> dev -> dev system
+> dev branch -> dev system
 
 ```bash
                                                              
@@ -96,7 +96,7 @@ Switched to a new branch 'some-other-feature'
 
 ### How about large feature
 
-It is possible to create a branch based on a branch
+It is possible to create a branch based on another branch.
 
 ```bash
                                                                                                    
@@ -139,7 +139,7 @@ Fast-forward
 
 Github use the term **Pull Request**, but ignore the name and associate features for now.
 
-Here are the overview steps:
+Here are the overview processes:
 
 1. Create Pull Request from Github Desktop, or in repository's **Pull Requests** at Github
 1. Select **Create Pull Request**
@@ -147,7 +147,7 @@ Here are the overview steps:
 
 Using Github to merge branch has a **Files changed** feature, which can be used to review the changes before merging to **main**.
 
-Github also provide a way to **Delete Branch** to keep the git repo clean and tidy.
+Github also provides a way to **Delete Branch** after merge to keep the repository clean and tidy.
 
 ![Github Create PR](/assets/git/github-desktop-create-pr-1.png)
 
@@ -169,7 +169,9 @@ It is possible to use any text editor to resolve the conflicts, and I prefer usi
 
 ![git merge conflict 3](/assets/git/git-merge-conflict-3.png)
 
-In other cases, there will be no merge conflict warnings. It usually comes from relocate files to a different directory while modifying it at the same time.
+In other cases, there will be no merge conflict warnings. It usually comes from deleting/re-adding files to relocate them to a different directory while modifying it at the same time.
+
+> Tip - Use `git mv`
 
 Here are some of the advices I think it is useful in reducing merge conflicts.
 
@@ -177,13 +179,15 @@ Here are some of the advices I think it is useful in reducing merge conflicts.
 
 > the only way you can make good at branching is to break down changes to smaller pieces and then break down some more.
 
-A piece of work can be broken down into many features, which a feature can be a separate branch and completed in few weeks. Later a feature can be broken down into many stages, which a stage can be a separate branch and completed in few days or even few hours.
+A piece of work can be broken down into many features, which a feature then can be worked on a separate branch and be completed in few weeks. Later a feature can be broken down into many stages, which a stage can be on a separate branch again and completed in few days or even few hours.
 
-It is not a game. A developer that create and merge a branch in 5 minutes is not a better developer than the one that open a branch for 2 weeks.
+In general, I am comfortable breaking down the changes down to half day sizes.
+
+However, it is not a game. A developer that create and merge a branch in 5 minutes is not a better developer than the one that open a branch for 2 weeks.
 
 ### Pull Changes Frequently
 
-With few developers working on a project, it is common to have tens of, if not hundreds of, changes merging back to **main** branch. Keeping your working branch up to date and handle merge conflicts in small and frequently will help.
+With few developers working on a project, it is common to have tens of, if not hundreds of, changes merging back to **main** branch each day. Keeping your working branch up to date and handle merge conflicts small and frequently will help a lot.
 
 I usually pull the latest changes at least once a day, first thing in the morning. Sometimes I would do it as I commit changes when working closely with another team member.
 
