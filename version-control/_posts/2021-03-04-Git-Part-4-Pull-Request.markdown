@@ -1,11 +1,25 @@
 ---
 layout: post
-title:  "Git - Github Deep Dive - Part 4"
-date:   2021-02-08 12:05:49 +1300
+title:  "Git - Github Pull Request - Part 4"
+date:   2021-03-04 18:05:49 +1300
 categories: Version control
 ---
 
-Turned out I have written this post in 2016
+* [Part 1 - Get Started]({% post_url version-control/2021-02-08-Git-Part-1-Get-Started %})
+* [Part 2 - Git With Github]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
+* [Part 3 - Git Branching ]({% post_url version-control/2021-03-03-Git-Part-3-Git-Branching %})
+* [Part 4 - Github Pull Request (You are here)]({% post_url version-control/2021-03-04-Git-Part-4-Pull-Request %})
+
+Last time in Git branching, I have discussed about how to use **Pull Request** as a way to merge branches. However, I don't want to approach this topic like this.
+
+> "Pull Request is good for you, you should do it. If you don't do it, you are a bad person"
+
+## What is Pull Request
+
+**Pull Request**, sometimes use it interchangeably with **Code Review**, is a process of getting a change reviewed by a second person. The change will be merged to **Main** branch once approved.
+
+I guess I could 
+
 
 ## Reviewee
 
