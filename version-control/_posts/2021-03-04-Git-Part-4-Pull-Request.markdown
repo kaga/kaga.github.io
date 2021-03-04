@@ -37,7 +37,7 @@ One advice I had in university on writing an assignment was changing to a differ
 
 You can take advantage of **Git Staged Changes** and **GitHub Pull Request** as a way to do that.
 
-![Draft Pull Request]()
+![Draft Pull Request](/assets/git/github-draft-pull-request.png)
 
 ### What to Proof Read
 
@@ -45,35 +45,40 @@ As general advice, things that can be automated should be automated. Such as cod
 
 we can focus on code organization, variable naming and customer requirement.
 
-## Add Reviewers to Pull Request
+## Pull Request With Reviewers
 
+### Small and Concise Change
 
+### Add Comments
 
-### Staging
-
-### Draft Pull Request
-
-## Small and Concise Changes
-
-### UI preview
+Add issue tracker link, screenshots if working on UI.
 
 [Flameshot](https://github.com/flameshot-org/flameshot)
 [Peek](https://github.com/phw/peek)
 
+### Who Should Be In Your Review
 
-## Use Comments To Communicate
-
-## Who Should Be In Your Review
-
-### Senior / Junior 
-
+Everyone
+Senior / Junior 
 Dogma
+Outside Your Team
 
-### Outside Your Team
+### When
 
-## A platform
+During development
+After development
+
+### A platform
 
 Face to Face Talk, Real life demo
+
+### Use Comments To Communicate
+
+## To Review
+
+### Remember to Praise
+
+### Review Promptly
 
 ## Anti Pattern
 
@@ -81,27 +86,11 @@ Face to Face Talk, Real life demo
 
 ### Use Review To Blame
 
-
-
 ---
 
-## Reviewer
+## Reference
 
-## Review is not a Place For Rubber Stamping
-
-Technical Debt
-
-Tab vs Space
-Bikeshedding
-
-## Praise
-
-## View Test
-
-
-## Github Actions
-
----
+[Code Review Best Practices - Trisha Gee](https://www.youtube.com/watch?v=a9_0UUUNt-Y)
 
 https://kagadev.blogspot.com/2016/06/code-quality-code-review.html
 
