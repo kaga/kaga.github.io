@@ -5,6 +5,8 @@ date:   2021-03-04 18:05:49 +1300
 categories: Version control
 ---
 
+This is the 4th part on source control introduction.
+
 * [Part 1 - Get Started]({% post_url version-control/2021-02-08-Git-Part-1-Get-Started %})
 * [Part 2 - Git With Github]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
 * [Part 3 - Git Branching ]({% post_url version-control/2021-03-03-Git-Part-3-Git-Branching %})
@@ -16,26 +18,36 @@ Last time in Git branching, I have discussed about how to use **Pull Request** a
 
 ## What is Pull Request
 
-**Pull Request**, sometimes use it interchangeably with **Code Review**, is a process of getting a change reviewed by a second person. The change will be merged to **Main** branch once approved.
+**Pull Request**, sometimes being used interchangeably with **Code Review**, is a process of getting a change reviewed by a second person. The change will be merged to **Main** branch once approved.
 
-I guess I could 
+1. Changes made in a branch
+1. Create a Pull Request
+1. Add some reviewer
+1. Once review approved, merge to **main**
+
+I feel the review process could easily become do it just for the sake of doing it, and it could face strong resistant in a team environment where everyone feel unsafe.
+
+For the last few years, I have been treat it as a way to knowledge sharing and team building expertise. The discussion that generated from Pull Request as important, if not more important than the change itself.
+
+## Draft Pull Request For Reviewee To Proof Read
+
+Having said that, a pull request can help before involving another person.
+
+One advice I had in university on writing an assignment was changing to a different font to proofread. I think this advice works well in reviewing code.
+
+You can take advantage of **Git Staged Changes** and **GitHub Pull Request** as a way to do that.
+
+![Draft Pull Request]()
+
+### What to Proof Read
+
+As general advice, things that can be automated should be automated. Such as code formatting, and running unit test.
+
+we can focus on code organization, variable naming and customer requirement.
+
+## Add Reviewers to Pull Request
 
 
-## Reviewee
-
-## Pull Request
-
-Pull request is a way to workplace
-
-Code Review
-
-The discussion that generated from the code review as important, if not more important than the change itself. 
-
-It is as important to review the work yourself as to be reviewed
-
-1. IDE
-1. Git Client Staging
-1. Github Pull Request
 
 ### Staging
 
