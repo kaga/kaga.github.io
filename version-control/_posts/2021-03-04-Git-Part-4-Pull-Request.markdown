@@ -74,58 +74,55 @@ Review after development completion should be a **gateway review**. It is place 
 
 In some cases those responses are valid, but the feedback is too late and this kind of **passive aggressive** behavior actually signals a deeper problem in the team.
 
-### Bring Reviewers In For Knowledge Sharing and Team Building
+### Bring Reviewers In For Knowledge Sharing
 
+Although it might sounds very disruptive to invite **everyone** to review every **Pull Request**, I found it is a good opportunity for gather senior & junior developers around to learn a particular part of the project.
 
+For example, through fixing a string template issue, we can talk about implementing [mustache](https://mustache.github.io/), or importance of escaping strings, and how that part of the project works.
 
-The whole team in 
+It is also a place for new developer to give new insights and challenge existing dogma.
 
-Everyone
-Senior / Junior 
-Outside Your Team which might be knowledgeable 
+### Bring Reviews For Team Building as Well
 
-Give new insight
-Challenge Dogma
+In a bigger project, where it is a multiple teams effort. Using **Pull Request** is a good way to start the collaboration. May be they are focusing on the api development, or may be they are already knowledgeable about the process but in a different environment, but certainly it will be a good conversion starter and potentially learn a lot.
+
+Use **Pull Request** as a platform for more face to face talk, or a live demo.
 
 ## To Make This Process Smoother
 
 ### Small and Concise Change
 
+It will be difficult to send a 1000 lines change in a **Draft Pull Request**, and expecting a constructive feedback. Breaking down the task smaller will help creating that feedback cycle even earlier.
 
+### Add Description
 
-### Add Comments
+The draft might be about experimenting a new language feature, but having no description give no context for the reviewer. "This new language feature is cool, what do you think ?" will help a lot.
 
-Add issue tracker link, screenshots if working on UI.
+If it is a UI related change, add some screenshots or GIFs as well.
 
-[Flameshot](https://github.com/flameshot-org/flameshot)
-[Peek](https://github.com/phw/peek)
+![Github Pull Request with UI Demo](/assets/git/github-pull-request-ui-preview.gif)
 
+Here are some tools that I use:
 
+* [Flameshot](https://github.com/flameshot-org/flameshot)
+* [Peek](https://github.com/phw/peek)
 
+### Remember to Praise as Well
 
+From the reviewer perspective, it is very easy to only criticizing the mistakes. It knockdowns the reviewee's confidence and could damage all the hard work on team building. I personally found it hard to do 5 to 1 ratio ( five positive interactions to every one negative interaction ), and disingenuous positive feedback is worse than not doing any.
 
-### A platform
+Genuine, sincere praises should be coming from both reviewer and reviewee.
 
-Face to Face Talk, Real life demo
+## Anti-patterns
 
-### Use Comments To Communicate
+I have talked about using **Pull Request** as a way build relationships. It should be quite obvious not to do anything that would undone the hard-earned relationship.
 
-## To Review
-
-### Remember to Praise
-
-### Review Promptly
-
-## Anti Pattern
-
-### Tactical Review
-
-### Use Review To Blame
+Such as using **Pull Request** to deflect blames, or being too afraid to provide feedbacks to a low confidence member.
 
 ---
 
 ## Reference
 
-[Code Review Best Practices - Trisha Gee](https://www.youtube.com/watch?v=a9_0UUUNt-Y)
-
-https://kagadev.blogspot.com/2016/06/code-quality-code-review.html
+* [Code Review Best Practices - Trisha Gee](https://trishagee.github.io/post/code_review_best_practices/)
+* [Code Review Best Practices - Trisha Gee (Youtube)](https://www.youtube.com/watch?v=a9_0UUUNt-Y)
+* [Amazing Code Reviews](https://youtu.be/ly86Wq_E18o)
