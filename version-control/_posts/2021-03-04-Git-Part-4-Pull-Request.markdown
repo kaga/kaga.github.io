@@ -42,22 +42,56 @@ Taking advantage of **GitHub Draft Pull Request** is a great way to do that.
 
 As a general advice, things that can be automated should be automated. Such as code formatting, and checking all unit test are passing.
 
-We then can turn our focus on code readability, if source files organized with folders, choice of naming in variables/functions/classes, and removing any **"test code"**/**dev logs**.
+We then can turn our focus on code maintainability, if source files organized with folders, choice of naming in variables/functions/classes, and removing any **"test code"**/**dev logs**.
 
 Last but not least, if the code will meet customer requirement, by looking at the unit test cases.
 
-> Tip - I have written a Test Driven Development series to help capturing requirement
+> P.S. - I have written a [Test Driven Development series](({% post_url 2021-02-21-Test-Driven-Development %})) to help this aspect.
 
-
-
-
-
-
+I think take a step back and objectively judge the work that just created is beneficial here.
 
 ## Pull Request With Reviewers
 
+> There's only so far you can go in this field by yourself. Seek out other smart programmers. Work with them. Endeavor to be the dumbest guy in the room, and you'll quickly discover that software development is a far more social activity than most people realize. There's a lot you can learn from your fellow introverts. - [In Programming, One Is The Loneliest Number](https://blog.codinghorror.com/in-programming-one-is-the-loneliest-number/)
+
+Having pairs to work with is a blessing. You can bounce off ideas, a pair of eyes to look over in the Pull Request process. I just lost count how many mistakes I have made when I was working alone, and only to found out the problems few years down the road.
+
+I also thought I was experienced enough to solo for a while too. How wrong I was.
+
+Involving with another reviewers in Pull Request can be so much different process than reviewing your own code.  
+
+### Draft Pull Request For Sharing Initial Ideas
+
+Getting early feedback is very important to the success of a project. Significant amount of time has been invested in interpreting scope of the task or customer requirements, it is an opportunity to see if we are on track and confirming expectations.
+
+It is also a conversion starter. "Can you have a look if I am using [Kotlin Channel](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/-channel/) correctly?"
+
+Hopefully at the end the review process, there should be no surprises.
+
+Review after development completion should be a **gateway review**. It is place to check if the code adhere to company standard. It is not a place to invent new requirements out of thin air.  
+
+> "Have you consider the future of this product or consider other use cases that I did not mention earlier, I expected you to think harder than this"
+
+In some cases those responses are valid, but the feedback is too late and this kind of **passive aggressive** behavior actually signals a deeper problem in the team.
+
+### Bring Reviewers In For Knowledge Sharing and Team Building
+
+
+
+The whole team in 
+
+Everyone
+Senior / Junior 
+Outside Your Team which might be knowledgeable 
+
+Give new insight
+Challenge Dogma
+
+## To Make This Process Smoother
 
 ### Small and Concise Change
+
+
 
 ### Add Comments
 
@@ -66,17 +100,9 @@ Add issue tracker link, screenshots if working on UI.
 [Flameshot](https://github.com/flameshot-org/flameshot)
 [Peek](https://github.com/phw/peek)
 
-### Who Should Be In Your Review
 
-Everyone
-Senior / Junior 
-Dogma
-Outside Your Team
 
-### When
 
-During development
-After development
 
 ### A platform
 
