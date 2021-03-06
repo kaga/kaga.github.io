@@ -12,40 +12,50 @@ This is the 4th part on source control introduction.
 * [Part 3 - Git Branching ]({% post_url version-control/2021-03-03-Git-Part-3-Git-Branching %})
 * [Part 4 - Github Pull Request (You are here)]({% post_url version-control/2021-03-04-Git-Part-4-Pull-Request %})
 
-Last time in Git branching, I have discussed about how to use **Pull Request** as a way to merge branches. However, I don't want to approach this topic like this.
+Last time in Git branching, **Pull Request** was mentioned as a way to merge branches.
 
-> "Pull Request is good for you, you should do it. If you don't do it, you are a bad person"
+This time I will be diving deeper into **Pull Request**. However, I don't want to approach this topic like this.
+
+> "Pull Request is good for you, you should do it. If you don't do it, you are not a good developer, you are a bad person"
 
 ## What is Pull Request
 
-**Pull Request**, sometimes being used interchangeably with **Code Review**, is a process of getting a change reviewed by a second person. The change will be merged to **Main** branch once approved.
+> pull requests are a mechanism for a developer to notify team members that they have completed a feature. Once their feature branch is ready, the developer files a pull request. This lets everybody involved know that they need to review the code and merge it into the main branch. - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/making-a-pull-request)
 
-1. Changes made in a branch
-1. Create a Pull Request
-1. Add some reviewer
-1. Once review approved, merge to **main**
+I feel the review process could easily become **"do it just for the sake of doing it"**, and it could face strong resistance in a team environment where everyone feel unsafe to be criticized or discovered a mistake.
 
-I feel the review process could easily become do it just for the sake of doing it, and it could face strong resistant in a team environment where everyone feel unsafe.
+For the last few years, I have been treating **Pull Request** as a medium to knowledge sharing and team building expertise. The discussion that generated from Pull Request often as important, if not more important than the change itself.
 
-For the last few years, I have been treat it as a way to knowledge sharing and team building expertise. The discussion that generated from Pull Request as important, if not more important than the change itself.
+## Draft Pull Request For Reviewee To Proofread
 
-## Draft Pull Request For Reviewee To Proof Read
-
-Having said that, a pull request can help before involving another person.
+Having said that, a pull request can help without involving another person, especially when you are the sole developer in a company.
 
 One advice I had in university on writing an assignment was changing to a different font to proofread. I think this advice works well in reviewing code.
 
-You can take advantage of **Git Staged Changes** and **GitHub Pull Request** as a way to do that.
+Taking advantage of **GitHub Draft Pull Request** is a great way to do that.
+
+> Tip You can use **Git Staged Changes** every time before each commit too.
 
 ![Draft Pull Request](/assets/git/github-draft-pull-request.png)
 
-### What to Proof Read
+### What to Look For
 
-As general advice, things that can be automated should be automated. Such as code formatting, and running unit test.
+As a general advice, things that can be automated should be automated. Such as code formatting, and checking all unit test are passing.
 
-we can focus on code organization, variable naming and customer requirement.
+We then can turn our focus on code readability, if source files organized with folders, choice of naming in variables/functions/classes, and removing any **"test code"**/**dev logs**.
+
+Last but not least, if the code will meet customer requirement, by looking at the unit test cases.
+
+> Tip - I have written a Test Driven Development series to help capturing requirement
+
+
+
+
+
+
 
 ## Pull Request With Reviewers
+
 
 ### Small and Concise Change
 
@@ -93,5 +103,3 @@ Face to Face Talk, Real life demo
 [Code Review Best Practices - Trisha Gee](https://www.youtube.com/watch?v=a9_0UUUNt-Y)
 
 https://kagadev.blogspot.com/2016/06/code-quality-code-review.html
-
-
