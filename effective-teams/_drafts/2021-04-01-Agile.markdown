@@ -1,8 +1,59 @@
 ---
 layout: post
-title:  "\"Test Driven Development isn't About Testing\" - Part 2"
+title:  ""
 date:   2021-02-28 12:05:49 +1300
-categories: TDD
-tags: unit-test
+categories: effective-team
+tags: methodology
 ---
+
+Agile
+
+## Build Relationship With Everyone Around You
+
+Building trust
+Communication
+
+> "And therefore never send to know for whom the bell tolls; it tolls for thee." - No Man is an Island, John Donne
+
+## Agile vs Waterfall
+
+It is a line
+
+It is not always going to "agile" is an solution
+
+
+## Documentation or Not
+
+It is about communication, trust
+
+Issue Tracker
+    - Title Gang
+Confluence
+
+## Scrum
+
+    Weekly 
+    Bi Weekly
+Scrum master
+Improve Estimation
+
+## Kanban
+
+Shows Where is the bottleneck
+
+https://www.atlassian.com/agile/kanban/kanban-vs-scrum
+
+## Daily Standup
+
+What to Say
+
+---
+
+## Servant Leadership
+
+Don't want to do
+It is about human relationship
+It is about providing a safe place to learn and work
+
+
 
