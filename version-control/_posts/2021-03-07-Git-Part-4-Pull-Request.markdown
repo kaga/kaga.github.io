@@ -17,19 +17,18 @@ Last time in Git branching, **Pull Request** was mentioned as a way to merge bra
 
 > Pull requests are a mechanism for a developer to notify team members that they have completed a feature. Once their feature branch is ready, the developer files a pull request. This lets everybody involved know that they need to review the code and merge it into the main branch. - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/making-a-pull-request)
 
-This time I will be diving deeper into **Pull Request** or **Code Review** ( I use them interchangeably ). However, I don't want to approach this topic like this:
+This time I will be diving deeper into **Pull Request**, **Code Review** or **Peer Code Review** ( I use them interchangeably ). However, I don't want to approach this **Pull Request** thing as part of software development establishments, which implies every developer should know.
 
-> "Pull Request is good for your code, you should do it. If you don't do it, you are not a good developer!"
+I also don't want to see the rubber stamping version of this process because of the name **Code Review**.
+It is similar to [Test Driven Development]({% post_url 2021-02-21-Test-Driven-Development %}), which is not about test. **Code Review is not just about reviewing code**.
 
-This assumption that **Pull Request** is part of software development establishments, which every developer should know by now, and the fact that it is common to see companies that rubber stamp the process, make me really sad.
-
-For the last few years, I have been treating **Pull Request** as a medium to knowledge sharing and team building exercises. The discussion that generated from Pull Request often as important, if not more important than the change itself. It also helped me to overcome resistance and build trust in a team environment where everyone feel unsafe to be criticized or fear of someone discovered a mistake.
+For the last few years, I have been treating **Pull Request** as a medium to knowledge sharing and team building exercises. The discussion that generated from it often as important, if not more important than the change itself. It also helped me to overcome some resistance and build trust in my team where everyone felt unsafe to be criticized or feared of someone discovered a mistake.
 
 ## Draft Pull Request As a Way To Proofread
 
 Having said that, **Pull Request** can work without involving another person. It is especially useful when being the sole developer in a company.
 
-One advice I had in university on writing an assignment was changing to a different font to proofread. I think this advice works well in reviewing code too. Taking advantage of **GitHub Draft Pull Request** is an easy way to do that, which you review the code on a browser in addition to the IDE.
+One advice I had in university on writing an assignment was, changing to a different font to proofread. I think this advice works well in reviewing code too. Taking advantage of **GitHub Draft Pull Request** is an easy way to do that, which you review the code on a browser in addition to the IDE.
 
 > Tip You can use **Git Staged Changes** every time before each commit as a way to review too.
 
@@ -43,8 +42,6 @@ Once the [bikeshedding](https://en.wikipedia.org/wiki/Parkinson's_law_of_trivial
 
 Last but not least, if the code will meet customer requirements.
 
-> P.S. I have written a [Test Driven Development series]({% post_url 2021-02-21-Test-Driven-Development %}) to help this aspect.
-
 I think taking a step back and objectively judge the work, as if someone else did it, is beneficial here. It is important to remember that it is the work that being reviewed, not the developer.
 
 ## Pull Request With Reviewers
@@ -55,11 +52,11 @@ Having peers to work with is a blessing. You can bounce off ideas, a pair of eye
 
 I also thought I was experienced and careful enough to solo for a while too. How wrong I was.
 
-Involving with another developer in **Pull Request** is a much different process than reviewing your own work.
+Beware that involving **Pull Request with another developer** is a much different process than reviewing your own work.
 
 ### Draft Pull Request For Sharing Initial Ideas
 
-I don't think there is a doubt that, getting early feedback directly contribute to the success of any projects. Once significant amount of time has been invested in interpreting scope of the task and customer requirements, it is time to see if the work is on track and re-confirming expectations.
+I don't think there is a doubt that, getting early feedbacks directly contribute to the success of any projects. Once significant amount of time has been invested in interpreting scope of the task and customer requirements, it is time to see if the work is on track and opportunity to confirm expectations.
 
 > "I have implemented this feature, do you think it is going to work?"
 >
@@ -67,7 +64,9 @@ I don't think there is a doubt that, getting early feedback directly contribute 
 
 **Hopefully at the end the review process, there should be NO SURPRISES.**
 
-Review after development completion should be a [gateway review](https://blog.jetbrains.com/upsource/2017/01/18/code-review-as-a-gateway/). It is place to check if the code adhere to company standard. It is not a place for [hit and run micromanagement](https://www.joelonsoftware.com/2006/08/08/the-command-and-control-management-method/), inventing new requirements out of thin air.
+Review after development completion should be a [gateway review](https://blog.jetbrains.com/upsource/2017/01/18/code-review-as-a-gateway/). It is place to check if the work adhere to company standards. In many cases, I would approve the work even I discovered a typo at this stage. I trust the developer will fix it before merging.
+
+It is however, not a place for [hit and run micromanagement](https://www.joelonsoftware.com/2006/08/08/the-command-and-control-management-method/), inventing new requirements out of thin air.
 
 > "Have you consider the future of this product or consider other use cases that I did not mention earlier, I expected you to think harder than this"
 
@@ -79,7 +78,7 @@ Although it might sounds very disruptive to invite **everyone** to review every 
 
 For example, through fixing a string template mistake, we can talk about [mustache](https://mustache.github.io/), or how that part of the project works.
 
-It is also a place for new or junior developer to give new insights and challenge existing dogma. Why certain part was done in a certain way.
+It is also a place for new or junior developer to provide new insights or challenge existing dogmas.
 
 ### For Team Building as Well
 
@@ -87,11 +86,11 @@ In a bigger project, where it requires multi-teams effort. Using **Pull Request*
 
 May be the other team focuses on the api development, or may be they are already knowledgeable about the process but in a different environment. Having the draft version of the API design up early will accelerate the project development and certainly a good way to start the working relationship.
 
-Try to use **Pull Request** as a platform for communication too. It is good for having asynchronous conversation where everyone work remotely. Using it as an anchor point to start a face-to-face synchronous conversation, [live share](https://visualstudio.microsoft.com/services/live-share/) or a live demo.
+**Pull Request** is not the only way to communicate too. It is good for having asynchronous conversation where everyone work remotely. Try using it as an anchor point to start a face-to-face synchronous conversation, [live share](https://visualstudio.microsoft.com/services/live-share/) or a live demo.
 
 ## To Make This Process Smoother
 
-When a **Pull Request** involves anyone other than yourself, I would like to make their experience a bit smoother, because they took their valuable time to help.
+When a **Pull Request** involves anyone other than myself, I would like to make their experience a bit smoother, because they took their valuable time to help.
 
 ### Small and Concise Change
 
@@ -122,24 +121,22 @@ If it is a UI related change, add some screenshots or GIFs as well.
 
 ![Github Pull Request with UI Demo](/assets/git/github-pull-request-ui-preview.gif)
 
-Here are some tools that I use ( Linux ):
+Here are tools that I use ( Linux ):
 
 * [Flameshot](https://github.com/flameshot-org/flameshot)
 * [Peek](https://github.com/phw/peek)
 
 ### Remember to Praise as Well
 
-From the reviewer perspective, it is very easy to only criticizing the mistakes. But it knockdowns the reviewee's confidence and damage all the trust that we worked hard on. I found it hard to do 5 to 1 ratio ( five positive interactions to every one negative interaction ), but disingenuous positive feedback is worse than not doing any.
+From the reviewer perspective, it is very easy to only criticizing the mistakes. But it knockdowns the reviewee's confidence, which we worked so hard on. I found it hard to do 5 to 1 ratio ( five positive interactions to every one negative interaction ), but disingenuous positive feedback is worse than not doing any.
 
 Don't over think about over praising too. In general, software engineer don't praise a lot, it would take a lot to actually "over the top".
 
-Genuine, sincere praises should be coming from both reviewer and reviewee.
+Genuine, sincere praises should be coming from both the reviewer as well as the reviewee. Praise the reviewer for spotting a mistakes.
 
 ## Anti-patterns
 
-I have talked about using **Pull Request** as a way build relationships. It should be quite obvious not to do anything that would undone the hard-earned relationship.
-
-Such as using **Pull Request** to deflect blames, or being too afraid to provide feedbacks to a low confidence member.
+I have talked about using **Pull Request** as a way build relationships. It should be quite obvious not to do anything that would undone the hard-earned relationship, such as using **Pull Request** to deflect blames.
 
 ## Reference
 
