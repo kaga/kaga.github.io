@@ -220,7 +220,7 @@ At last, going back to the first point of simple design. A good design for me is
 
 The quote was not about not writing a single integration test because it is a **"Scam"**. It is about using unit test to show the correctness of the program.
 
-This ever thinner layer of Integration test is very useful if not necessary to make sure external systems, such as a REST API service implemented by a contractor, honour the agreed contract.
+This ever thinner layer of integration test is very useful if not necessary to make sure external systems, such as a REST API service implemented by a contractor, honour the agreed contract.
 
 ## That's It
 
