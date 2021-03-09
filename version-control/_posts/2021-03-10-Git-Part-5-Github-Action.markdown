@@ -17,7 +17,7 @@ This is the 5th part on source control introduction.
 
 In the last post on Github Pull Request, we explored using it as way to collaborate and less of a place to debate **"Tabs vs Spaces"** and **"Missing semicolon"**.
 
-Github Actions is a cloud-hosted Continuous Integration( CI ) server, it is opposed to on-premise solutions such as Bamboo, TeamCity. It is like having an extra member in your team, which provide feedbacks in consistent, repeatable way.
+**Github Actions** is a cloud-hosted Continuous Integration( CI ) service, it is opposed to on-premise solutions such as Bamboo, TeamCity. Having a CI service is like having an extra member in your team, which provide feedbacks in consistent, repeatable way.
 
 ## Automate Everything
 
@@ -25,17 +25,15 @@ Github Actions is a cloud-hosted Continuous Integration( CI ) server, it is oppo
 
 > Tip - Github Actions is an evolving product and it is **evolving fast**. [Check documentation for up-to-date usage](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
 
-Github Actions can easily run command-line programs, and it can accompany **readme.md** serving as a live documentation on how to run the project.
+**Github Actions** lives and breathes command-line programs, and it accompanies **readme.md** serving as a live development documentation on the project.
 
-Here are some common workflows ideas to automate
+Here are some common workflows ideas:
 
 * Lint
-* Run Unit Test
-* Build Artifact
+* Run Unit Test, Integration Test
+* Build Artifact ( For Development, Test, Production )
 
-> Tip - You can encode base64 files with base64 before storing it in secrets
-
-Lets use Github Action to lint one of my github repository.
+> Tip - You can base64 encode signing certificates and store it in [secrets encrypted](https://docs.github.com/en/actions/reference/encrypted-secrets)
 
 ### Create First Github Action
 
@@ -44,6 +42,7 @@ Lets use Github Action to lint one of my github repository.
 ```yml
 name: Lint
 
+# Only runs when kotlin source file changes 
 on:
   push:
     paths:
@@ -85,6 +84,9 @@ In the **lint** github action example above, it is much slower to run on Github 
 
 ### Use Github Action to Show the Correctness of Your Code
 
+![Github Actions To Demonstrate A Bug In A Library](/assets/git/github-actions-unit-test.png)
+**I created [a repository to demonstrate a possible bug in mockk](https://github.com/kaga/mockk-coverify-example)**
+
 The reason for running unit test, and subsequently building the project on Github Actions, is that it is an unbiased repeatable in checking if a new change broken other parts of a system. Github Actions creates a new environment every time and contains no side effects from previous runs.
 
 Using the build artifacts from Github Actions makes sure there is always capability to build the project, even when developer is away.
@@ -103,6 +105,8 @@ It would have been very hard, if not impossible, to prove the issue without a CI
 
 ## Badge Up [![Lint](https://github.com/kaga/mockk-coverify-example/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/kaga/mockk-coverify-example/actions/workflows/lint.yml)
 
+![Readme with Badge](/assets/git/github-readme-status-badge.png)
+
 Once a workflow is created, put the badge at the top of the **readme.md**, so you can have a quick glance and see if everything is running well.
 
 ## Github Packages To Create A Repository Of Modules
@@ -111,19 +115,18 @@ Once a workflow is created, put the badge at the top of the **readme.md**, so yo
 
 This is one of the main reasons I choose Github over other solutions, because supports all the use case I have, and saved the cost of purchasing [JFrog](https://jfrog.com/). Significantly reduce the need to use git subtree or monolithic repository architecture.
 
-## Connecting Things Together
+## Putting Things Together
 
-With all the development workflows migrated to Github Actions, we can  
+With those development workflows migrated to Github Actions, we can start integrating it with different Github features.
 
 ### Github Pull Request
 
-> Step 1. Create a Pull Request
->
-> Step 2. Github Actions run the lint and unit test workflow
->
-> Step 3. Smash the **Merge** button once the knowledge sharing activity is done, pull request approved and workflows ran successfully
->
-> Step 4. There is no step 4
+Check [previous post]({% post_url version-control/2021-03-07-Git-Part-4-Pull-Request %}) on anti-bikeshedding.
+
+1. Create a Pull Request
+1. Github Actions run the lint and unit test workflow
+1. Smash the **Merge** button once the knowledge sharing activity is done, pull request approved and workflows ran successfully
+1. There is no step 4 🎉
 
 ### Integration With Github Release
 
@@ -141,7 +144,7 @@ The idea in Part 2 was once getting used to create release and tags via Github, 
 
 This enables manually create regular releases, as well as any hotfix if required in the future.
 
-From here it is easy to automate regular release, so that a new version will [deploy continuously](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment#:~:text=To%20put%20it%20simply%20continuous,except%20that%20releases%20happen%20automatically.).
+From here it is easy to automate regular release, so that a new version will [deliver continuously](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment#:~:text=To%20put%20it%20simply%20continuous,except%20that%20releases%20happen%20automatically.).
 
 #### On Push to **Main** Branch Workflow
 
@@ -156,7 +159,7 @@ From here it is easy to automate regular release, so that a new version will [de
 
 ![Jira Releases Panel](/assets/git/jira-releases-panel.png)
 
-In some environment, it is appropriate to accumulate few more changes before deploying daily or weekly. Github Actions can be triggered [by a HTTP call](https://docs.github.com/en/rest/reference/actions#create-a-workflow-dispatch-event).
+In some environment, it is appropriate to accumulate few more changes before delivery to QA daily or weekly. Github Actions can be triggered [by a HTTP call](https://docs.github.com/en/rest/reference/actions#create-a-workflow-dispatch-event).
 
 ![Enable Jira Releases Feature](/assets/git/jira-releases-feature.png)
 ![Jira Github Action Trigger Config](/assets/git/jira-github-action-trigger.png)
