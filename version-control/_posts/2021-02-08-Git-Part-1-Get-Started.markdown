@@ -27,7 +27,7 @@ There are many version control softwares available on the market, but I will jus
 * [Part 2 - Git With Github]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
 * [Part 3 - Git Branching]({% post_url version-control/2021-03-03-Git-Part-3-Git-Branching %})
 * [Part 4 - Github Pull Request]({% post_url version-control/2021-03-07-Git-Part-4-Pull-Request %})
-* Part 5 - Github Actions
+* [Part 5 - Github Actions]({% post_url version-control/2021-03-10-Git-Part-5-Github-Action %})
 
 ## What is Git, and Why?
 

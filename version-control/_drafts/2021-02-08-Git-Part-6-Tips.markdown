@@ -9,7 +9,7 @@ categories: Version control
 
 ## Renaming Files
 
-## Commit Small Changes
+## Git LFS
 
 ## 
 

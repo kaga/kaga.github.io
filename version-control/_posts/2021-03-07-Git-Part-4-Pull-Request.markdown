@@ -11,7 +11,7 @@ This is the 4th part on source control introduction.
 * [Part 2 - Git With Github]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
 * [Part 3 - Git Branching ]({% post_url version-control/2021-03-03-Git-Part-3-Git-Branching %})
 * [Part 4 - Github Pull Request (You are here)]({% post_url version-control/2021-03-07-Git-Part-4-Pull-Request %})
-* Part 5 - Github Actions
+* [Part 5 - Github Actions]({% post_url version-control/2021-03-10-Git-Part-5-Github-Action %})
 
 Last time in Git branching, **Pull Request** was mentioned as a way to merge branches.
 

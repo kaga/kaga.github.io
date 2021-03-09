@@ -12,7 +12,7 @@ This is the 3rd part on source control introduction.
 * [Part 2 - Git With Github]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
 * [Part 3 - Git Branching (You are here)]({% post_url version-control/2021-03-03-Git-Part-3-Git-Branching %})
 * [Part 4 - Github Pull Request]({% post_url version-control/2021-03-07-Git-Part-4-Pull-Request %})
-* Part 5 - Github Actions
+* [Part 5 - Github Actions]({% post_url version-control/2021-03-10-Git-Part-5-Github-Action %})
 
 I found with Part 1 and Part 2 alone, which explored the basic usage of Git and Github, are suffice for starting out for day to day usage.
 
