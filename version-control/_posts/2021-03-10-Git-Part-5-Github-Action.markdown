@@ -127,54 +127,62 @@ A private package manager can utilized all the infrastructures and tooling built
 
 ## Putting Things Together
 
-With those development workflows migrated to **Github Actions**, we can start integrating those actions with different Github features. It ties everything in this series together.
+With those development workflows migrated to **Github Actions**, we can start integrating those actions with different Github features and tie everything in this series together.
 
 ### Github Pull Request
 
-Check [previous post]({% post_url version-control/2021-03-07-Git-Part-4-Pull-Request %}) on anti-bikeshedding.
+In addition to combat bikeshedding, [which discussed previously]({% post_url version-control/2021-03-07-Git-Part-4-Pull-Request %}), just using workflows above can significant improve the **Pull Request** experience 🎉.
 
-1. Create a Pull Request
-1. Github Actions run the lint and unit test workflow
-1. Smash the **Merge** button once the knowledge sharing activity is done, pull request approved and workflows ran successfully
-1. There is no step 4 🎉
+For example, running the unit test workflow save reviewer's time manually verify the change.
+
+Further more, having a development variant of the application attached to the **Pull Request**, allows reviewer to run it immediately, which minutes could be saved on a decently sized project.
 
 ### Integration With Github Release
 
-> Although you can use command line to start tagging ( `git tag -a v1.0.0 -m "version 1.0.0"` ), I actually recommend using github releases to create the tag. As we can utilize Github Actions to drive more automation. - [Part 2 - Git With Github]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
+> ... I actually recommend using github releases to create the tag. As we can utilize Github Actions to drive more automation. - [Part 2 - Git With Github]({% post_url version-control/2021-02-13-Git-Part-2-Collaboration %})
 
-The idea in Part 2 was once getting used to create release and tags via Github, it becomes a natural step to create a workflow to build the project and [upload the artifact to the release page](https://github.com/actions/upload-release-asset).
-
-#### On Github Release Created Workflow
-
-1. Build the project
-1. Upload the artifacts to Github Release
-1. Deploy the artifacts
-
-*[example release workflow](https://github.com/kaga/react-vehicle-selector/blob/main/.github/workflows/publish.yml)*
-
-This enables manually create regular releases, as well as any hotfix if required in the future.
-
-From here it is easy to automate regular release, so that a new version will [deliver continuously](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment#:~:text=To%20put%20it%20simply%20continuous,except%20that%20releases%20happen%20automatically.).
-
-#### On Push to **Main** Branch Workflow
-
-1. Do some finial checks
-1. Create a Github Release
-
-*[example create release workflow](https://github.com/kaga/react-vehicle-selector/blob/main/.github/workflows/continuous-deployment.yml)*
+```bash
+                                                                              
+    On Merge To Main Branch                                                   
+    +-----------------+      +-----------------+     +--------------------+   
+    |                 |      |                 |     | Version Bump       |   
+    |      Lint       --------  Run Unit Test  ------- Generate Changelog |   
+    |                 |      |                 |     | Create Release     |   
+    +-----------------+      +-----------------+     +----|---------------+   
+                                                          |                   
++---------------------------------------------------------|                   
+|                                                                             
+|                                                                             
+|    On Create Github Release                                                 
+|    +-----------------+      +-----------------+                             
+|    |                 |      |                 |                             
+|-----  Build Artifact |      |      Deploy     |                             
+     |                 |      |                 |                             
+     +-----------------+      +-----------------+                             
+                                                                              
+```
 
 > Tip - A personal access token needed to [enable triggering new workflows in a workflow](https://docs.github.com/en/actions/reference/events-that-trigger-workflows)
 
-#### Or Integration with External Services i.e. Jira
+*[Source workflows](hhttps://github.com/kaga/react-vehicle-selector/tree/main/.github/workflows)*
+
+![Github Release](/assets/git/github-release-3.png)
+
+The idea was automating a manually process, without changing to the release process significantly. 
+
+For example, rather than tagging it at Github and produce the artifact on local dev machine. A workflow will be triggered instead, building and [uploading the artifact to the release page](https://github.com/actions/upload-release-asset).
+
+This save time on manually building the project as well as using **Github** to share build artifact with deployment team. The ability to manually create release, such as hotfix on a different branch, was preserved. From here it is easy to [deliver new versions continuously](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment#:~:text=To%20put%20it%20simply%20continuous,except%20that%20releases%20happen%20automatically.).
+
+### Integration with External Services ( i.e. Jira )
 
 ![Jira Releases Panel](/assets/git/jira-releases-panel.png)
-
-In some environment, it is appropriate to accumulate few more changes before delivery to QA daily or weekly. Github Actions can be triggered [by a HTTP call](https://docs.github.com/en/rest/reference/actions#create-a-workflow-dispatch-event).
-
 ![Enable Jira Releases Feature](/assets/git/jira-releases-feature.png)
 ![Jira Github Action Trigger Config](/assets/git/jira-github-action-trigger.png)
 
-For example in Jira next-gen project, there is a **Releases** feature available, which can easily trigger the release workflow.
+Github Actions can be triggered externally [by HTTP request](https://docs.github.com/en/rest/reference/actions#create-a-workflow-dispatch-event).
+
+For example, with the **Releases** feature in Jira next-gen project, which can be served as central panel to easily trigger the release workflow. It is suitable in some environments requires accumulating few more changes before weekly delivery to QA.
 
 > TODO: There will be a post in the future where I will go more in depth on how I setup Jira
 
