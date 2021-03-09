@@ -15,7 +15,7 @@ This is the 5th part on source control introduction.
 * [Part 4 - Github Pull Request]({% post_url version-control/2021-03-07-Git-Part-4-Pull-Request %})
 * [Part 5 - Github Actions (You are here)]({% post_url version-control/2021-03-10-Git-Part-5-Github-Action %})
 
-In the last post on Github Pull Request, we explored using it as way to collaborate and less of a place to debate **"Tabs vs Spaces"** and **"Missing semicolon"**.
+In the last post on **Github Pull Request**, we explored using it as way to collaborate and less of a place to debate **"Tabs vs Spaces"** and **"Missing semicolon"**.
 
 **Github Actions** is a cloud-hosted Continuous Integration( CI ) service, it is opposed to on-premise solutions such as Bamboo, TeamCity. Having a CI service is like having an extra member in your team, which provide feedbacks in consistent, repeatable way.
 
@@ -25,9 +25,9 @@ In the last post on Github Pull Request, we explored using it as way to collabor
 
 > Tip - Github Actions is an evolving product and it is **evolving fast**. [Check documentation for up-to-date usage](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
 
-**Github Actions** lives and breathes command-line programs, and it accompanies **readme.md** serving as a live development documentation on the project.
+**Github Actions** lives and breathes command-line programs. It accompanies **readme.md** serving as a live development documentation on the project.
 
-Here are some common workflows ideas:
+Here are some common workflows:
 
 * Lint
 * Run Unit Test, Integration Test
@@ -74,7 +74,7 @@ This shows the same command running on my local environment and **Github Action*
 
 In the **lint** github action example above, it was much slower to run on Github then on my local machine ( 40s vs 1s ), but when taking into account to checking out the exact commit, open the IDE, start gradle sync, run the lint and finally fix the lint. The 40 seconds execution time is not so slow after all.
 
-However, it is a good practice to run those workflow locally before commit, because not all errors can be fixed automatically and everything is open and ready to run anyway.
+However, it is a good practice to run those workflow locally before commit, because not all errors can be fixed automatically and everything is already open and ready to run anyway.
 
 ![ktlint features](/assets/git/git-linter-features.png)
 
@@ -87,29 +87,25 @@ However, it is a good practice to run those workflow locally before commit, beca
 ![Github Actions To Demonstrate A Bug In A Library](/assets/git/github-actions-unit-test.png)
 **I created [a repository to demonstrate a possible bug in mockk](https://github.com/kaga/mockk-coverify-example)**
 
-The reason for running unit test, and subsequently building the project via **Github Actions**, is that it creates a new environment every time and contains no side effects from previous runs. It is like setting a fresh environment up just to run this workflow and discard immediately. This characteristic makes running those workflows repeatable.
+One of the main reasons for running unit test, and subsequently building the project via **Github Actions**, is that it creates a new environment every time and contains no side effects from previous runs. It is like setting a fresh environment up just to run this workflow and discard immediately. This characteristic makes running those workflows very repeatable.
 
-> Tip - It is usually not **Github Actions**, it is usually configuration or the new change that broken the system  
+Using the build artifacts from **Github Actions** makes sure there is someone in the team capable to build and release the project, even when the core developer is away.
 
-Using the build artifacts from **Github Actions** makes sure there is always capability in the team to build the project, even when developer is away.
+I have once tried to build an iOS app that the contractor has left for few years. The project has no documentation whatsoever and it took me 2 weeks to track down all the dependencies and able to compile the app again.
 
-As an illustration, I have once tried to build an iOS app that the contractor has left for few years. The project has no documentation whatsoever and it took me 2 weeks to track down all the dependencies and able to compile the app again.
-
-In contrast, I have worked on numerous projects that has **Github Actions** for linting, testing, building and deploying the application, which allow myself start writing code and contribute within a day, without fear of breaking or the secrets to sign and deploy the application.
-
-This is a significant time saving would make onboarding new developer much more easier.
+In contrast, I have worked on few projects that has **Github Actions** for linting, testing, building and deploying, which allow myself to start writing code and contributing within a day, without fear of breaking the project. This significant time saving would make onboarding new developer much more easier.
 
 #### Trigger Contract Test Periodically or Manually
 
 When working with another team or contractor, it is useful to run some integration tests to check if the system is implemented as agreed and functioning as expected.
 
-Here is another story time - There was a time an OAuth 2.0 server was newly built. It works for most of the time and can authenticate user successfully.
+Here is another story - there was a time an OAuth 2.0 server was newly built. It works for most of the time and can authenticate user successfully.
 
-However, 1 in 5 chance it would just randomly return unable to authentic error. The administrator ran the request in Postman and yelled **"It works on for me"**. User typed the wrong password was assumed and the issue was dismissed.
+However, 1 in 5 chance it would just randomly return **"unable to authentic"** error. The administrator ran the request in Postman but failed to replicate. User must have typed the wrong password and the issue was dismissed.
 
 To prove that was not the case, I created a simple script to authenticate against the service every minute for an hour. Soon enough, with hundreds of test results generated the pattern was clear and a patch was later applied.
 
-It would have been very hard, if not impossible, to prove the issue without a CI service available.
+It would have been very hard, if not impossible, to prove the issue exists without a CI service.
 
 ## Badge Up [![Lint](https://github.com/kaga/mockk-coverify-example/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/kaga/mockk-coverify-example/actions/workflows/lint.yml)
 
@@ -121,9 +117,9 @@ Once a workflow is created, put the badge at the top of the **readme.md**, so an
 
 > With GitHub Packages, you can safely publish and consume packages within your organization or with the entire world. - [Github](https://github.com/features/packages)
 
-This was one of many reasons that I prefer Github over other solutions, because it saved the cost of purchasing and maintaining a comparable product, like [JFrog](https://jfrog.com/). It supports all the use cases I have in mind too.
+This was one of many reasons that I prefer **Github** over other solutions, as it saved the cost of purchasing and maintaining yet another service. **Github Packages** supports all the use cases I have in mind too.
 
-A private package manager can utilized all the infrastructures and tooling built for the open source version, which again help the onboarding experience and further significantly reduce the need to use **Git subtree** or monolithic repository architecture.
+A private package manager can utilized all the infrastructures and tooling already built for the open source version, which help the onboarding experience and further reduce the need to use **Git subtree** or monolithic repository architecture.
 
 ## Putting Things Together
 
@@ -168,7 +164,7 @@ Further more, having a development variant of the application attached to the **
 
 ![Github Release](/assets/git/github-release-3.png)
 
-The idea was automating a manually process, without changing to the release process significantly. 
+The idea was automating a manually process, without changing the release process significantly.
 
 For example, rather than tagging it at Github and produce the artifact on local dev machine. A workflow will be triggered instead, building and [uploading the artifact to the release page](https://github.com/actions/upload-release-asset).
 
