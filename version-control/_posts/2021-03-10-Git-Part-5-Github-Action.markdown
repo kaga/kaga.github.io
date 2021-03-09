@@ -15,7 +15,7 @@ This is the 5th part on source control introduction.
 * [Part 4 - Github Pull Request]({% post_url version-control/2021-03-07-Git-Part-4-Pull-Request %})
 * [Part 5 - Github Actions (You are here)]({% post_url version-control/2021-03-10-Git-Part-5-Github-Action %})
 
-In the last post on **Github Pull Request**, we explored using it as way to collaborate and less of a place to debate **"Tabs vs Spaces"** and **"Missing semicolon"**.
+In the last post on **Github Pull Request**, **Github Actions** was mentioned as way spend less time on debating **"Tabs vs Spaces"** and **"Missing semicolon"** and more time on collaboration.
 
 **Github Actions** is a cloud-hosted Continuous Integration( CI ) service, it is opposed to on-premise solutions such as Bamboo, TeamCity. Having a CI service is like having an extra member in your team, which provide feedbacks in consistent, repeatable way.
 
@@ -72,13 +72,19 @@ BUILD FAILED in 671ms
 
 This shows the same command running on my local environment and **Github Action**.
 
-In the **lint** github action example above, it was much slower to run on Github then on my local machine ( 40s vs 1s ), but when taking into account to checking out the exact commit, open the IDE, start gradle sync, run the lint and finally fix the lint. The 40 seconds execution time is not so slow after all.
+In the **lint** github action example above, it was much slower to run on Github then on my local machine ( 40s vs 1s ), but when taking into account to:
 
-However, it is a good practice to run those workflow locally before commit, because not all errors can be fixed automatically and everything is already open and ready to run anyway.
+1. checking out the exact commit
+1. open the IDE
+1. start gradle sync
+1. run the lint
+1. finally fix the lint
+
+The 40 seconds execution time is not so slow after all. However, it is a good practice to run those workflow locally before commit, because not all errors can be fixed automatically and everything is already open and ready to run anyway.
 
 ![ktlint features](/assets/git/git-linter-features.png)
 
-> Tip - Some language linter requires configuration, it is good to reference from a reputable tech companies, such as [Airbnb](https://github.com/airbnb/javascript), [Google](https://google.github.io/styleguide/jsguide.html). It is done to avoid arguing if certain formatting decision is right or wrong. It also allows new developers, who already familiar with those style guide, to pick up the source code quickly. It is even better if an opinionated linter is available.
+> Tip - Some language linter requires configuration, it is good to reference from a reputable tech company, such as [Airbnb](https://github.com/airbnb/javascript), [Google](https://google.github.io/styleguide/jsguide.html). It avoids arguing if certain formatting decision was right or wrong. It also allows new developers, who already familiar with those style guide, to pick up the source code quickly. It is even better if an opinionated linter is available.
 >
 > Tip - Some linter also provides built-in formatter as well, which make fixing those formatting issues hassle-free.
 
@@ -101,11 +107,11 @@ When working with another team or contractor, it is useful to run some integrati
 
 Here is another story - there was a time an OAuth 2.0 server was newly built. It works for most of the time and can authenticate user successfully.
 
-However, 1 in 5 chance it would just randomly return **"unable to authentic"** error. The administrator ran the request in Postman but failed to replicate. User must have typed the wrong password and the issue was dismissed.
+However, 1 in 5 chances it would just randomly return **"unable to authenticate"** error. The administrator ran the request in Postman but failed to replicate. User must have typed the wrong password and the issue was dismissed.
 
 To prove that was not the case, I created a simple script to authenticate against the service every minute for an hour. Soon enough, with hundreds of test results generated the pattern was clear and a patch was later applied.
 
-It would have been very hard, if not impossible, to prove the issue exists without a CI service.
+It could have been very hard to prove the issue exists without a CI service.
 
 ## Badge Up [![Lint](https://github.com/kaga/mockk-coverify-example/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/kaga/mockk-coverify-example/actions/workflows/lint.yml)
 
@@ -113,17 +119,9 @@ It would have been very hard, if not impossible, to prove the issue exists witho
 
 Once a workflow is created, put the badge at the top of the **readme.md**, so anyone can have a quick glance and see if everything is running well. I like the badge and think it is a morale boost device.
 
-## Github Packages To Create A Repository Of Modules
-
-> With GitHub Packages, you can safely publish and consume packages within your organization or with the entire world. - [Github](https://github.com/features/packages)
-
-This was one of many reasons that I prefer **Github** over other solutions, as it saved the cost of purchasing and maintaining yet another service. **Github Packages** supports all the use cases I have in mind too.
-
-A private package manager can utilized all the infrastructures and tooling already built for the open source version, which help the onboarding experience and further reduce the need to use **Git subtree** or monolithic repository architecture.
-
 ## Putting Things Together
 
-With those development workflows migrated to **Github Actions**, we can start integrating those actions with different Github features and tie everything in this series together.
+With those development workflows migrated to **Github Actions**, those actions can be integrated with different Github features and we can start tying everything in this series together.
 
 ### Github Pull Request
 
@@ -181,6 +179,12 @@ Github Actions can be triggered externally [by HTTP request](https://docs.github
 For example, with the **Releases** feature in Jira next-gen project, which can be served as central panel to easily trigger the release workflow. It is suitable in some environments, which requires accumulating few more changes before weekly delivery to QA.
 
 > TODO: There will be a post in the future where I will go more in depth on how I setup Jira
+
+## Use Github Actions With Github Packages To Create A Repository Of Modules
+
+> With GitHub Packages, you can safely publish and consume packages within your organization or with the entire world. - [Github](https://github.com/features/packages)
+
+A private package manager can utilized all the infrastructures and tooling already built for the open source version, which help the onboarding experience and further reduce the need to use **Git subtree** or monolithic repository architecture.
 
 ## Conclusion
 

@@ -18,5 +18,6 @@ Bitbucket
 Github Enterprise
     Purchase Order
     How many minutes needed for Github Action
-
+    This was one of many reasons that I prefer **Github** over other solutions, as it saved the cost of purchasing and maintaining yet another service. **Github Packages** supports all the use cases I have in mind too.
+    
 Gitlab
