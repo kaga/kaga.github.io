@@ -91,7 +91,7 @@ One of the main reasons for running unit test, and subsequently building the pro
 
 Using the build artifacts from **Github Actions** makes sure there is someone in the team capable to build and release the project, even when the core developer is away.
 
-I have once tried to build an iOS app that the contractor has left for few years. The project has no documentation whatsoever and it took me 2 weeks to track down all the dependencies and able to compile the app again.
+I have once tried to build an iOS app that the developer already left for few years. The project has no documentation whatsoever and it took me 2 weeks to track down all the dependencies and able to compile the app again.
 
 In contrast, I have worked on few projects that has **Github Actions** for linting, testing, building and deploying, which allow myself to start writing code and contributing within a day, without fear of breaking the project. This significant time saving would make onboarding new developer much more easier.
 
@@ -178,7 +178,7 @@ This save time on manually building the project as well as using **Github** to s
 
 Github Actions can be triggered externally [by HTTP request](https://docs.github.com/en/rest/reference/actions#create-a-workflow-dispatch-event).
 
-For example, with the **Releases** feature in Jira next-gen project, which can be served as central panel to easily trigger the release workflow. It is suitable in some environments requires accumulating few more changes before weekly delivery to QA.
+For example, with the **Releases** feature in Jira next-gen project, which can be served as central panel to easily trigger the release workflow. It is suitable in some environments, which requires accumulating few more changes before weekly delivery to QA.
 
 > TODO: There will be a post in the future where I will go more in depth on how I setup Jira
 
