@@ -42,7 +42,7 @@ Here are some common workflows ideas:
 ```yml
 name: Lint
 
-# Only runs when kotlin source file changes 
+# Only runs when kotlin source file changes
 on:
   push:
     paths:
@@ -65,16 +65,16 @@ jobs:
 ➜  testmockk git:(main) ✗ ./gradlew lintKotlin
 
 > Task :app:lintKotlinAndroidTest FAILED
-.
-.
-.
+...
 BUILD FAILED in 671ms
 1 actionable task: 1 executed
 ```
 
-This is how to the same command run on both my local environment and Github Action.
+This shows the same command running on my local environment and **Github Action**.
 
-In the **lint** github action example above, it is much slower to run on Github then on my local machine ( 40s vs 1s ) and recommended to run it on local machine where possible, but when taking into account to checking out the exact commit, open the IDE, start gradle sync, run the lint and finally fix the lint. The 40 seconds execution time is not so slow after all.
+In the **lint** github action example above, it was much slower to run on Github then on my local machine ( 40s vs 1s ), but when taking into account to checking out the exact commit, open the IDE, start gradle sync, run the lint and finally fix the lint. The 40 seconds execution time is not so slow after all.
+
+However, it is a good practice to run those workflow locally before commit, because not all errors can be fixed automatically and everything is open and ready to run anyway.
 
 ![ktlint features](/assets/git/git-linter-features.png)
 
@@ -87,19 +87,27 @@ In the **lint** github action example above, it is much slower to run on Github 
 ![Github Actions To Demonstrate A Bug In A Library](/assets/git/github-actions-unit-test.png)
 **I created [a repository to demonstrate a possible bug in mockk](https://github.com/kaga/mockk-coverify-example)**
 
-The reason for running unit test, and subsequently building the project on Github Actions, is that it is an unbiased repeatable in checking if a new change broken other parts of a system. Github Actions creates a new environment every time and contains no side effects from previous runs.
+The reason for running unit test, and subsequently building the project via **Github Actions**, is that it creates a new environment every time and contains no side effects from previous runs. It is like setting a fresh environment up just to run this workflow and discard immediately. This characteristic makes running those workflows repeatable.
 
-Using the build artifacts from Github Actions makes sure there is always capability to build the project, even when developer is away.
+> Tip - It is usually not **Github Actions**, it is usually configuration or the new change that broken the system  
 
-To put it perspective, I have once tried to build an iOS app that the contractor is no longer left for few years. It has no documentation whatsoever and it took me 2 weeks to track down all the dependencies and compile the app.
+Using the build artifacts from **Github Actions** makes sure there is always capability in the team to build the project, even when developer is away.
 
-In contrast, I have worked on numerous projects that has Github Actions for linting, testing, building and deploying the application, which I can start writing code and contribute within a day, without fear of breaking or the secrets to sign and deploy the application.
+As an illustration, I have once tried to build an iOS app that the contractor has left for few years. The project has no documentation whatsoever and it took me 2 weeks to track down all the dependencies and able to compile the app again.
+
+In contrast, I have worked on numerous projects that has **Github Actions** for linting, testing, building and deploying the application, which allow myself start writing code and contribute within a day, without fear of breaking or the secrets to sign and deploy the application.
+
+This is a significant time saving would make onboarding new developer much more easier.
 
 #### Trigger Contract Test Periodically or Manually
 
-When working with a 3rd party team, sometimes it is useful to run some integration tests to check if the system is functioning as expected.
+When working with another team or contractor, it is useful to run some integration tests to check if the system is implemented as agreed and functioning as expected.
 
-There was one time a newly OAuth 2.0 server was built and for most of the time it can authenticate user successfully, but for 1 in 5 times it just randomly refuse to work. The administrator ran the request in Postman and yelled **"It works on for me"**. So I created a simple script to test the service every minute for an hour. Soon enough, with hundreds of test results generated the pattern was clear and a patch was later applied.
+Here is another story time - There was a time an OAuth 2.0 server was newly built. It works for most of the time and can authenticate user successfully.
+
+However, 1 in 5 chance it would just randomly return unable to authentic error. The administrator ran the request in Postman and yelled **"It works on for me"**. User typed the wrong password was assumed and the issue was dismissed.
+
+To prove that was not the case, I created a simple script to authenticate against the service every minute for an hour. Soon enough, with hundreds of test results generated the pattern was clear and a patch was later applied.
 
 It would have been very hard, if not impossible, to prove the issue without a CI service available.
 
@@ -107,17 +115,19 @@ It would have been very hard, if not impossible, to prove the issue without a CI
 
 ![Readme with Badge](/assets/git/github-readme-status-badge.png)
 
-Once a workflow is created, put the badge at the top of the **readme.md**, so you can have a quick glance and see if everything is running well.
+Once a workflow is created, put the badge at the top of the **readme.md**, so anyone can have a quick glance and see if everything is running well. I like the badge and think it is a morale boost device.
 
 ## Github Packages To Create A Repository Of Modules
 
 > With GitHub Packages, you can safely publish and consume packages within your organization or with the entire world. - [Github](https://github.com/features/packages)
 
-This is one of the main reasons I choose Github over other solutions, because supports all the use case I have, and saved the cost of purchasing [JFrog](https://jfrog.com/). Significantly reduce the need to use git subtree or monolithic repository architecture.
+This was one of many reasons that I prefer Github over other solutions, because it saved the cost of purchasing and maintaining a comparable product, like [JFrog](https://jfrog.com/). It supports all the use cases I have in mind too.
+
+A private package manager can utilized all the infrastructures and tooling built for the open source version, which again help the onboarding experience and further significantly reduce the need to use **Git subtree** or monolithic repository architecture.
 
 ## Putting Things Together
 
-With those development workflows migrated to Github Actions, we can start integrating it with different Github features.
+With those development workflows migrated to **Github Actions**, we can start integrating those actions with different Github features. It ties everything in this series together.
 
 ### Github Pull Request
 
