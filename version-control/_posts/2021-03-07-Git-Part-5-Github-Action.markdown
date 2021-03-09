@@ -164,3 +164,14 @@ In some environment, it is appropriate to accumulate few more changes before dep
 For example in Jira next-gen project, there is a **Releases** feature available, which can easily trigger the release workflow.
 
 > TODO: There will be a post in the future where I will go more in depth on how I setup Jira
+
+## Conclusion
+
+In the series, a Git based development workflow, which use in conjunction with **Github** to manage and automate variety of tasks during development, was explored. From **committing** changes from a **branch**, then **push** it to **Github** and create a **Pull Request** to **merge**, to continuously build and deploy the project using **Github Actions**. It was also discussed utilizing Github as a collaboration platform to share knowledge.
+
+> TODO - There are some Git features which I have left out but will cover in the future, because my usage for those features are getting fewer and farther between.
+
+## Reference
+
+* [https://git-scm.com/](https://git-scm.com/)
+* [https://docs.github.com/en/actions](https://docs.github.com/en/actions)
