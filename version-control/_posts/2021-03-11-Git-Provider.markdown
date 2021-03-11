@@ -53,6 +53,10 @@ how the team access the server when working from home? If it is a cloud based so
 
 It is also not necessary means cloud based solution is better than on-premise solution.
 
+### Integration With Between Software
+
+Products that built by the same company often have better integration between their products. For example, it is very easy to create a Bitbucket hosted Git branch in Jira.
+
 ### Maintenance
 
 > Who is going to maintain the infrastructure?
@@ -67,7 +71,7 @@ For example, I estimated it took me about 6 to 8 weeks per year to maintain Bamb
 
 On the surface, it might appears few 15 minutes breakdown a month does not matter too much, because it is not critical part of writing code.
 
-### How to Pay the Bills
+### Paying the Bills
 
 This is not related to the feature, but it could limit your options
 
@@ -76,6 +80,10 @@ Some companies only accept invoice as a payment method, especially if the servic
 > Tip - Learn how to raise a Purchase Order
 
 While some service providers only accept credit card payment only.
+
+TODO:
+Cost
+Local Agent
 
 ## Why Github ( Enterprise )
 
@@ -88,4 +96,4 @@ Github was blocked in company firewall
 
 ## Reference
 
-http://dev-with-alex.blogspot.com/2016/12/shopping-for-frameworks.html
+- [Shopping For Frameworks - Dev with Alex](http://dev-with-alex.blogspot.com/2016/12/shopping-for-frameworks.html)
