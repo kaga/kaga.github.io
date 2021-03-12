@@ -49,9 +49,9 @@ Apart from the usual cost estimation and feature set comparison, here are the ex
 
 ### On-Premise vs Cloud Based
 
-The first and foremost is probably deciding where the solution locates. Company polices might dictate only on-premise solution, but it doesn't mean cloud based solution is automatically better than on-premise solution.
+The first and foremost is probably deciding where the solution locates. Traditional company polices might dictate only on-premise solution, but it doesn't mean cloud based solution is automatically better than on-premise solution.
 
-On the other hand, the cost of ownership per year for cloud based solution might be higher than on-premise because the high usage. For example, as of 2021 [Github charges 10x premium](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/about-billing-for-github-actions) on running CI/CD on Mac OS. In this case, the 50,000 minutes monthly allowance for the enterprise plan, which turned into just 5,000 minutes, may not be sufficient.
+On the other hand, the cost of ownership per year for cloud based solution might be higher than on-premise because of the high usage. For example, as of 2021 [Github charges 10x premium](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/about-billing-for-github-actions) on running CI/CD on Mac OS. In this case, the 50,000 minutes monthly allowance for the enterprise plan, which turned into just 5,000 minutes, may not be sufficient.
 
 If on-premise solution is preferable, then how the team access the server when working from home? Is it contains less features than the cloud offering? Some providers offer on-premise solution as a way to tick the "Checkbox", with significantly less resource to maintain their product.
 
