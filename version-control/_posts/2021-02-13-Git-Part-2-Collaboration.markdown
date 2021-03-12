@@ -34,7 +34,7 @@ There is come a time where you are going to work in a team environment, or you w
                                                                    
 ```
 
-There are many consideration when picking a git service provider, such as support for private repositories, service availability and features. You can even [host your own](https://hub.docker.com/r/gitlab/gitlab-ee/)! It the future I will talk about my experience on set up different service provider ( BitBucket and Github ) for work environment.
+There are many consideration when picking a git service provider, such as support for private repositories, service availability and features. You can even [host your own](https://hub.docker.com/r/gitlab/gitlab-ee/)! It the future I will talk about [my experience on set up different service provider ( BitBucket and Github ) for work environment]({% post_url version-control/2021-03-12-Git-Provider %}).
 
 This blog will just focusing on the basic features of those service. Github is very popular, if not the most popular service provider, which I will be using it with Github Desktop in the following blogs, and the knowledge should be transferable.
 
