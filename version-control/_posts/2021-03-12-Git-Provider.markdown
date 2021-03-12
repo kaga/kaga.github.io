@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shopping For Development Experience"
-date: 2021-03-11 21:05:49 +1300
+date: 2021-03-12 23:25:49 +1300
 categories: Version control
 tags: Git Github
 ---
