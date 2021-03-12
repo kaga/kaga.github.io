@@ -14,7 +14,7 @@ Although I have used Github as an example, it is not about purchasing a single s
 
 Unlike [Test Driven Development]({% post_url 2021-02-21-Test-Driven-Development %}), where you can start practicing it right away. Building a development experience used to be a topic to be reviewed once every 3~5 years in an established development team.
 
-However, I think the technology in this space has changes a lot in the last 2 years to warrant a review, and more businesses going through digital transformation starting new adventure. I believe this topic actually applies to wide audience.
+However, I think the technology in this space has changed a lot in the last 2 years to warrant a review, and more businesses going through digital transformation starting new adventure. I believe this topic actually applies to wide audience.
 
 I have been building development experience for my workplace for the last 5 years, during which I have made 2 significant changes. This post records my considerations for the decision to migrate to Github, but it applies to Wiki, Project Management etc.
 
