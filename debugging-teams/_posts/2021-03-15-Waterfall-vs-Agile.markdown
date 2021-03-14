@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "Waterfall vs Agile"
 date:   2021-03-15 00:45:49 +1300
 categories: debugging-teams
 tags: team
@@ -11,6 +11,9 @@ This post does **not** agile,
 adopting "Agile" as if they are missing out
 
 Agile Life
+
+2 元對立
+只有極端 Waterfall 或 Agile  
 
 ## Work Approach
 
