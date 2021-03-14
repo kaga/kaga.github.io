@@ -1,0 +1,133 @@
+---
+layout: post
+title:  ""
+date:   2021-03-15 00:45:49 +1300
+categories: debugging-teams
+tags: team
+---
+
+Agile
+
+## Build Relationship With Everyone Around You
+
+Building trust
+Communication
+
+> "And therefore never send to know for whom the bell tolls; it tolls for thee." - No Man is an Island, John Donne
+
+
+## Documentation or Not
+
+It is about communication, trust
+
+Issue Tracker
+    - Title Gang
+Confluence
+
+## Scrum
+
+    Weekly 
+    Bi Weekly
+Scrum master
+Improve Estimation
+
+## Kanban
+
+Shows Where is the bottleneck
+
+https://www.atlassian.com/agile/kanban/kanban-vs-scrum
+
+## Daily Standup
+
+What to Say
+
+---
+
+## Servant Leadership
+
+Don't want to do
+It is about human relationship
+It is about providing a safe place to learn and work
+
+Build the right product 
+
+How to approach/organize work
+
+Think harder vs Ask Feedback
+Long vs Shorter Milestone 
+
+
+
+Agile is about 
+people
+Communication 
+ 
+
+Not about 
+Jira
+Scrum
+Kanban
+Daily Standup
+
+Company agile
+
+Agile vs Waterfall
+
+
+
+2 元對立
+只有極端 Waterfall 或 Agile  
+
+
+
+
+The myth of Agile 
+You can never be truly agile 
+True Agile does not exist 
+ 
+還有其他 - The reactive ( Managed vs Unmanaged ) 
+No Start or Deadline 
+Work Not Scheduled
+Driven by sudden noise / external pressure 
+No requirement 
+
+Waterfall
+Interaction
+
+
+
+It is a Line
+Delivery time
+Documentation vs Working Software 
+Process vs 
+
+The Risk Of Corporate Agile  / Waterfall mistaken As Corporate 
+
+Process vs Collaboration 
+Example Process
+Pilot Signoff 
+Requirement Signoff 
+Ransome Feature 
+Unspecified Requirement 
+Project Governance 
+Project based budget 
+MS Team, Email 
+
+Feature delivery is the primary measure of progress
+
+Requirement Document before Implementation 
+
+Quick solution 
+	- Prefer rewrite later 
+	- Prefer 3 days to implement solution 
+MVP, MLP, MLP+1
+Never review 
+
+Release Interval 
+Documentation 
+QA
+
+Delegating or Neglect
+‘’’
+Doesn’t agile software development get rid of the need for project management? No. Agile software development is a great way to think about work because it forces you to focus on breaking tasks down into smaller chunks, planning those smaller chunks out, and delivering value incrementally instead of all at once.
+‘’’

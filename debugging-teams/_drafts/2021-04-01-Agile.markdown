@@ -1,59 +1,70 @@
 ---
 layout: post
 title:  ""
-date:   2021-02-28 12:05:49 +1300
-categories: effective-team
-tags: methodology
+date:   2021-03-15 00:45:49 +1300
+categories: debugging-teams
+tags: team
 ---
 
-Agile
+This post does **not** agile,
+~~The Agile Manifesto~~
+adopting "Agile" as if they are missing out
 
-## Build Relationship With Everyone Around You
+Agile Life
 
-Building trust
-Communication
+## Work Approach
 
-> "And therefore never send to know for whom the bell tolls; it tolls for thee." - No Man is an Island, John Donne
+> Work will build up
 
-## Agile vs Waterfall
+## Build the right product
+
+### Agile or Waterfall as a way to manage work
+
+for you and your team
 
 It is a line
 
-It is not always going to "agile" is an solution
+"agile" is not the only solution
 
+You will get efficient building software, but it is not the reason
 
-## Documentation or Not
+stress free environment at work
 
-It is about communication, trust
+meta philosophy
 
-Issue Tracker
-    - Title Gang
-Confluence
+make future change easier
 
-## Scrum
+### It is not about the tools ( Jira ), regular  or framework ( Scrum / Kanban )
 
-    Weekly 
-    Bi Weekly
-Scrum master
-Improve Estimation
+### Waterfall
 
-## Kanban
+- Plan before Work
+- When in doubt, think harder
+- Longer feedback loop
+- A Lot of Documentation
 
-Shows Where is the bottleneck
+### Agile
 
-https://www.atlassian.com/agile/kanban/kanban-vs-scrum
+- Plan as you work
+  - but does mean no planning at all
+- When in doubt, ask customer
+- Shorter feedback loop
+  - Change happens frequently
+- Working software ( with optional documentation )
 
-## Daily Standup
+## Adjust your mindset according with situation
 
-What to Say
+## Takes a long time
 
 ---
 
-## Servant Leadership
+## Reference
 
-Don't want to do
-It is about human relationship
-It is about providing a safe place to learn and work
-
-
-
+- [Surviving Your Inevitable Agile Transition - J.B. Rainsberger](https://www.youtube.com/watch?v=UQOmGiv7rUk)
+- [Programming is terrible—Lessons learned from a life wasted. EMF2012](https://www.youtube.com/watch?v=csyL9EC0S0c&feature=emb_title)
+- [The Original Skunk Works – Nickolas Means | The Lead Developer UK 2017](
+https://youtu.be/pL3Yzjk5R4M)
+- [MANAGING THE DEVELOPMENT OF LARGE SOFTWARE SYSTEMS](
+https://leadinganswers.typepad.com/leading_answers/files/original_waterfall_paper_winston_royce.pdf)
+- [12 Principles Behind the Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
+- [Agile is Dead](https://youtu.be/a-BOSpxYJ9M)
