@@ -6,7 +6,9 @@ categories: debugging-teams
 tags: team
 ---
 
-Agile
+Company Transition to Agile Development
+
+
 
 ## Build Relationship With Everyone Around You
 
@@ -73,12 +75,6 @@ Company agile
 
 Agile vs Waterfall
 
-
-
-
-
-
-
 The myth of Agile 
 You can never be truly agile 
 True Agile does not exist 
@@ -129,3 +125,9 @@ Delegating or Neglect
 ‘’’
 Doesn’t agile software development get rid of the need for project management? No. Agile software development is a great way to think about work because it forces you to focus on breaking tasks down into smaller chunks, planning those smaller chunks out, and delivering value incrementally instead of all at once.
 ‘’’
+
+- [Programming is terrible—Lessons learned from a life wasted. EMF2012](https://www.youtube.com/watch?v=csyL9EC0S0c&feature=emb_title)
+- [The Original Skunk Works – Nickolas Means | The Lead Developer UK 2017](https://youtu.be/pL3Yzjk5R4M)
+- [MANAGING THE DEVELOPMENT OF LARGE SOFTWARE SYSTEMS](https://leadinganswers.typepad.com/leading_answers/files/original_waterfall_paper_winston_royce.pdf)
+
+- [12 Principles Behind the Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
