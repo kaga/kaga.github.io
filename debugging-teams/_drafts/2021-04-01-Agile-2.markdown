@@ -131,3 +131,31 @@ Doesn’t agile software development get rid of the need for project management?
 - [MANAGING THE DEVELOPMENT OF LARGE SOFTWARE SYSTEMS](https://leadinganswers.typepad.com/leading_answers/files/original_waterfall_paper_winston_royce.pdf)
 
 - [12 Principles Behind the Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
+
+## Agile
+
+This post does **not** agile,
+~~The Agile Manifesto~~
+adopting "Agile" as if they are missing out
+
+You will get efficient building software, but it is not the reason
+
+make future change easier
+
+### It is not about the tools ( Jira ), regular or framework ( Scrum / Kanban )
+
+### Waterfall
+
+- Plan before Work
+- When in doubt, think harder
+- Longer feedback loop
+- A Lot of Documentation
+
+### Agile
+
+- Plan as you work
+  - but does mean no planning at all
+- When in doubt, ask customer
+- Shorter feedback loop
+  - Change happens frequently
+- Working software ( with optional documentation )

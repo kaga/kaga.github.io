@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Waterfall vs Agile"
-date: 2021-03-15 00:45:49 +1300
+date: 2021-03-22 00:45:49 +1300
 categories: debugging-teams
 tags: team
 ---
