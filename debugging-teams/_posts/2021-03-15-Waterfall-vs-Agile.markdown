@@ -8,13 +8,11 @@ tags: team
 
 In my [first blog post in Github]({% post_url 2021-01-18-Waterfall %}), I have revisited the "original waterfall" paper by Winston Royce, where the methodology was misunderstood. This time I would like to look at **Agile Software Development**, which has been becoming a hot topic for the last decade.
 
-For the last few years, I seen a lot of teams misunderstood or mystified **Agile**. Companies adopting **Agile**, as a standard process in the fear of missing out. They think it is a way to maximize productivity and the solution to company hierarchical political culture. 
+For the last few years, I have seen a lot of teams misunderstood or mystified **Agile**. Companies adopting **Agile**, as a standard process in the fear of missing out. They think it is a way to maximize productivity and the solution to company hierarchical political culture.
 
-Here is my take to explain the concept in the simplest way possible.
+The title is a clickbait. This is not a war against **Waterfall**. Here is my take to explain the concept in the simplest way possible, and it is oriented towards individuals and small teams.
 
 There are many publications on **Agile** for the last 2 decades, so I will not and don't feel qualified to go in depth. This is more like a **Quick Start Guide on Agile**.
-
-The title is a clickbait. This is not a war against **Waterfall**.
 
 ## We Want To Build The Right Product
 
@@ -26,7 +24,7 @@ Recently, I needed to apply for an extra license plate for my bike rack, which w
 
 Although I still see vehicles simply not displaying the plate or used a hand-written license plate, I believe with the information presented to the driver, it would be obvious which decision they will take.
 
-The goal of **Agile** is delivering values to user, and software developer do it through software.
+The goal of **Agile** is delivering values to user, and we ( Software Developer ) do it through software.
 
 ## Agile is a Mindset
 
@@ -65,7 +63,7 @@ If Winston Royce's **Managing the Development Of Large Software System** present
 
 Like most things with software development, the values of this manifesto are all evolves around humans and the feedback cycles from those interactions.
 
-The only value that might be not self explanatory is **Working software over comprehensive documentation**, which according to [Rebert C. Martin](https://youtu.be/eisuQefYw_o?t=223) and my personal experience, consistently deliver software is the key to build relationships and help build the other 3 values.
+The only value that might be not self explanatory is **Working software over comprehensive documentation**, which according to [Rebert C. Martin](https://youtu.be/eisuQefYw_o?t=223) and I can relay with my personal experience, consistently deliver software is the key to build relationships and help build the other 3 values.
 
 #### Value **X** Over **Y** Does Not Mean **Y** Should Be Ignored
 
@@ -111,9 +109,11 @@ It is not a trivial task to change how your team interact with customer, or chan
 
 In my opinion, this is the most important step of all steps. This is where the feedback loop finally comes back and have the opportunity to adjust and do the whole process again.
 
-For example, you have found the team resist to your change. It is very tempting to think your approach is in the right and the other party is in the wrong.
+For example, you have found the user resist to your new change. It is very tempting to think your approach is in the right and the other party is in the wrong.
 
-It is because every situation is different, every team is different. Therefore your tried-and-true approach does not work in this time. It does take time for the team to learn, may be few more detours, before settling in back to your original approach.
+It is because every situation is different, everyone is different. Therefore your tried-and-true approach does not work in this time. It does take time for everyone to learn, may be few more detours, before settling in back to your original approach.
+
+If this technique was repeated successfully, building software fast should just come naturally.
 
 ### The Fear of Not "Agile" Enough
 
@@ -125,7 +125,7 @@ The easiest way to tell if you and your team is **"Agile"**, in my opinion, is b
 
 Some coaching program will introduce the rituals, such as Kanban or Daily Standup, as a way to start Agile adoption. I think this approach need to be very carefully execute and education to avoid mistaken the rituals as **"Agile"**.
 
-**Agile** is a Philosophical Subject. The mindset is easy to understand, but will take a long time to experiment, with series of trail and error to understand the philosophy.
+**Agile** can be a philosophical subject. The mindset is easy to understand, but will take a long time to experiment, with series of trail and error to understand the philosophy.
 
 ## Reference
 
