@@ -1,0 +1,161 @@
+---
+layout: post
+title:  ""
+date:   2021-03-15 00:45:49 +1300
+categories: debugging-teams
+tags: team
+---
+
+Company Transition to Agile Development
+
+
+
+## Build Relationship With Everyone Around You
+
+Building trust
+Communication
+
+> "And therefore never send to know for whom the bell tolls; it tolls for thee." - No Man is an Island, John Donne
+
+
+## Documentation or Not
+
+It is about communication, trust
+
+Issue Tracker
+    - Title Gang
+Confluence
+
+## Scrum
+
+    Weekly 
+    Bi Weekly
+Scrum master
+Improve Estimation
+
+## Kanban
+
+Shows Where is the bottleneck
+
+https://www.atlassian.com/agile/kanban/kanban-vs-scrum
+
+## Daily Standup
+
+What to Say
+
+---
+
+## Servant Leadership
+
+Don't want to do
+It is about human relationship
+It is about providing a safe place to learn and work
+
+Build the right product 
+
+How to approach/organize work
+
+Think harder vs Ask Feedback
+Long vs Shorter Milestone 
+
+
+
+Agile is about 
+people
+Communication 
+ 
+
+Not about 
+Jira
+Scrum
+Kanban
+Daily Standup
+
+Company agile
+
+Agile vs Waterfall
+
+The myth of Agile 
+You can never be truly agile 
+True Agile does not exist 
+ 
+還有其他 - The reactive ( Managed vs Unmanaged ) 
+No Start or Deadline 
+Work Not Scheduled
+Driven by sudden noise / external pressure 
+No requirement 
+
+Waterfall
+Interaction
+
+
+
+It is a Line
+Delivery time
+Documentation vs Working Software 
+Process vs 
+
+The Risk Of Corporate Agile  / Waterfall mistaken As Corporate 
+
+Process vs Collaboration 
+Example Process
+Pilot Signoff 
+Requirement Signoff 
+Ransome Feature 
+Unspecified Requirement 
+Project Governance 
+Project based budget 
+MS Team, Email 
+
+Feature delivery is the primary measure of progress
+
+Requirement Document before Implementation 
+
+Quick solution 
+	- Prefer rewrite later 
+	- Prefer 3 days to implement solution 
+MVP, MLP, MLP+1
+Never review 
+
+Release Interval 
+Documentation 
+QA
+
+Delegating or Neglect
+‘’’
+Doesn’t agile software development get rid of the need for project management? No. Agile software development is a great way to think about work because it forces you to focus on breaking tasks down into smaller chunks, planning those smaller chunks out, and delivering value incrementally instead of all at once.
+‘’’
+
+- [Programming is terrible—Lessons learned from a life wasted. EMF2012](https://www.youtube.com/watch?v=csyL9EC0S0c&feature=emb_title)
+- [The Original Skunk Works – Nickolas Means | The Lead Developer UK 2017](https://youtu.be/pL3Yzjk5R4M)
+- [MANAGING THE DEVELOPMENT OF LARGE SOFTWARE SYSTEMS](https://leadinganswers.typepad.com/leading_answers/files/original_waterfall_paper_winston_royce.pdf)
+
+- [12 Principles Behind the Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
+
+## Agile
+
+This post does **not** agile,
+~~The Agile Manifesto~~
+adopting "Agile" as if they are missing out
+
+You will get efficient building software, but it is not the reason
+
+make future change easier
+
+### It is not about the tools ( Jira ), regular or framework ( Scrum / Kanban )
+
+### Waterfall
+
+- Plan before Work
+- When in doubt, think harder
+- Longer feedback loop
+- A Lot of Documentation
+
+### Agile
+
+- Plan as you work
+  - but does mean no planning at all
+- When in doubt, ask customer
+- Shorter feedback loop
+  - Change happens frequently
+- Working software ( with optional documentation )
