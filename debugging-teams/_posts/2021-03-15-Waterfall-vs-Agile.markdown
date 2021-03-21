@@ -6,35 +6,35 @@ categories: debugging-teams
 tags: team
 ---
 
-In my first blog post in Github, we have revisited the "original" waterfall paper. This time I would like look at the present time and look at a recently popular software development methodology.
+In my [first blog post in Github]({% post_url 2021-01-18-Waterfall %}), I have revisited the "original waterfall" paper by Winston Royce, where the methodology was misunderstood. This time I would like to look at **Agile Software Development**, which has been a hot topic for the last decade.
 
-It was **Agile Software Development**.
+For the last few years, I seen a lot of teams misunderstood or mystified **Agile**. Companies adopting **Agile**, as a standard process in the fear of missing out, or use it as a way to maximize productivity. Here is my take to explain the concept in the simplest way possible.
 
-I think the term **Agile** has been mystified into some magical solution to all problems.
+There are many publications on **Agile** for the last 2 decades, so I will not and don't feel qualified to go in depth. This is more like a **Quick Start Guide on Agile**.
 
-Here is my attempt of explaining the term in the simplest way possible.
+This is not a war against **Waterfall**.
 
 ## We Want To Build The Right Product
 
+A successful product should solves user's problem, while keeping it delightful to use. It should be reliable and ease to use. It should be evidence to user that the product is saving their time.
+
+In enterprisey commercial world, a lot of software are regulatory type application. It makes sure user does not work extra long hours, or filing in the paperwork at the right time, so they don't violate relevant regulations. A product done right will transform a dreadful experience, into something more palatable.
+
+Recently, I needed to apply for an extra license plate for my bike rack, which was a relatively new requirement in New Zealand[^1]. The system to apply the supplementary plate was very easy to use and the whole process took less than 5 minutes. The cost of applying the plate is very inexpensive too, $22.38 to be precise, compared to the possible 227x ( $5000 ) in infringement fines. With the system easy to use and low cost, it simply does not make sense to not displaying the plate or used a hand-written license plate cardboard.
+
 The goal of **Agile** is delivering values to user.
-
-A successful product should solves user's problem, while keeping it delightful to use. It should be reliable and ease to use. It should give the impression to user that the product is saving their time.
-
-In the commercial world, a lot of software are regulatory application. It makes sure the user does not work extra long hours, or filing in the paperwork so they don't violate the regulation. A product done right will transform the dreadful experience, that everyone avoids, into something more palatable.
-
-I have recently needed to apply for an extra license plate for my bike rack, which is an requirement in New Zealand[^1]. The system was very easy to use and the whole process took less than 5 minutes. The cost of applying the plate is very inexpensive too, $22.38 to be precise, compared to the possible 227x ( $5000 ) in infringement fines. So it simply does not make sense to not displaying the supplementary plate or used a hand-written license plate cardboard.
 
 ## Agile Is A Mindset
 
-> You can't do agile, you have to be agile - [Surviving Your Inevitable Agile Transition - J.B. Rainsberger](https://www.youtube.com/watch?v=UQOmGiv7rUk)
+> You can't do Agile, you have to be Agile - [Surviving Your Inevitable Agile Transition - J.B. Rainsberger](https://www.youtube.com/watch?v=UQOmGiv7rUk)
 
-The philosophy of **Agile software development** believes through quick feedback cycles will help develop the right solution sooner. This agility of receiving **quick feedback cycles** happens at everything we do, everyday.
+The philosophy of **Agile software development** believes through quick feedback cycles, will help develop the right solution and deliver values sooner. This mindset of receiving **quick feedback cycles** and adjust plans **happens at everything we do, everyday**.
 
 If unsure about the requirement, then get feedback from customer.
 
 If unsure about a design or technical implementation, then get feedback from your peer developer.
 
-Once the feedback was given, the critical part is taking action. It means changing the design or implementation to realign with customer requirement.
+Once the feedback was given, then the next part is taking action. This agility means changing the design or implementation to realign with the newly learned information.
 
 ### Manifesto for Agile Software Development
 
@@ -57,23 +57,78 @@ Once the feedback was given, the critical part is taking action. It means changi
 > |Ward Cunningham |Jon Kern |Dave Thomas |
 > |Martin Fowler |Brian Marick | |
 
-Like most things with software development, the values of **Manifesto for Agile Software Development** are all evolves around human and the feedback cycles around those interactions. The only value that is possibility not self explanatory is **Working software over comprehensive documentation**, which according to Rebert C. Martin and my personal experience, consistently deliver software is the key to build relationships and help build the other 3 values.
+If Winston Royce's **Managing the Development Of Large Software System** presents **Waterfall**, then the **Manifesto for Agile Software Development** presents **Agile**.
 
-## It is not a War Against Waterfall
+Like most things with software development, the values of this manifesto are all evolves around humans and the feedback cycles from those interactions.
+
+The only value that might be not self explanatory is **Working software over comprehensive documentation**, which according to [Rebert C. Martin](https://youtu.be/eisuQefYw_o?t=223) and my personal experience, consistently deliver software is the key to build relationships and help build the other 3 values.
+
+#### Value **X** Over **Y** Does Not Mean **Y** Should Be Ignored
+
+It is good to have **Jira**, but refusing to make changes for the duration of a 2 weeks sprint or company-wide standardization of using Scrum / Kanban / [Insert latest agile framework], is the anti-definition of **Agile**.
+
+Secondly, although documentation has becoming less and less effective way to communicate ( TODO see my review on Amusing Ourselves to Death ), some concise documentation is necessary, for future reference or onboarding a new team member.
+
+Being adaptive to change is one thing, and **Agile** also put focuses on building software that is easy to change. But it does not mean lack of upfront requirements all together, and only provide feedbacks based on working software. I think it will put the development team in a huge responsibility that will eventually destroy the customer-developer relationship. It is also generally true to require more effort to change further down the development process, no matter how the skilled developer architected the solution.
+
+### Both Agile and Waterfall Methodology Do Not Want **Chaos**
 
 ```bash
-     Agile ------------- Waterfall
+Agile --------------------------------------------------------- Waterfall
 ```
 
-Since the goal is about delivering the right solution, there are many ways to achieve that goal, and **Agile** is just **ONE OF THEM**. Demonize **Waterfall** will not help in achieving the goal, and it is a very **Anti-Agile** thing to do. Since **Agile** is about people and demonize the opposing side is counterproductive.
+Since the goal is about delivering the right solution. There are many ways to achieve that goal, and **Agile** is just **ONE OF THEM**.
 
-**Agile** and **Waterfall** can be considered as 2 opposing force, where **waterfall** is slightly more rigid, more documentation oriented.
+Demonize **Waterfall** will not help in achieving the goal, and it is a very "anti-agile" thing to do. Since **Agile** is about people and demonize the opposing side will create barriers.
 
-But no one lives on either end of the extreme spectrum. Some will be leaning against the agile side, and some will be on the waterfall. Over the years, I drift betweens depending on number of factors and situations.
+Rather, **Agile** and **Waterfall** can be considered as 2 opposing forces, where **Waterfall** is more rigid, more documentation oriented, more **"Big Design Upfront"**. where **Agile** is the opposite.
 
-> Both Agile and Waterfall methodologies do not want **chaos**.
+No one lives on either end of the extreme spectrums too. Some will be leaning against the **Agile** side, and some will be on the **Waterfall**. Over the years, I found myself drifting in betweens depending on situation and **both will help delivering the right product and values to the user**.
 
-### The Dark Side Of Agile
+## How to Agile
+
+![learn-this-power](/assets/waterfall-vs-agile/learn-this-power.gif)
+
+So you are very interested in **Agile** and want to try it first thing tomorrow. But before unleashing **Agile** into your existing environment, one should measure the flow of existing system so you can start effectively.
+
+### 1. Find Out Where You Are
+
+A good experiment would be implementing a feature, which can be accomplished within few weeks, and observe from how requirements are gathered, to customer getting the correct solution. This will outline the requirement process, such as the requirement is delivered after first implementation.
+
+Another good experiment would be fixing a small bug or just update a version number, and track how long it would take to go through varies systems. Such as code review, get a build, get paper based approval form signed, weekly change approve meeting, critical staff on holiday. This will outline if the existing process is slowing down the feedback cycle.
+
+It might be very surprising to find even an established team can take 2 months or more to deliver a simple change to user. It does not mean the team is incapable, it just means there are room for improvements.
+
+### 2. Take a Small Step Towards Your Goal
+
+It is not a trivial task to change how your team interact with customer, or change the existing process. So take small steps and change things that you can control first. Such as automating the build process, or sharing knowledge to increase [bus factor](https://en.wikipedia.org/wiki/Bus_factor) so thing can move on when critical members can have a holiday.
+
+### 3. Adjust Your Understanding Based On What You Learned
+
+In my opinion, this is the most important step of all steps. This is where the feedback loop truly comes back and have the opportunity to adjust and do the whole process again.
+
+For example, you have found the team resist to your change. It is very tempting to think your approach is in the right and the other party is in the wrong.
+
+It is because every situation is different, every team is different. Therefore your tried-and-true approach does not work in this time. It does take time for the team to learn, may be few more detours, before settling in back to your original approach.
+
+> Story - My team has been running Scrum for 2 years, and one day they wished to try Kanban which was never done before. After 6 months of Kanban, the team decided they prefer Scrum over Kanban.
+
+## The Dark Side Of Agile
+
+
+
+### The Fear of Not "Agile" Enough
+
+> We are not truly Agile
+
+![Dunning-Kruger Effect](https://cdn.slidemodel.com/wp-content/uploads/dunning-kruger-effect-curve.png)
+
+It is easy to feel uncomfortable to claim a home-grown team delivering software in an agile way. May be it is just Dunning-Kruger effect[^2], or intimidated by the sea of Agile certification programs.
+
+
+
+
+
 
 It is common to misunderstood lack of requirements, or having rituals ( Kanban, Scrum, Daily Standup etc ) is Agile.
 
@@ -81,7 +136,7 @@ It is even scarier to use Agile as an weapon to deliver more work.
 
 Ask customer the features , not how to solve problem
 
-## The fear of Not Agile Enough
+
 
 
 
@@ -95,6 +150,7 @@ Takes a long time
 
 in times where the team is start having knee-jerk reactions to customer feedback, then I would slow the team down by putting some processes in place. Sometimes a lot of simple problems can be avoided by thinking just 5 minutes longer.
 
+
 ## Reference
 
 - [Surviving Your Inevitable Agile Transition - J.B. Rainsberger](https://www.youtube.com/watch?v=UQOmGiv7rUk)
@@ -102,3 +158,4 @@ in times where the team is start having knee-jerk reactions to customer feedback
 - [From the "You call this agile?" department](https://www.joelonsoftware.com/2006/11/15/from-the-you-call-this-agile-department/)
 
 [^1]: [https://www.nzta.govt.nz/vehicles/licensing-rego/number-plates/](https://www.nzta.govt.nz/vehicles/licensing-rego/number-plates/)
+[^2]: [dunning-kruger effect](https://slidemodel.com/dunning-kruger-effect/)
