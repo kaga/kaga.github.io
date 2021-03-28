@@ -6,7 +6,14 @@ categories: debugging-teams
 tags: team
 ---
 
+Continuation of building the development experience 
+
+Trello Fogbugz
+
+
 I think there are enough discussions on the internet on why Atlassian's Jira is a bad product. This is not a justification why I think it is a good software, but how I used it for the last few years in a small team.
+
+Jira As a Tool To Make Problem Obvious 
 
 ## Fix Bugs Not Track Bugs
 
@@ -30,104 +37,69 @@ The **classical** Jira was very flexible, where a workflow can be tailored for e
 
 I think the main frustration towards Jira, comes from the tool revealing the pain points of current processes, in a way that excels and emails were never able to reveal. When the current processes were strictly enforced by the custom workflow, teams could found that it couldn't handle anything but the most common cases. In this case, changing an established process is going to be painful and difficult.
 
-The **jira next-gen** remove those "flexibility", while empowering teams to establish their own process.
+The **jira next-gen** remove those "flexibility", while empowering teams to become self-organizing and establish their own process.
 
-### Jira as a Home Page for Team
+* Too much setup / maintaince
 
-Road map
-Release
-Documentation
-Other external resources
+## A Home Page for Team
 
+It is the first page that the team will use to navigate around and find necessary information
 
+Focus more on now, and the immediate future 
 
+### Road map
+- Timelines for upcoming features 
+Guidance
 
-### Kanban vs Scrum
+### Board
+- Current task 
+Status Overview
 
-### Release
+### Task
 
+Notepad
 
+### Release 
+- Control panel for release 
+Webhooks to Github Release process
 
-This **processes and tools over Individuals** 
+### Other external resources
+- Documentations
+- Other services ( Analytics, )
 
+## It is not for development team only 
 
+Customer, Business Analysis 
+
+## Dark Side of Jira
+
+Every tools has its limitation, 
+
+apart from the dark hole for issues 
+
+### Documenting Requirement 
+
+### Story vs Bug vs Task Definition 
+
+It is a feature, not a bug
+
+### processes and tools over Individuals
+
+notification 
+
+[^1]: [https://en.wikipedia.org/wiki/Issue_tracking_system](https://en.wikipedia.org/wiki/Issue_tracking_system)
+
+---
 
 There is also a management factor, where the Jira was use monitor project progress.
 
 and lack of trust to empower self-organizing teams
 
-
-
 it was used as a way to micromanagement
-
-where t, or allow 
-
-
-
- excel, email 
-
-
-The situation often 
 
 Jira can also easily become a place where issue is only recognized after it has been logged in 
 
-
-
-
-Project management tool
-
-
-
-
-
-
-## Bugs
-
-Fix it Now
-Handling Bugs
-
-## Jira
-
-Home Page
-Team Guidance
-Status Overview
-Release Dashboard
-Make Problematic Process Obvious
-Notepad
-
-## NextGen
-
-
-* Too much setup / maintaince
 * Invites Micro-management
     Process
 * Process over human interaction
 * manifest of existing process
-
-If they won't less company's to start digitialize their current process, Atlassian will never be as successful as it is
-
-
-
-
-
-## Dark Side of Jira
-
-### Story vs Bug vs Task
-
-### Requirement
-
-### Task Dark hole
-
-### Past -> Presence -> Future
-
-Feel neutral towards Jira
-
----
-
-Group / Permission
-
-Small team
-
-Who 
-
-[^1]: [https://en.wikipedia.org/wiki/Issue_tracking_system](https://en.wikipedia.org/wiki/Issue_tracking_system)
