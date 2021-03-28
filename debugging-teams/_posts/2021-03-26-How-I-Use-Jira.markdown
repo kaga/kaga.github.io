@@ -25,11 +25,14 @@ I think there is a difference between using Jira to record new issues to reduce 
 
 The backlogs should be ever decreasing, instead of increasing.
 
+
 ## Next-gen Jira
 
 > Jira Software is the project management tool for agile teams - Atlassian
 
-A lot of new features has been released in Jira for the last few years, and I think the most important change was the introduction of **Jira next-gen**. I would seriously recommend using it over the **classic Jira** on new and existing projects.
+A lot of new features has been released in Jira for the last few years, and I think one of the most important change was the introduction of **Jira next-gen**. I would seriously recommend using it over the **classic Jira** on new and existing projects.
+
+
 
 ### "Problems" with Classic Jira
 
@@ -39,37 +42,64 @@ I think the main frustration towards Jira, comes from the tool revealing the pai
 
 The **jira next-gen** remove those "flexibility", while empowering teams to become self-organizing and establish their own process.
 
-* Too much setup / maintaince
+* Too much setup / maintaince that it needs a job of its own
 
 ## A Home Page for Team
 
-It is the first page that the team will use to navigate around and find necessary information
+Similar to using Github as a collaboration platform on software implementation, a Jira project should be considered as a collaboration platform on product development. 
 
-Focus more on now, and the immediate future 
+It should be the first page where the team use, to find information about the product. Such as documentation, current progress and up coming work planing.
 
 ### Road map
-- Timelines for upcoming features 
-Guidance
+
+This is a place where I organize upcoming planned work, where each **Epic** entry is a feature that can spand between 1 to 8 weeks. I found it provide guidance to on what should be work on next. 
+
+At first glace, it should provides a high level overview on what is completed and in-progress.
 
 ### Board
+
+It doesn't matter if the team is running Kanban or Scrum. This is where the hard work of organizing in 
+
+
+This is the very place where the details 
+
+
 - Current task 
-Status Overview
+Status Overview on what task is in-progress, pending review or blocked by other dependency.
+
+
 
 ### Task
 
-Notepad
+Notepad 
+
+
 
 ### Release 
-- Control panel for release 
-Webhooks to Github Release process
+
+It is a place that recorded all released applications, with relevant tasks linked to each version for future reference.
+
+It is also a place to 
+control release, which trigger Webhooks to Github streamlining the release process.
+
+
 
 ### Other external resources
-- Documentations
-- Other services ( Analytics, )
 
-## It is not for development team only 
+Apart from having integration with Confluence, there are many external services a team use today. Rather than everyone maintain their own set of bookmarks. 
+Jira 
 
-Customer, Business Analysis 
+* Company Internal Portal
+* Product Analytic Service ( MixPanel, Firebase etc )
+
+## 
+
+I think 
+
+open for all to access 
+
+
+It might be too overhelming to them at first, 
 
 ## Dark Side of Jira
 
@@ -81,9 +111,15 @@ apart from the dark hole for issues
 
 ### Story vs Bug vs Task Definition 
 
-It is a feature, not a bug
+> It is a feature, not a bug
+
+You can 
 
 ### processes and tools over Individuals
+
+### It is Not For Your Team Only 
+
+
 
 notification 
 
