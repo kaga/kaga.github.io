@@ -1,0 +1,154 @@
+Amusing  Ourselves to Death and thoughts on Development 
+
+
+
+This book was written by Neil Postman back in 1985. This is not a review or summary of it but some thoughts on how it is related to software development.
+
+Neil didn’t provide a solution 
+
+Good vs evil 
+
+Agile 是影響文化或只是反映文化？
+
+Can serious national issues really be explored in any coherent, meaningful way in such a fragmented, attention-challenged environment?
+
+The Medium is the Metaphor and Software Requirement 
+
+1. Shared Drive MS Doc 
+2. Pure UX Design 
+3. Interactive UX Prototype 
+4. Overview Document in Confluence 
+
+Scroll through Facebook & Twitter 
+
+Document an a Software Requirement 
+
+UI Prototype as a Software Requirement 
+
+ television has made the consumption of entertainment (as opposed to reason or rationality) more important than communication of information. Information, in television culture, is always entertaining.
+
+UI Prototype 娛樂化, 科技原可以令人更加深思
+攝影不表現「人」，只呈現「一個人」；不表現「樹」，只呈現「一棵樹」。
+
+ 卻可能變成表演即埸 
+
+Pull Request 
+- Code Change
+- CI 
+
+
+Email 
+  
+
+促成行動
+Company email
+Scheduled change, p1 email
+
+
+
+Slack / ms team / Skype 
+Jira 
+Markdown / Confluence 
+GitHub 
+
+Meeting/email/overview document/slack
+
+Requirement gathering 
+
+Print based culture
+Television-> Netflix 
+
+When we wrote less and less, blogger , Facebook, Twitter , Instagram 
+
+YouTube Ad. 5 sec, 10 sec 
+
+The effects on code review quality 
+
+
+Run a better version of waterfall does not solve the issue 
+
+The age of Documentation has gone 
+
+I have took working software over documentation to the extreme 
+Single hand drawing is the requirement 
+
+
+2 - UI Prototype 
+
+Same for low fi design
+
+https://www.adobe.com/nz/products/xd.html
+
+Wireframe 
+https://balsamiq.com/
+
+1 - Requirement documentation 
+
+書本 電報 電視
+
+Medium
+會議 
+	- 說了便算
+	- 人數
+	- 
+Email
+	-  
+Document 
+	- 單人
+
+Confluence 
+	- 單或多人
+	
+Slack 
+	- 單或多 ？
+
+Markdown
+	- 單人
+
+
+反復睇
+思想的意義
+多了思考
+
+思想有取捨
+印刷術利大於弊
+書寫反而少了大家投入
+buy in
+
+Skunk Works 
+https://youtu.be/pL3Yzjk5R4M
+
+選擇內容，對象
+
+當大眾都受電視 / Social Media 文化影響時，
+如何可以同時可以接受傳統 document 書寫
+
+YouTube / Netflix
+
+
+3 - Call to Action 
+
+Distance, work from home, 
+
+製成品好或壞是很客觀的
+
+——
+
+對理解和吸收失去耐性
+
+媒體支配文化
+真理可能只係文化 見 
+
+攝影 / 電報 / 報紙 
+資訊行動比
+
+requirement gathering 娛樂化
+
+學習係痛苦的
+Chapter by chapter 
+
+Brave new world - Adonis Huxley 
+直理無人理
+
+
+
