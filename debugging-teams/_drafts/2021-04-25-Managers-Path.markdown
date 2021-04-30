@@ -8,20 +8,61 @@ tags: team
 
 ![The Manager's Path](/assets/book/the-managers-path.jpg)
 
-The main motivation of creating this blog was about recording number of topics I found helpful in my software development career.
+The main motivation of starting this blog was recording number of topics I found helpful in my software development career. 
 
-This is a new series, where I will be discussing a topic based on a book. It is not a summary of that book, but an introduction to that book for extended reading.
+This is a new series, where I will be discussing a topic based on a book. 
 
-The Manager’s Path [ You are here ]
-Debugging Teams
-Amusing Ourselves to Death
-Clean Code
+- The Manager’s Path [ You are here ]
+- Debugging Teams
+- Amusing Ourselves to Death
 
-Career Progression
+I prefer not to focus on technical aspect software development, as a software engineer would have spend most of his/her university degree in technical work already. I would like to use this series to paint a picture that, pyscology and human interactions is big part of creating a successful software.
+
+## The Manager's Path
+
+- junior 
+- senior 
+- manager 
+- CTO
+
+Completed after landing the first job
+“Just want to build stuffs”
+
+What drive you ?
+
+## Relationship 
+
+Between You and Your Mentor, Leader, Manager
+
+PRD,
+1 on 1
+Learning Relationship
+
+## Different Task 
+
+- Manage a Project
+- Manage a Product
+- Team Culture
+
+Notice when you given certain responsibilities
+It might stress you out because it is a hard problem, or simply out of your control
+I.e. company culture / strategy / Project goal , metric for success
+ 
+Setting expectation , communicate with your manager 
+Collaboration and work towards that goal.
+
+## Reference 
+
+The Career Paths in Software Engineering  - Mayuko
+https://youtu.be/JAkGtHz9MLc
+
+
+---
+
+
+
 
 > What do you want to do?
-
-“Just want to build stuffs”
 
 Senior developer
 	- work on different products 
@@ -39,21 +80,9 @@ psychology
 
 Helping Me Helping You
 
-Notice when you given certain responsibilities
-It might stress you out because it is a hard problem, or simply out of your control
-I.e. company culture / strategy / Project goal , metric for success
- 
-Setting expectation , communicate with your manager 
-Collaboration and work towards that goal.
-
 > What is your ideal ?
 
 ( How you would like to be managed )
-
-## Reference 
-
-The Career Paths in Software Engineering  - Mayuko
-https://youtu.be/JAkGtHz9MLc
 
 —-
   Why blog over YouTube
