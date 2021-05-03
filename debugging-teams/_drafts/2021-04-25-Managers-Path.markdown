@@ -8,6 +8,8 @@ tags: team
 
 ![The Manager's Path](/assets/book/the-managers-path.jpg)
 
+
+
 This is a new series, where I will be discussing a topic based on a book. It will be started off with non-technical books, as I believe a successful software engineer would put the same effort, if not more, in learning the social aspect of software development, compared to learning the technical aspect.
 
 - The Manager’s Path [ You are here ]
@@ -75,6 +77,52 @@ I.e. company culture / strategy / Project goal , metric for success
  
 Setting expectation , communicate with your manager 
 Collaboration and work towards that goal.
+
+---
+
+In software development, I believe this industry has been spending far more resources on the technical aspect of building a software. Some focus on the language feature, or the framework to build applications. While others focus on algorithms and pattern. It is also common to for companies to look for **geeks**, **genious developer**, with the selection critiea purely focusing on knowing exactly the technologies that the company is currently using and the ability to type code as fast as possible.
+
+This is a new series, where I will be discussing the software development world that outside writing code. In my opinion, the human aspect and the communication between different parties are as important, if not more important than simply being technical excellence. Every topic were inspired by a book, which I hope my discussion could trigger enough curiousity to read the book and get the full picture.
+
+## Paint a picture of the career progression.
+
+## You are in control
+
+The story above rarely happens, because 
+
+
+
+
+Purpose	/ Summary of this Series
+- Believe communication in software development is 
+	- Too much alpha geek create a culture of fear
+	- Give an idea what the book is about
+	- Make reading an interesting 
+
+Definition Manager 
+	- Someone you report to
+	- May or may not be your actual manager in organization chart 
+	- Senior 
+	- Team lead
+
+You are in control 
+You can't control how your manager should have known / reaction
+- But you can take initiative to communticate what you want 
+- But it will be a mistake to assume it is 
+
+I thought I knew what is coming 
+"Didn't aware what is ahead of me at the time"
+
+
+Healthy Relationship 
+	- measurable success
+	- Clear expectation 
+	- remove 
+
+Career Progression as a Software Developer
+- There are taskes that are not coding much more impact on other duties
+
+---
 
 ## Reference 
 

@@ -59,6 +59,12 @@ How to deal with outside team - corporate , inner fight, insecure
 Sometimes it is okay to give up
 too much insecurity
 
+----
+
+
+
+
+---
 
 ## Reference
 
