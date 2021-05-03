@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On Career Development"
+title:  "The Manager's Path"
 date:   2021-04-25 00:45:49 +1300
 categories: debugging-teams
 tags: team
@@ -8,31 +8,56 @@ tags: team
 
 ![The Manager's Path](/assets/book/the-managers-path.jpg)
 
-The main motivation of starting this blog was recording number of topics I found helpful in my software development career. 
-
-This is a new series, where I will be discussing a topic based on a book. 
+This is a new series, where I will be discussing a topic based on a book. It will be started off with non-technical books, as I believe a successful software engineer would put the same effort, if not more, in learning the social aspect of software development, compared to learning the technical aspect.
 
 - The Manager’s Path [ You are here ]
 - Debugging Teams
 - Amusing Ourselves to Death
 
-I prefer not to focus on technical aspect software development, as a software engineer would have spend most of his/her university degree in technical work already. I would like to use this series to paint a picture that, pyscology and human interactions is big part of creating a successful software.
-
 ## The Manager's Path
 
-- junior 
-- senior 
-- manager 
-- CTO
+Congratulations! You have landed your first job as a software developer. You are energetic and very keen to solve real world problems. You might already have been furiously crafting the best code and possibly delivered few applications to user.
+
+Slowly but surely you have built a good reputation, that you can turn ideas to reality. You start getting more freedom into how you do things. You have opinions on how certain features should work. You crank out features after features at truly astonishing rate.
+
+Your work has inspired your manager to pursue bigger work that were deemed too difficult previously. So you start assemble a team to tackle the problem. You managed to pull it off too.
+
+Let's take a deep breath.
+.
+.
+.
+.
+.
+.
+**Now you just found yourself working with hundreds of developer.**
+
+## There Are Many Missing Pieces
+
+I believe the story could happen to some individuals, but it is more often to see a junior developer struggling without help, without a clear path going forward. Things would be much harder if said developer is the sole developer in a company.
+
+How does the organization charts looks like?
+	Who should do what ?
+	- junior 
+	- senior 
+	- manager 
+	- CTO
+
+Do you get the support you need to success
+	- Manager involvement 
+	- Relationship
+		Between You and Your Mentor, Leader, Manager
+
+
+
+
+
 
 Completed after landing the first job
 “Just want to build stuffs”
 
 What drive you ?
 
-## Relationship 
-
-Between You and Your Mentor, Leader, Manager
+## 
 
 PRD,
 1 on 1
