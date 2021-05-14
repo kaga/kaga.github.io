@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "New PC"
+date:   2021-04-01 00:00:00 +1300
+categories: Home
+---
+
+Even as a software developer
+I think having some knowledge of how a computer actually works
+
+- speed up compilation using the right component
+- appreciate layer of abstractions
+
+## Hardware Overview
+
+CPU
+RAM
+Storage
+Graphics Card
+
+## Pop! OS
+
+Many day to day task are Browser based, checking emails, task management, music player
+
+Development machine for android or web development
+
+## Reference
+
+MegaProcessor
+https://youtu.be/lNa9bQRPMB8
+
