@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Manager's Path"
+title:  "Career Progression"
 date:   2021-05-04 01:55:49 +1300
 categories: debugging-teams
 tags: read
@@ -8,13 +8,75 @@ tags: read
 
 ![The Manager's Path](/assets/book/the-managers-path.jpg)
 
-In the tech industry, I think far more resources was put on the technical aspect of building a software. Some focus on the language features, or algorithms and pattern to write the most beautiful code.
+There are so much more than being knowledgeable on a certain technology stack. Such as working collaboratively in a team environment, and building relationship with user for requirement gathering and hearing feedbacks. I believe a successful software developer should put equal focus on social and technical aspect. 
 
-It is also common to for companies to look for **guru**, **geeks**, **genius developer**, with selection criteria heavily focused on knowing obscure performance optimization language features or the ability to program as fast as possible. While I appreciate those skills, I believe there are much more a good developer should know beside writing code.
+I amire developers with touch of genius ability, who writing amazing code really code and knowing some obscure performance optimization language features. Universities are now providing better courses, with machine learning and data science. There are also plenty of resources available on the internet already. I don't think it is necessary for this to be yet another technical blog. Instead I will focus on the social aspect, which was far less talked about. 
 
-This is a new series, where I will be discussing different topics that I think as important as being technical excellence. Each topics were inspired by a book, which I think every developer should read.
+This is a new series, where I will be discussing different topics that I think contribute success as a software developer. Each topics are inspired by a book, which I hope I did a good job of introducing it and sparked your interest to read it.
 
 * [The Manager’s Path (You are here)](% post_url debugging-teams/2021-05-04-Managers-Path %)
+
+## Management ≠ Evil 
+
+I know it is often to encounter less-than-ideal managers out there, but they are not the true presentation of management **should** be and should not put you off into being a manager someday.
+
+There are many roles involved in an organization, that contribute in developing and delivering a product, in the name of 'manager' and 'CTO'. Some might focusing on the big pictures, while others ensure multiple projects will deliver on time. It does not mean the manager will stand behind your shoulders watching, but to provide guidance, mentorship, training and generally cares for your wellbeing.
+
+## You Are In Control
+
+One of the biggest lessons that I have learned over the years was that, there are no one but myself to be responsible for my own future. While there are good managers, who will inspire you and help you tremendously in your career, but they can only help so much and you will be doing bulk of the work. Your manager might recommand you to read a book or learn Test-Driven Development, but it is up to you to read and practice it.
+
+### What is Your Ideal Way of Work?
+
+> Do you prefer waiting your manager to assign tasks to you, or you prefer to have choice over which task to do?
+
+One of my struggles as a team lead was picking a right task for a junior developer. I was very concerned if the task was too difficult, it might dents her confidence level. Conversely, if I pick an easy task, I fear that I might limit her growth as a developer. 
+
+> Do you prefer having a peer program with you all the time or enjoy work alone ?
+
+Different developer has different style of working and there are no right way. Some prefer leaving them alone to figure out. Some prefer bounding off ideas but can manage to finish the work on her own. Some requires clear expectations. Some would like to do the task as a team. 
+
+Finding out which way help you accomptilsh the task 
+
+
+
+
+do you know what is happening around your team? Do you know what is happening around 
+
+
+
+
+
+
+
+* How work should assign to you 
+    - All Bug Fix no Feature ?! 
+    - What are your views 
+* From junior to become a senior developer
+* What's your expectation from a manager
+
+* 1 on 1 with your manager focusing on your goal
+
+* PRD ( Having a goal ) is not necessary bad
+
+* given certain responsibilities
+    You can contribute in the success of that objective 
+
+
+
+
+## 
+
+
+
+---
+
+In the tech industry, I think far more resources was put on the technical aspect of building a software. Some focus on the language features, or algorithms and pattern to write the most beautiful code.
+
+It is also common to for companies to look for **guru**, **geeks**, **genius developer**, with selection criteria heavily focused on 
+
+
+
 * Debugging Teams
 * Amusing Ourselves to Death
 
@@ -69,7 +131,6 @@ You can't control how your manager should have known / reaction
 - But you can take initiative to communticate what you want 
 - But it will be a mistake to assume it is 
 
-Notice when you given certain responsibilities
 It might stress you out because it is a hard problem, or simply out of your control
 I.e. company culture / strategy / Project goal , metric for success
  
