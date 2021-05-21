@@ -44,7 +44,7 @@ Finding out which way help you accomptilsh the task
 do you know what is happening around your team? Do you know what is happening around 
 
 
-
+[from the leader perspective]
 
 
 
