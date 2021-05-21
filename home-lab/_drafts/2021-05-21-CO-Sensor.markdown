@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Home Sensor v2"
+date:   2021-05-21 00:00:00 +1300
+categories: home lab
+---
+
+* BME680 getting unreliable
+* start monitoring CO2 levels
+* tried VOC for monitoring cooking gas but it is 
+
+Wifi antenna greatly improve the connection 
+
+
+Indoor CO2 affect judgement 
+https://youtu.be/1Nh_vxpycEA
+
+Esp when work from home 
+https://fragmentedpodcast.com/episodes/207/
+
+https://www.adafruit.com/product/4867
+
+
