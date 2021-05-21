@@ -9,11 +9,11 @@ categories: Software-Paradigms
 
 The word “Waterfall” often talked about in the software development world. Sometimes it is being used as a “dirty” word in a conversation as a reason to go “agile”, without much understanding to the methodology.
 
-很多人成日都放「Waterfall」喺嘴邊，但有幾多人真正地了解過它的意思？還是只是用來作為「Agile」的對立面？用來把自己放在高一個層次從而鄙視其他人？
+很多人成日都放「Waterfall」喺嘴邊，但有幾多人真正咁了解過佢嘅意思？定係只係用嚟作為「Agile」嘅對立面？用嚟將自己放喺高一個層次， 從而鄙視其他人？
 
 This is an introduction to the Winston Royce’s original paper on [Managing the Development Of Large Software Systems](https://leadinganswers.typepad.com/leading_answers/files/original_waterfall_paper_winston_royce.pdf).
 
-這是一個簡單分成三部分介紹 Winston Royce 關於設計大型系統的文章。
+呢個係一個簡單分成三部分去介紹 Winston Royce 關於設計大型系統嘅文章。
 
 ## Version 0.1 - Analysis → Coding
 
@@ -21,7 +21,7 @@ This is an introduction to the Winston Royce’s original paper on [Managing the
 
 This is as simple as the title suggests. This strategy works well when the work is fairly simple, such as a “single page” application or feature enhancement to an existing solution. The whole process usually goes for few months and rarely past a year.
 
-當手頭上是很簡單的 Project，例如只有一頁 User Interface 或姐係 implement 一個 feature 這些可以用數個月便完成。這個「三思而後行」是一個很直接而可行的方法。特別在一般 Small and Midsize Business (SMB)，你可能是整間公司唯一一個 Developer 或姐成個 IT 部門都係 Developer 而沒有其他職位。
+當手頭上有一個好簡單嘅Project，例如只有一頁嘅 User Interface 或姐係 implement 一個 feature 咁用幾個月就可以完成。這個「三思而後行」是一個很直接而可行的方法。特別在一般 Small and Midsize Business (SMB)，你可能是整間公司唯一一個 Developer 或姐成個 IT 部門都係 Developer 而沒有其他職位。
 
 It can be a logical decision to use this method, simply because as a sole developer in SMB or the team size were small and mostly consist of developers.
 

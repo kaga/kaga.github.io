@@ -45,7 +45,7 @@ To give more context, below are the toolset that I used since I start develop so
 
 In the past, I thought every solution is more or less the same. For example, Bitbucket provided similar features compared to Github, so purchase either one is going to suffice. At first I made the mistake of thinking this is a software purchase exercise. While the infrastructure worked at the end, it takes more effort to maintain, in terms of both operating expenditure and capital expenditure.
 
-Apart from the usual cost estimation and feature set comparison, here are the extra considerations that I take into account.
+Apart from the usual ease of use, cost estimation and feature set comparison, here are the extra considerations that I take into account.
 
 ### On-Premise vs Cloud Based
 
@@ -75,7 +75,7 @@ Also don't afraid to ask the service provider if their website does not list sup
 
 ### Integration With Between Softwares
 
-It is not necessary always the case, but products that built by the same company often have better integration between their products. For example, it is very easy to create a Bitbucket hosted Git branch in Jira, which could be a major decide factor.
+It is not necessary always the case, but products that built by the same company often have better integration between their products. For example, it is very easy to create a Bitbucket hosted Git branch in Jira, which might matters a lot in your team.
 
 It might be easier to get approval too, if the solution is offered by the same company that been previously approved to use or the entire solution is provide a single company (i.e. Atlassian) rather than cherry-picking the best for each domain.
 
