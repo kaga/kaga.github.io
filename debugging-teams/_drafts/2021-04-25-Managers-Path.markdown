@@ -8,17 +8,21 @@ tags: read
 
 ![The Manager's Path](/assets/book/the-managers-path.jpg)
 
-There are so much more than being knowledgeable on a certain technology stack. Such as working collaboratively in a team environment, and building relationship with user for requirement gathering and hearing feedbacks. I believe a successful software developer should put equal focus on social and technical aspect. 
+I amire developer who can write performan eligate code, and interested in exploring the latest software framework trends or language features. However, there are so much more than being knowledgeable on certain technology stack. Skills such as working collaboratively in a team environment, and building relationship with user in requirement gathering and gathering feedbacks. 
 
-I amire developers with touch of genius ability, who writing amazing code really code and knowing some obscure performance optimization language features. Universities are now providing better courses, with machine learning and data science. There are also plenty of resources available on the internet already. I don't think it is necessary for this to be yet another technical blog. Instead I will focus on the social aspect, which was far less talked about. 
+In my opinion, I believe a successful software developer one should put equal focus on social and technical aspect. 
 
-This is a new series, where I will be discussing different topics that I think contribute success as a software developer. Each topics are inspired by a book, which I hope I did a good job of introducing it and sparked your interest to read it.
+This is a new series, where I will be discussing different topics which were inspired by a book.
 
 * [The Manager’s Path (You are here)](% post_url debugging-teams/2021-05-04-Managers-Path %)
 
 ## Management ≠ Evil 
 
-I know it is often to encounter less-than-ideal managers out there, but they are not the true presentation of management **should** be and should not put you off into being a manager someday.
+As a software developer progress her career from a junior position to a senior position. Some might prefer being a senior software developer because that was what she would love to do. While others might prefer not promoting into management position simply because they were horrified by less-than-ideal managers.
+
+They thought becoming a manager would mean departure to their technical skills and stop writing code.
+
+
 
 There are many roles involved in an organization, that contribute in developing and delivering a product, in the name of 'manager' and 'CTO'. Some might focusing on the big pictures, while others ensure multiple projects will deliver on time. It does not mean the manager will stand behind your shoulders watching, but to provide guidance, mentorship, training and generally cares for your wellbeing.
 
