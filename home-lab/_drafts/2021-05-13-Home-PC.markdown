@@ -19,13 +19,13 @@ Here is the specification if you must know.
 > 64GB memory
 > Nvidia 2070 8GB memory
 > 2x1TB SSD storage
-> 3x3TB Harddrive 
+> 3x3TB Hard drives
 > Fractal Meshify 2 case
 > Noctua NF-A14 and NH-D15 fan
 
 ## Picking Right Hardware For The Right Job
 
-Most software development jobs should provide a computer for obvious reasons. Companies would standardized a few models for the entire company for different purposes. Such as a laptop for work from home purpose or a full desktop for its high performance. 
+Most software development jobs should provide a computer for obvious reasons. Companies would standardized few models for the entire company for different purposes. Such as a laptop for work from home purpose or a full desktop for its high performance. 
 
 > Tip: There are also companies that provide you a 15 year old 2nd hand machine. In that case, you should prepared to run or continue to read on.
 
@@ -44,9 +44,9 @@ Conversely, a machine focused on virtualizations and containerizations will have
 
 > Note: I designed my new machine to do both
 
-### Noise IS a Factor
+### Noise **IS** a Factor
 
-There are many factors beside machine performance and space. One of the most important requirement for me, and Linus Torvald, would be its fan noise during operation[1]. It is not necessary to have a slient fan-less PC, but it should blend in to the enviornment and not distracting.
+There are many factors beside machine performance and space. One of the most important requirement for me, would be its fan noise during operation[1]. It is not necessary to have a slient fan-less PC, but it should blend in to the enviornment and not distracting.
 
 A poorly placed fan will have unnecessary turbulence noise, or inadequate cooling causing the fan will rapidly spin up and down during program compilation.
 
@@ -54,38 +54,28 @@ Reserving some budgets on quality cooling solution will significantly provide a 
 
 A much less common source of noise from modern PC was hard drive. It's high rotational speed and physical moving parts, creates distinctive vibrations and clicking sound. It should not be used for main storage device, such as storing programs, and replaced by Solid State Drive ( SSD ) would easily provide massive performance improvement.
 
+> Tip: If you must have hard drives, you can "spin down" those drives for most of the time 
+
 ## This Might Be Useful Someday
 
-Although this is a about building a PC at home, I think it is relateable at work too. There were mulitple times in my software development career to propose a specification for a development machine, or upgrading existing hardware. 
+Although this is a about building a PC at home, I think it is relateable at work too. There were mulitple times in my software development career to propose a specification for a development machine, or upgrading existing hardware.
 
-Having good work equipment could boost productivity team morale and attract talents too[2]. I would not work for a company just because of fancy hardware, but putting it in job advertisement does bring my attention. 
+Having good work equipment could boost productivity team morale and attract talents too[2]. I would not work for a company just because of fancy hardware, but putting it in job advertisement does bring my attention.
 
 ## Every Software Developer Should Build a PC Once  
 
-There 
+There are pre-built PC that cost the same, if not cheaper than building it yourself. It is also so customizable today that you can have any components you wanted, even with water cooled. 
 
-
-. why not just get one 
-
-
-Linus Torvalds 
-
-
-
-
-
-create a developer spec machine 
-
-
-
-
-
+However, I think software developer should at least build their own machine once just like Linus Torvalds. I think a good oppertunity to learn about the hardware and appreciate the number of abstractions in modern computing. It is also a great oppertunity for software developer to thinking about **hardware requirements** and build the hardware, which is an important process in software development too. 
 
 ## Reference
 
-[MegaProcessor](https://youtu.be/lNa9bQRPMB8)
+[1]
 
-[1][Build a PC, Part IX: Downsizing - Codeing Horror](https://blog.codinghorror.com/building-a-pc-part-ix-downsizing/)
+[Build a PC, Part IX: Downsizing - Codeing Horror](https://blog.codinghorror.com/building-a-pc-part-ix-downsizing/)
+
+[2][The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 
 [Look what's inside Linus Torvalds' latest Linux development PC](https://www.zdnet.com/article/look-whats-inside-linus-torvalds-latest-linux-development-pc/)
 
+[MegaProcessor](https://youtu.be/lNa9bQRPMB8)
