@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "New Personal Computer"
-date:   2021-06-12 22:01:00 +1300
+title: "New Personal Computer"
+date: 2021-06-12 22:01:00 +1300
 categories: homelab
-tags: equipment 
+tags: equipment
 ---
 
-I have been using Macintosh as my main development machine since collage years. In my opinion it was a step up compared to Windows XP and it has been a popular choice for software development. Apple computer in the 2010s were one of the most powerful and upgradable machine, with stable OS and easy to use developer tools. Up until recently, my last personal machine was a 2011 iMac with upgraded 16GB ram and 256GB SSD in fusion drive. 
-   
+I have been using Macintosh as my main development machine since collage years. In my opinion it was a step up compared to Windows XP and it has been a popular choice for software development. Apple computer in the 2010s were one of the most powerful and upgradable machine, with stable OS and easy to use developer tools. Up until recently, my last personal machine was a 2011 iMac with upgraded 16GB ram and 256GB SSD in fusion drive.
+
 However, recently I built a new PC for my future experiments, which I haven't built one for over a decade now. I have choosen this path because of both hardware and software reasons. This will be a slight departure of my software mythodolgies blog, and documenting my journey of learning and experimenting the new capabilities at home.
 
-* New Personal Computer ( You are here )
-* A Server and a Development Machine - Unraid 
+- New Personal Computer ( You are here )
+- A Server and a Development Machine - Unraid
 
 Here is the specification if you must know.
 
@@ -25,7 +25,7 @@ Here is the specification if you must know.
 
 ## Picking Right Hardware For The Right Job
 
-Most software development jobs should provide a computer for obvious reasons. Companies would standardized few models for the entire company for different purposes. Such as a laptop for work from home purpose or a full desktop for its high performance. 
+Most software development jobs should provide a computer for obvious reasons. Companies would standardized few models for the entire company for different purposes. Such as a laptop for work from home purpose or a full desktop for its high performance.
 
 > Tip: There are also companies that provide you a 15 year old 2nd hand machine. In that case, you should prepared to run or continue to read on.
 
@@ -33,12 +33,12 @@ Although higher budget usually means a better machine, not all high performance 
 
 I would look at a machine in 4 areas:
 
-* General Processing Power ( i.e. CPU )
-* Memory Capacity  
-* Storage
-* Graphical Processing Power ( i.e. GPU )
+- General Processing Power ( i.e. CPU )
+- Memory Capacity
+- Storage
+- Graphical Processing Power ( i.e. GPU )
 
-A machine learning development focused machine is different than mobile application development, with high-end graphics card to accelerate the learning process. 
+A machine learning development focused machine is different than mobile application development, with high-end graphics card to accelerate the learning process.
 
 Conversely, a machine focused on virtualizations and containerizations will have high core counts CPU ( i.e. 12-core or more ), higher capacity memory ( i.e. 64GB or more ) but emptherize much less on graphics card.
 
@@ -54,7 +54,7 @@ Reserving some budgets on quality cooling solution will significantly provide a 
 
 A much less common source of noise from modern PC was hard drive. It's high rotational speed and physical moving parts, creates distinctive vibrations and clicking sound. It should not be used for main storage device, such as storing programs, and replaced by Solid State Drive ( SSD ) would easily provide massive performance improvement.
 
-> Tip: If you must have hard drives, you can "spin down" those drives for most of the time 
+> Tip: If you must have hard drives, you can "spin down" those drives for most of the time
 
 ## This Might Be Useful Someday
 
@@ -62,11 +62,11 @@ Although this is a about building a PC at home, I think it is relateable at work
 
 Having good work equipment could boost productivity team morale and attract talents too[2]. I would not work for a company just because of fancy hardware, but putting it in job advertisement does bring my attention.
 
-## Every Software Developer Should Build a PC Once  
+## Every Software Developer Should Build a PC Once
 
-There are pre-built PC that cost the same, if not cheaper than building it yourself. It is also so customizable today that you can have any components you wanted, even with water cooled. 
+There are pre-built PC that cost the same, if not cheaper than building it yourself. It is also so customizable today that you can have any components you wanted, even with water cooled.
 
-However, I think software developer should at least build their own machine once just like Linus Torvalds. I think a good oppertunity to learn about the hardware and appreciate the number of abstractions in modern computing. It is also a great oppertunity for software developer to thinking about **hardware requirements** and build the hardware, which is an important process in software development too. 
+However, I think software developer should at least build their own machine once just like Linus Torvalds. I think a good oppertunity to learn about the hardware and appreciate the number of abstractions in modern computing. It is also a great oppertunity for software developer to thinking about **hardware requirements** and build the hardware, which is an important process in software development too.
 
 ## Reference
 
@@ -74,7 +74,7 @@ However, I think software developer should at least build their own machine once
 
 [Build a PC, Part IX: Downsizing - Codeing Horror](https://blog.codinghorror.com/building-a-pc-part-ix-downsizing/)
 
-[2][The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+[2][the joel test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 
 [Look what's inside Linus Torvalds' latest Linux development PC](https://www.zdnet.com/article/look-whats-inside-linus-torvalds-latest-linux-development-pc/)
 
