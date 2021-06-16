@@ -4,6 +4,10 @@ Amusing  Ourselves to Death and thoughts on Development
 
 This book was written by Neil Postman back in 1985. This is not a review or summary of it but some thoughts on how it is related to software development.
 
+1. documentation
+1. information action ratio, a bug report
+
+
 Neil didn’t provide a solution 
 
 Good vs evil 

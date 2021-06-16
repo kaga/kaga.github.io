@@ -1,9 +1,104 @@
 ---
 layout: post
-title:  "New PC"
-date:   2021-04-01 00:00:00 +1300
-categories: Home
+title:  "A NAS, a server and a PC - Unraid"
+date:   2021-06-15 00:00:00 +1300
+categories: homelab
 ---
+
+![Unraid Image]()
+
+- [New Personal Computer]({% post_url home-lab/2021-06-13-New-PC %})
+- [A NAS, a server and a PC - Unraid ( You are here )]({% post_url home-lab/2021-06-13-New-PC %})
+
+In the previous post, I have introduced the hardware aspect of my new build. It is arguably overpowered for a development machine, let alone one that is not being used daily. 
+
+However, I am not using it for single purpose, but 3 different machines all roll into 1.
+
+- Network Attached Storage
+- Server
+- Development Machine
+
+## The Experience 
+
+![Booting Machine]()
+
+Booting up a machine is not something a user would do every day. However, the boot sequence above showed that there are, apart from taking longer to boot ( 2 minutes ), no significant differences between this machine and one with regular installation.
+
+My keyboard and mice are connect via built-in USB hub from the monitor, and they are plug and play just like a regular machine would do. Speaker from the monitor function normally as well.
+
+Some leaky abstractions[^1] do occur when plugging in devices directly to the computer, but it is not too disruptive. 
+
+There are no difference in the noise level too, and 3 hard drives in the system do not spin up at all. As if it is a mordern machine with no drive installed at all.
+
+## Unraid OS
+
+The whole seamless experience was made possible by [Unraid](https://unraid.net/). It is a light weight linux OS installed on a USB flash drive. It has easy support of building large storage array, built-in docker service and a virtualization ( VM ).
+
+Unraid is not a new product, and the same use case was demostrated for a very long time[^2]. However, there are few key events that happened that convinced me to try it in 2021. They are
+
+1. [Unraid 6.9 Release](https://unraid.net/blog/unraid-6-9-stable) simplified the hardware assignment to VM.
+1. [Offical Support of Nvidia GeForce GPU Passthrough for Windows Virtual Machine](https://nvidia.custhelp.com/app/answers/detail/a_id/5173)
+1. [Strong Community](https://www.youtube.com/channel/UCZDfnUn74N0WeAPvMqTOrtA)
+
+However, it is not a free software. At the time of writing, the Pro license with unlimited attached storage is USD$129. It was very easy to setup, and I don't find myself taking more time to setup Unraid than installing an OS regularally. 
+
+There are free options available in the market, such as [TrueNAS](https://www.truenas.com/), which are as good as Unraid.
+
+### Network Attached Storage
+
+I have been using Synology NAS for some time, and purchased [DS1819+](https://www.synology.com/en-us/company/news/article/PR_DS1819p) as an upgrade few years ago. I was, still am happy about the product.
+
+For the new machine, I designed it as a place to store completed projects of my partner's [Youtube channel](https://www.youtube.com/c/LilyLamChannel/featured).
+
+> Tip - I am using a LSI-2008 HBA card which support maximum 8 hard drives, and could easily be expanded to 16 hard drives in the future. It is purchased from [Art of Server](https://www.youtube.com/channel/UCKHE9DEep52XlmwLbZUKvyw) and highly recommanded him.
+
+The data is stored in hard drives, and it could be protected up to 2 drives failure ( only 1 at the moment ). Its low frequent access nature means I would not get distracted by hard drive noise.
+
+Unraid has [a feature](https://youtu.be/jgRSr7yBZfs) which further help my situation, by first writing data to a cache drive and moving to hard drive at night.
+
+> Tip - Yes: Cache
+
+### Ubuntu Serever - Docker Service `2-core CPU, 8GB Memory`
+
+Unraid has rich [Community Apps](https://unraid.net/community/apps) support. Some apps are pre-configured docker containers to make the installation and upgrade process very easy.
+
+> Tip - Some of them orginiate from [linuxserver.io](https://www.linuxserver.io/)
+
+There are some experiments which I will do in the future are slightly 
+
+Deploy my home projects, create a separate environment
+give my oppertunity to learn more about service deployment 
+
+### Development Environment `8-core CPU, 32GB Memory, Nvidia 2070` 
+
+There is no performance difference
+
+My main operating system is [Pop!_OS](https://pop.system76.com/)
+
+Can switch between linux and windows quite easily 
+
+Geekbench
+
+
+
+
+
+### 
+
+which I can spin up many pre-configured docker containers 
+
+such as home page, plex
+
+
+
+- Network Attached Storage ( NAS )
+- Docker service
+
+### Virtual Machine
+
+> Tip: 
+
+
 
 * Storage server
     expensive to buy synology DX517 for 10 disk
@@ -15,8 +110,13 @@ categories: Home
     - Pop!OS
 
 
-
+[^1][The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
 THIS Replaced Every PC in my House!
 https://www.youtube.com/watch?v=jvzeZCZluJ0
+
+Unraid 6.9
+https://unraid.net/blog/unraid-os-6-9-2
+
+Docker + Virtualization Management 
 
