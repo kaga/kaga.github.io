@@ -1,0 +1,100 @@
+---
+layout: post
+title: "A NAS, a Server and a PC - Unraid"
+date: 2021-06-19 17:30:00 +1300
+categories: homelab
+---
+
+![Unraid Image](/assets/homelab/unraid.png)
+
+In previous post, I have introduced the hardware aspect of my new build. It is arguably overpowered for a development machine, and one that is not being used daily. However, I am not using it for single purpose, but 3 different machines all roll into 1.
+
+- Network Attached Storage ( NAS )
+- Server
+- Development Machine
+
+In this post we will be exploring the software setup.
+
+- [New Personal Computer]({% post_url home-lab/2021-06-13-New-PC %})
+- [A NAS, a server and a PC - Unraid ( You are here )]({% post_url home-lab/2021-06-13-New-PC %})
+
+## The Experience - "It just works"
+
+![Machine Booting](/assets/homelab/unraid-system-boot.gif)
+
+Booting up a machine is not something anyone would do every day. However, it showed that this is a seamless integration, where the NAS and server parts of the system run behind the scene and completely hidden from user. Apart from taking longer to boot ( 2 minutes ), there are no significant differences between this machine and one with regular installation.
+
+The theme of seamless integration continues with connecting peripherals to the system. Keyboard and mice are connected via built-in USB hub from the monitor, and they are plug and play just like a regular machine would do. Onboard WiFi and Bluetooth connectivity are available in the system as expected and I can connect to wireless headphone without any issues.
+
+Even with 3 hard drives in the system and many applications running in the background. The fan stay quiet and the performance of the development machine is unaffected.
+
+To most people, it is just another regular full tower PC.
+
+## Unraid OS
+
+The whole seamless experience was made possible by [Unraid](https://unraid.net/). It is a light weight linux OS installed on a USB flash drive. It has easy support of building large storage array, built-in docker service and virtual machine ( VM ).
+
+> Tip: Use a new USB flash drive to avoid unexpected failures. A cheap SanDisk USB 3.0 32GB works just fine.
+
+Unraid is not a new product, and the "N Workstations, 1 CPU" concept has been proven and demonstrated many times[^1]. However, there are few key events that happened recently that convinced me to try it in 2021.
+
+1. [Unraid 6.9 Release](https://unraid.net/blog/unraid-6-9-stable)
+2. [Official Support of Nvidia GeForce GPU Passthrough for Windows Virtual Machine](https://nvidia.custhelp.com/app/answers/detail/a_id/5173)
+3. [Strong Community, such as Spanceinvader One](https://www.youtube.com/channel/UCZDfnUn74N0WeAPvMqTOrtA)
+
+Unraid is free to try, so you can make sure the software is compatible with the hardware before purchase. At the time of writing, the Pro license with unlimited attached storage is USD$129. I think it is well worth the investment for getting the most of the machine. If cost is a concern, there are free options available in the market, such as [TrueNAS](https://www.truenas.com/), which apparently a good alternative as well.
+
+As a first time user, the Unraid OS is very easy to setup too, even without prior experience. I found it might be a touch easier for installing OS, because there is no need to prepare a USB installation disk.
+
+### Network Attached Storage
+
+I have been using Synology NAS product for few years now, and purchased a [DS1819+](https://www.synology.com/en-us/company/news/article/PR_DS1819p) as an upgrade few years ago. It was very compact for an 8-Bay NAS solution. However, it was very expensive to expand with more drives.
+
+With this new machine, it will be a place for archiving [completed projects](https://www.youtube.com/c/LilyLamChannel/featured) and documents that does not require frequent access. Its low frequent access nature means hard drives can be spin down most of the time.
+
+> Tip: I am using a LSI-2008 HBA card which support 8 hard drives, and could easily expanded to 16 hard drives in the future. It is purchased from [Art of Server](https://www.youtube.com/channel/UCKHE9DEep52XlmwLbZUKvyw) and I highly recommended him.
+
+Unraid has [a feature](https://youtu.be/jgRSr7yBZfs) which further help my situation, which first writing data to a cache drive and moving to hard drive at scheduled time.
+
+> Tip: `Yes: Cache`
+
+Hard drive fails regularly, so Unraid provided an easy way to build a reliable storage system. It trades off some capacity, but the data is still available when facing 1 ( or 2 ) drive failure.
+
+> Tip: Redundancy is **NOT** a backup
+
+### Docker Service ( Unraid )
+
+![Docker](/assets/homelab/docker.png)
+
+In order to run multiple applications in an environment, separately without a single application affecting the whole system. In the past, the problem was generally solved by either building multiple servers, or building a single powerful machine running multiple virtual machines ( VM ) server.
+
+[Docker](https://www.docker.com/) is an OS-level virtualization technology that provide a much easier solution to this problem. Overheads such as OS are removed, so the hardware is better utilized. Some enthusiastic member, such as [linuxserver.io](https://www.linuxserver.io/), packages popular applications into Docker containers to help adoption.
+
+Unraid has rich [Community Apps](https://unraid.net/community/apps) which runs in Docker, and took a step further to make the installation and upgrade process even easier.
+
+### Docker Service ( Ubuntu Server ) `2-core CPU, 8GB Memory`
+
+I used the built-in docker service from Unraid for "Off the shelf" applications. For some of the more experimental projects, I created an Ubuntu Server VM to separate the environments.
+
+I have allocated 2-core, 4-threads to the virtual server, with its own network IP address, so the general experience would be identical to a standalone server.
+
+The server doesn't have a physical graphics card attached. A virtualized unit was used instead and Unraid provided an easy way to view the output on a browser ( VNC ). Visual Studio Code plugins also allow connecting to the server and start
+
+### Development Environment `8-core CPU, 32GB Memory`
+
+> Note: Some abstractions[^2] do leaky, such as some usb ports reserved by the host system, but it is not too disruptive.
+
+
+This is where most of the performance is allocated.
+
+There is no performance difference
+
+For operating system, I have both Windows and Linux in a separate VM, and I can boot up into different environment very easily[^1]. Because the OS is in a virtual environment, I could add an extra graphics card and have both system running at the same time ( i.e. 8-core CPU, 16GB Memory each )
+
+[^1]: [THIS Replaced Every PC in my House!](https://www.youtube.com/watch?v=jvzeZCZluJ0)
+[^2]: [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+
+Unraid 6.9
+https://unraid.net/blog/unraid-os-6-9-2
+
+Docker + Virtualization Management
