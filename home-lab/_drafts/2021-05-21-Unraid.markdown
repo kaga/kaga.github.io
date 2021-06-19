@@ -24,90 +24,76 @@ However, I am not using it for single purpose, but 3 different machines all roll
 
 Booting up a machine is not something a user would do every day. However, the boot sequence above showed that there are, apart from taking longer to boot ( 2 minutes ), no significant differences between this machine and one with regular installation.
 
-My keyboard and mice are connect via built-in USB hub from the monitor, and they are plug and play just like a regular machine would do. Speaker from the monitor function normally as well.
+Keyboard and mice are connect via built-in USB hub from the monitor, and they are plug and play just like a regular machine would do. Speaker from the monitor function normally as well. Onboard Wifi and Bluetooth connectivity are available in the system as expect and I can connect to wireless headphone without any issue.
 
-Some leaky abstractions[^1] do occur when plugging in devices directly to the computer, but it is not too disruptive. 
+Some leaky abstractions[^1] do occur when plugging in devices directly to some port of the computer, but it is not too disruptive.
 
-There are no difference in the noise level too, and 3 hard drives in the system do not spin up at all. As if it is a mordern machine with no drive installed at all.
+Even with 3 hard drives in the system and many features running in the background. There are no raised in the noise level. To most people, it is a regular full tower PC.
 
 ## Unraid OS
 
-The whole seamless experience was made possible by [Unraid](https://unraid.net/). It is a light weight linux OS installed on a USB flash drive. It has easy support of building large storage array, built-in docker service and a virtualization ( VM ).
+The whole seamless experience was made possible by [Unraid](https://unraid.net/). It is a light weight linux OS installed on a USB flash drive. It has easy support of building large storage array, built-in docker service and a virtualization machine ( VM ).
 
-Unraid is not a new product, and the same use case was demostrated for a very long time[^2]. However, there are few key events that happened that convinced me to try it in 2021. They are
+Unraid is not a new product, and the same use case has been demostrated many times[^2]. However, there are few key events that happened that convinced me to try it in 2021.
 
 1. [Unraid 6.9 Release](https://unraid.net/blog/unraid-6-9-stable) simplified the hardware assignment to VM.
 1. [Offical Support of Nvidia GeForce GPU Passthrough for Windows Virtual Machine](https://nvidia.custhelp.com/app/answers/detail/a_id/5173)
 1. [Strong Community](https://www.youtube.com/channel/UCZDfnUn74N0WeAPvMqTOrtA)
 
-However, it is not a free software. At the time of writing, the Pro license with unlimited attached storage is USD$129. It was very easy to setup, and I don't find myself taking more time to setup Unraid than installing an OS regularally. 
+However, Unraid is not a free software. At the time of writing, the Pro license with unlimited attached storage is USD$129. I think it is well worth the investment for getting the most of the PC. 
 
-There are free options available in the market, such as [TrueNAS](https://www.truenas.com/), which are as good as Unraid.
+It was very easy to setup too. I find myself taking the same time to setup a new machine, even without prior knowledge, than installing an OS regularally. 
+
+Unraid is free to trail, so you can make sure the software is compatiable with your hardware. If cost is a concern, there are free options available in the market, such as [TrueNAS](https://www.truenas.com/), which is good alternatives.
 
 ### Network Attached Storage
 
-I have been using Synology NAS for some time, and purchased [DS1819+](https://www.synology.com/en-us/company/news/article/PR_DS1819p) as an upgrade few years ago. I was, still am happy about the product.
+I have been using Synology NAS for some time, and purchased a [DS1819+](https://www.synology.com/en-us/company/news/article/PR_DS1819p) as an upgrade few years ago. I was very happy about the product. It was very compact for an 8-Bay NAS solution, but very expensive to expand with more drives.
 
-For the new machine, I designed it as a place to store completed projects of my partner's [Youtube channel](https://www.youtube.com/c/LilyLamChannel/featured).
+> Tip - I am using a LSI-2008 HBA card which support 8 hard drives, and could easily expanded to 16 hard drives in the future. It is purchased from [Art of Server](https://www.youtube.com/channel/UCKHE9DEep52XlmwLbZUKvyw) and I highly recommanded him.
 
-> Tip - I am using a LSI-2008 HBA card which support maximum 8 hard drives, and could easily be expanded to 16 hard drives in the future. It is purchased from [Art of Server](https://www.youtube.com/channel/UCKHE9DEep52XlmwLbZUKvyw) and highly recommanded him.
-
-The data is stored in hard drives, and it could be protected up to 2 drives failure ( only 1 at the moment ). Its low frequent access nature means I would not get distracted by hard drive noise.
+For the new machine, I designed it as a place to archive, such as [completed projects](https://www.youtube.com/c/LilyLamChannel/featured) and documents that does not require frequent access. Its low frequent access nature means it can be spin down most of the time and stay quiet.
 
 Unraid has [a feature](https://youtu.be/jgRSr7yBZfs) which further help my situation, by first writing data to a cache drive and moving to hard drive at night.
 
 > Tip - Yes: Cache
 
+Hard drives will fail. Both Unraid ( and Sysnology ) provided a way to easily build a more reliable storage system. With some available capacity trade off, the data is protected when 1 ( or 2 ) drive failure.
+
+> Tip - Redundancy is **NOT** a backup
+
+### Docker Service ( Unraid )
+
+In order to run mulitple applications in an enviornment, separately without each application affecting the other. In the past, the problem was solved by building multilpe servers, or building a single powerfull machine, creating virtualized machines ( VM ) to run those server. 
+
+[Docker](https://www.docker.com/) is a light weight virtualization technology that remove most of the overheads, so the hardware is better utilized. Some enthusiastic member, such as [linuxserver.io](https://www.linuxserver.io/), packages popular applications into Docker containers.
+
+Unraid has rich [Community Apps](https://unraid.net/community/apps) support in Docker, and took a step further to make the installation and upgrade process very easy.
+
+It is very easy to install and run 5 or even 10 Docker applications without stressing the machine.
+
 ### Ubuntu Serever - Docker Service `2-core CPU, 8GB Memory`
 
-Unraid has rich [Community Apps](https://unraid.net/community/apps) support. Some apps are pre-configured docker containers to make the installation and upgrade process very easy.
+I used the built-in docker service from Unraid for "Off the shelf" applications. For some of the more experimental projects, I created an Ubuntu Server VM to seperarte the environments.
 
-> Tip - Some of them orginiate from [linuxserver.io](https://www.linuxserver.io/)
+I have allocated 2-core, 4-threads to the virtual server, with its own network IP address, so the general experience would be identical to a standalone server.
 
-There are some experiments which I will do in the future are slightly 
+The server doesn't have a physical graphics card attached. A virtualized unit was used instead and Unraid provided an easy way to view the output on a browser ( VNC ). Visual Studio Code plugins also allow connecting to the server and start 
 
-Deploy my home projects, create a separate environment
-give my oppertunity to learn more about service deployment 
 
-### Development Environment `8-core CPU, 32GB Memory, Nvidia 2070` 
+### Development Environment `8-core CPU, 32GB Memory` 
 
-There is no performance difference
 
-My main operating system is [Pop!_OS](https://pop.system76.com/)
+This is where most of the performance is allocated. 
 
-Can switch between linux and windows quite easily 
 
-Geekbench
+There is no performance difference 
+
+For operating system, I have both Windows and Linux in a separate VM, and I can boot up into different environment very easily[^1]. Because the OS is in a virtual environment, I could add an extra graphics card and have both system running at the same time ( i.e. 8-core CPU, 16GB Memory each )
 
 
 
 
-
-### 
-
-which I can spin up many pre-configured docker containers 
-
-such as home page, plex
-
-
-
-- Network Attached Storage ( NAS )
-- Docker service
-
-### Virtual Machine
-
-> Tip: 
-
-
-
-* Storage server
-    expensive to buy synology DX517 for 10 disk
-* Docker 
-    Elasticsearch data storage & analyize
-    experiments that outside my dev environment 
-        - Kind of Dev & Prod environment separation  
-* Dev Machine
-    - Pop!OS
 
 
 [^1][The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
