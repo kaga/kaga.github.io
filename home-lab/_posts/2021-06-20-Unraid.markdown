@@ -1,28 +1,28 @@
 ---
 layout: post
 title: "A NAS, a Server and a PC - Unraid"
-date: 2021-06-19 17:30:00 +1300
+date: 2021-06-20 01:00:00 +1300
 categories: homelab
 ---
 
 ![Unraid Image](/assets/homelab/unraid.png)
 
-In previous post, I have introduced the hardware aspect of my new build. It is arguably overpowered for a development machine, and one that is not being used daily. However, I am not using it for single purpose, but 3 different machines all roll into 1.
-
-- Network Attached Storage ( NAS )
-- Server
-- Development Machine
-
-In this post we will be exploring the software setup after 1 month of use.
-
 - [New Personal Computer]({% post_url home-lab/2021-06-13-New-PC %})
 - [A NAS, a server and a PC - Unraid ( You are here )]({% post_url home-lab/2021-06-13-New-PC %})
 
-## The Experience - "It just works"
+In the previous post, I have introduced the hardware aspect of my new build. It is arguably overpowered for a development machine, especially one that is not being used daily. However, I am not using the machine for a single purpose, but 3 different machines all roll into 1.
+
+It is ...
+
+- Network Attached Storage ( NAS );
+- Server; and
+- Development Machine
+
+## The Experience - "It just works!"
 
 ![Machine Booting](/assets/homelab/unraid-system-boot.gif)
 
-Booting up a machine is not something anyone would do every day. However, it showed that this is a seamless integration, where the NAS and server parts of the system run behind the scene and completely hidden from user. Apart from taking longer to boot ( 2 minutes ), there are no significant differences between this machine and one with regular installation.
+Booting up a machine is not something anyone would do every day. However, it showed how the NAS and server parts of the system seamlessly run behind the scene and hidden. Apart from taking longer to boot ( 2 minutes ), there are no significant differences between this machine and one with regular installation.
 
 The theme of seamless integration continues with connecting peripherals to the system. Keyboard and mice are connected via built-in USB hub from the monitor, and they are plug and play just like a regular machine would do. Onboard WiFi and Bluetooth connectivity are available in the system as expected and I can connect to wireless headphone without any issues.
 
@@ -32,11 +32,11 @@ To most people, it is just another regular full tower PC.
 
 ## Unraid OS `2-core CPU`
 
-The whole seamless experience was made possible by [Unraid](https://unraid.net/). It is a light weight linux OS installed on a USB flash drive. It has easy support of building large storage array, built-in docker service and virtual machine ( VM ).
+The whole seamless experience was made possible by [Unraid](https://unraid.net/). It is a light weight linux OS installed on a USB flash drive. It has support of building large storage array, built-in Docker and Virtual Machine ( VM ).
 
 > Tip: Use a new USB flash drive to avoid unexpected failures. A cheap SanDisk USB 3.0 32GB works just fine.
 
-Unraid is not a new product, and the "N Workstations, 1 CPU" concept has been proven and demonstrated many times[^1]. However, there are few key events that happened recently that convinced me to try it in 2021.
+Unraid is not a new product and the "N Workstations, 1 CPU" concept has been proven and demonstrated many times[^1]. However, there are few key events that happened recently that convinced me to try it in 2021.
 
 1. [Unraid 6.9 Release](https://unraid.net/blog/unraid-6-9-stable)
 2. [Official Support of Nvidia GeForce GPU Passthrough for Windows Virtual Machine](https://nvidia.custhelp.com/app/answers/detail/a_id/5173)
@@ -44,21 +44,21 @@ Unraid is not a new product, and the "N Workstations, 1 CPU" concept has been pr
 
 Unraid is free to try, so you can make sure the software is compatible with the hardware before purchase. At the time of writing, the Pro license with unlimited attached storage is USD$129. I think it is well worth the investment for getting the most of the machine. If cost is a concern, there are free options available in the market, such as [TrueNAS](https://www.truenas.com/), which apparently a good alternative as well.
 
-As a first time user, the Unraid OS is very easy to setup too, even without prior experience. I found it might be a touch easier for installing OS, because there is no need to prepare a USB installation disk.
+As a first time Unraid user, the Unraid OS is very easy to setup too. It was a weekend project for me, but I found it might be even a touch easier for installing Windows, because there is no need to prepare a USB installation disk.
 
-### Network Attached Storage
+### Network Attached Storage ( NAS )
 
-I have been using Synology NAS product for few years now, and purchased a [DS1819+](https://www.synology.com/en-us/company/news/article/PR_DS1819p) as an upgrade few years ago. It was very compact for an 8-Bay NAS solution. However, it was very expensive to expand with more drives.
+I have been using Synology NAS product for few years now, and purchased a [DS1819+](https://www.synology.com/en-us/company/news/article/PR_DS1819p) as an upgrade few years ago. Synology DSM is very easy to use, and the device was very compact for an 8-Bay NAS solution. However, it was very expensive to expand with more drives.
 
 With this new machine, it will be a place for archiving [completed projects](https://www.youtube.com/c/LilyLamChannel/featured) and documents that does not require frequent access. Its low frequent access nature means hard drives can be spin down most of the time.
 
 > Tip: I am using a LSI-2008 HBA card which support 8 hard drives, and could easily expanded to 16 hard drives in the future. It is purchased from [Art of Server](https://www.youtube.com/channel/UCKHE9DEep52XlmwLbZUKvyw) and I highly recommended him.
 
-Unraid has [a feature](https://youtu.be/jgRSr7yBZfs) which further help my situation, which first writing data to a cache drive and moving to hard drive at scheduled time.
+Unraid has [a feature](https://youtu.be/jgRSr7yBZfs) which further help my situation, which first writing data to a cache drive and move to hard drive at scheduled time later.
 
 > Tip: `Yes: Cache`
 
-Hard drive fails regularly, so Unraid provided an easy way to build a reliable storage system. It trades off some capacity, but the data is still available when facing 1 ( or 2 ) drive failure.
+Hard drive fails regularly, and Unraid provided an easy way to build a reliable storage system. It trades off some capacity, but the data is still available when facing 1 ( or 2 ) drive failure.
 
 > Tip: Redundancy is **NOT** a backup
 
@@ -66,9 +66,9 @@ Hard drive fails regularly, so Unraid provided an easy way to build a reliable s
 
 ![Docker](/assets/homelab/docker.png)
 
-In order to run multiple applications in an environment, separately without a single application affecting the whole system. In the past, the problem was generally solved by either building multiple servers, or building a single powerful machine running multiple virtual machines ( VM ) server.
+In order to run multiple applications separately in an environment, without a possibility that a single application affecting the whole system. In the past, the problem was generally solved by either building multiple servers, or building a single powerful machine running multiple virtual machines ( VM ) server.
 
-[Docker](https://www.docker.com/) is an OS-level virtualization technology that provide a much easier solution to this problem. Overheads such as OS are removed, so the hardware is better utilized. Some enthusiastic member, such as [linuxserver.io](https://www.linuxserver.io/), packages popular applications into Docker containers to help adoption.
+[Docker](https://www.docker.com/) is an OS-level virtualization technology that provide a much elegant solution to this problem. Overheads are minimized, so the hardware is better utilized. Some enthusiastic member, such as [linuxserver.io](https://www.linuxserver.io/), packages popular applications into Docker containers to help wider adoption.
 
 Unraid has rich [Community Apps](https://unraid.net/community/apps) which runs in Docker, and took a step further to make the installation and upgrade process even easier.
 
@@ -76,11 +76,11 @@ Unraid has rich [Community Apps](https://unraid.net/community/apps) which runs i
 
 ![Ubuntu server](/assets/homelab/ubuntu-server.jpeg)
 
-For "off the shelf" applications, such as [Heimdall dashboard](https://heimdall.site/), the built-in Unraid docker service was used because of its ease of use. For the experimental projects, I created an Ubuntu Server VM instead so I can fail safely without crashing the host OS.
+For "off the shelf" applications, such as [Heimdall dashboard](https://heimdall.site/), the embedded Unraid Docker instance was used because of its ease of use. For experimental projects, I created an Ubuntu Server VM instead so I can fail safely without crashing the host OS.
 
-> Tip: The docker instances in Ubuntu and Unraid can be managed together with tools such as [Portainer](https://www.portainer.io/).
+> Tip: The Docker instances in Ubuntu and Unraid can be managed together with tools such as [Portainer](https://www.portainer.io/).
 
-The server was allocated with its own 2-core ( 4-threads ) CPU and separate network IP address, so the general experience would be identical to a standalone server. A virtualized (VNC) graphics card was used. The server can be accessed from a browser, or a SSH client can be used to control the machine. Such as Visual Studio Code for ["Remote development"](https://code.visualstudio.com/docs/remote/ssh).
+The server was allocated with its own 2-core ( 4-threads ) CPU and a separate network IP address, so the general experience would be identical to a standalone physical server. A virtualized (VNC) graphics card was used. The server's display output can be accessed from a browser, or a SSH client can be used to control the machine. Such as Visual Studio Code for ["Remote development"](https://code.visualstudio.com/docs/remote/ssh).
 
 > Tip: If you are also using Dvorak keyboard layout. Configure normal QWERTY layout in the VM to avoid double remap.
 
@@ -95,12 +95,18 @@ Last but not least, it is the development virtual machine.
 
 In my option, this is also the place where the word "virtual" start to become philosophical. In the past, virtual machine usually perform poorly on consumer hardware because it could not access the hardware directly, like native OS would. Fortunately, there has been significant advancement in passing not only CPU, but also peripheral devices, such as GPU, NVMe SSD and USB controllers, to the virtual machine. Everything "just works".
 
-For the initial test, I have pass-through my existing Linux installation on a NVMe SSD, and the system booted perfectly.
+> Note: For the initial test, I have pass-through my existing Linux installation on a NVMe SSD, and the system booted perfectly.
 
 There are some leaky abstractions[^2] though, where some usb ports cannot pass-through because one of the port being used by Unraid. Thankfully,  
 [an Unraid community plugin ( LIBVIRT HOT PLUGIN USB )](https://forums.unraid.net/topic/70001-libvirt-hot-plugin-usb-usb-hot-plugin-for-vms/?tab=comments#comment-640678) make it so that, only an additional step is needed after plugging in the USB device.
 
-For the choice of operating system, I have both Windows and Linux in a separate VM. I can switch between different OS easily. Because the OS is in a virtual environment, I could add an extra graphics card and have both system running at the same time ( i.e. 4-core CPU, 16GB Memory each ). Alternatively, I could spin up 4 instances of mini Ubuntu Server ( 1-core CPU, 8GB Memory ) for learning [Kubernetes](https://kubernetes.io/).
+For the choice of operating systems, I have both Windows and Linux VMs installed, and I can switch between them easily. Because the OS is in a virtual environment, I could add an extra graphics card and have both system running at the same time ( i.e. 4-core CPU, 16GB Memory each ). Alternatively, I could spin up 4 instances of mini Ubuntu Server ( 1-core CPU, 8GB Memory ) for learning [Kubernetes](https://kubernetes.io/).
+
+## Conclusion
+
+This is my 1st month of using Unraid, and I cannot wait to discover more possibilities in the future.
+
+Modern hardware is getting so powerful today that it seems wasteful to just have the machine running a single OS. The software is also mature enough that it is very easy to setup too. I definitely recommend to consider using Unraid or similar system for software development.
 
 ## Reference
 
@@ -119,6 +125,9 @@ For the choice of operating system, I have both Windows and Linux in a separate 
 - [Libvert Hotplug USB](https://forums.unraid.net/topic/70001-libvirt-hot-plugin-usb-usb-hot-plugin-for-vms/?tab=comments#comment-640678)
 - [Preclear Disks](http://lime-technology.com/forum/index.php?topic=39985.0)
 - [Unassigned Devices](https://forums.unraid.net/topic/92462-unassigned-devices-managing-disk-drives-and-remote-shares-outside-of-the-unraid-array/)
+
+- [Art of Server](https://www.youtube.com/channel/UCKHE9DEep52XlmwLbZUKvyw)
+- [We made the perfect couples PC - Linus Tech Tips](https://www.youtube.com/watch?v=-Mgnwn4twZE)
 
 [^1]: [THIS Replaced Every PC in my House!](https://www.youtube.com/watch?v=jvzeZCZluJ0)
 [^2]: [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
