@@ -74,7 +74,9 @@ Unraid has rich [Community Apps](https://unraid.net/community/apps) which runs i
 
 ### Docker Service ( Ubuntu Server ) `2-core CPU, 8GB Memory`
 
-I used the built-in docker service from Unraid for "Off the shelf" applications. For some of the more experimental projects, I created an Ubuntu Server VM to separate the environments.
+![Ubuntu server](/assets/homelab/ubuntu-server.jpeg)
+
+I used the built-in Unraid docker service for "off the shelf" applications, such as [Heimdall dashboard](https://heimdall.site/). For the more experimental projects, I created an Ubuntu Server VM to separate the environments.
 
 I have allocated 2-core, 4-threads to the virtual server, with its own network IP address, so the general experience would be identical to a standalone server.
 
