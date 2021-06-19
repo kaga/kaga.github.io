@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "A NAS, a server and a PC - Unraid"
-date:   2021-06-15 00:00:00 +1300
+title: "A NAS, a server and a PC - Unraid"
+date: 2021-06-15 00:00:00 +1300
 categories: homelab
 ---
 
-![Unraid Image]()
+![Unraid Image](/assets/homelab/unraid.png)
 
 - [New Personal Computer]({% post_url home-lab/2021-06-13-New-PC %})
 - [A NAS, a server and a PC - Unraid ( You are here )]({% post_url home-lab/2021-06-13-New-PC %})
 
-In the previous post, I have introduced the hardware aspect of my new build. It is arguably overpowered for a development machine, let alone one that is not being used daily. 
+In the previous post, I have introduced the hardware aspect of my new build. It is arguably overpowered for a development machine, let alone one that is not being used daily.
 
 However, I am not using it for single purpose, but 3 different machines all roll into 1.
 
@@ -18,9 +18,9 @@ However, I am not using it for single purpose, but 3 different machines all roll
 - Server
 - Development Machine
 
-## The Experience 
+## The Experience
 
-![Booting Machine]()
+![Booting Machine](/assets/homelab/unraid-system-boot.gif)
 
 Booting up a machine is not something a user would do every day. However, the boot sequence above showed that there are, apart from taking longer to boot ( 2 minutes ), no significant differences between this machine and one with regular installation.
 
@@ -40,9 +40,9 @@ Unraid is not a new product, and the same use case has been demostrated many tim
 1. [Offical Support of Nvidia GeForce GPU Passthrough for Windows Virtual Machine](https://nvidia.custhelp.com/app/answers/detail/a_id/5173)
 1. [Strong Community](https://www.youtube.com/channel/UCZDfnUn74N0WeAPvMqTOrtA)
 
-However, Unraid is not a free software. At the time of writing, the Pro license with unlimited attached storage is USD$129. I think it is well worth the investment for getting the most of the PC. 
+However, Unraid is not a free software. At the time of writing, the Pro license with unlimited attached storage is USD$129. I think it is well worth the investment for getting the most of the PC.
 
-It was very easy to setup too. I find myself taking the same time to setup a new machine, even without prior knowledge, than installing an OS regularally. 
+It was very easy to setup too. I find myself taking the same time to setup a new machine, even without prior knowledge, than installing an OS regularally.
 
 Unraid is free to trail, so you can make sure the software is compatiable with your hardware. If cost is a concern, there are free options available in the market, such as [TrueNAS](https://www.truenas.com/), which is good alternatives.
 
@@ -64,7 +64,7 @@ Hard drives will fail. Both Unraid ( and Sysnology ) provided a way to easily bu
 
 ### Docker Service ( Unraid )
 
-In order to run mulitple applications in an enviornment, separately without each application affecting the other. In the past, the problem was solved by building multilpe servers, or building a single powerfull machine, creating virtualized machines ( VM ) to run those server. 
+In order to run mulitple applications in an enviornment, separately without each application affecting the other. In the past, the problem was solved by building multilpe servers, or building a single powerfull machine, creating virtualized machines ( VM ) to run those server.
 
 [Docker](https://www.docker.com/) is a light weight virtualization technology that remove most of the overheads, so the hardware is better utilized. Some enthusiastic member, such as [linuxserver.io](https://www.linuxserver.io/), packages popular applications into Docker containers.
 
@@ -78,23 +78,15 @@ I used the built-in docker service from Unraid for "Off the shelf" applications.
 
 I have allocated 2-core, 4-threads to the virtual server, with its own network IP address, so the general experience would be identical to a standalone server.
 
-The server doesn't have a physical graphics card attached. A virtualized unit was used instead and Unraid provided an easy way to view the output on a browser ( VNC ). Visual Studio Code plugins also allow connecting to the server and start 
+The server doesn't have a physical graphics card attached. A virtualized unit was used instead and Unraid provided an easy way to view the output on a browser ( VNC ). Visual Studio Code plugins also allow connecting to the server and start
 
+### Development Environment `8-core CPU, 32GB Memory`
 
-### Development Environment `8-core CPU, 32GB Memory` 
+This is where most of the performance is allocated.
 
-
-This is where most of the performance is allocated. 
-
-
-There is no performance difference 
+There is no performance difference
 
 For operating system, I have both Windows and Linux in a separate VM, and I can boot up into different environment very easily[^1]. Because the OS is in a virtual environment, I could add an extra graphics card and have both system running at the same time ( i.e. 8-core CPU, 16GB Memory each )
-
-
-
-
-
 
 [^1][The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
@@ -104,5 +96,4 @@ https://www.youtube.com/watch?v=jvzeZCZluJ0
 Unraid 6.9
 https://unraid.net/blog/unraid-os-6-9-2
 
-Docker + Virtualization Management 
-
+Docker + Virtualization Management
