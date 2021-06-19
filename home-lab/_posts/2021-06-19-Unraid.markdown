@@ -13,7 +13,7 @@ In previous post, I have introduced the hardware aspect of my new build. It is a
 - Server
 - Development Machine
 
-In this post we will be exploring the software setup.
+In this post we will be exploring the software setup after 1 month of use.
 
 - [New Personal Computer]({% post_url home-lab/2021-06-13-New-PC %})
 - [A NAS, a server and a PC - Unraid ( You are here )]({% post_url home-lab/2021-06-13-New-PC %})
@@ -30,7 +30,7 @@ Even with 3 hard drives in the system and many applications running in the backg
 
 To most people, it is just another regular full tower PC.
 
-## Unraid OS
+## Unraid OS `2-core CPU`
 
 The whole seamless experience was made possible by [Unraid](https://unraid.net/). It is a light weight linux OS installed on a USB flash drive. It has easy support of building large storage array, built-in docker service and virtual machine ( VM ).
 
@@ -76,27 +76,49 @@ Unraid has rich [Community Apps](https://unraid.net/community/apps) which runs i
 
 ![Ubuntu server](/assets/homelab/ubuntu-server.jpeg)
 
-I used the built-in Unraid docker service for "off the shelf" applications, such as [Heimdall dashboard](https://heimdall.site/). For the more experimental projects, I created an Ubuntu Server VM to separate the environments.
+For "off the shelf" applications, such as [Heimdall dashboard](https://heimdall.site/), the built-in Unraid docker service was used because of its ease of use. For the experimental projects, I created an Ubuntu Server VM instead so I can fail safely without crashing the host OS.
 
-I have allocated 2-core, 4-threads to the virtual server, with its own network IP address, so the general experience would be identical to a standalone server.
+> Tip: The docker instances in Ubuntu and Unraid can be managed together with tools such as [Portainer](https://www.portainer.io/).
 
-The server doesn't have a physical graphics card attached. A virtualized unit was used instead and Unraid provided an easy way to view the output on a browser ( VNC ). Visual Studio Code plugins also allow connecting to the server and start
+The server was allocated with its own 2-core ( 4-threads ) CPU and separate network IP address, so the general experience would be identical to a standalone server. A virtualized (VNC) graphics card was used. The server can be accessed from a browser, or a SSH client can be used to control the machine. Such as Visual Studio Code for ["Remote development"](https://code.visualstudio.com/docs/remote/ssh).
 
-### Development Environment `8-core CPU, 32GB Memory`
+> Tip: If you are also using Dvorak keyboard layout. Configure normal QWERTY layout in the VM to avoid double remap.
 
-> Note: Some abstractions[^2] do leaky, such as some usb ports reserved by the host system, but it is not too disruptive.
+### Development Machine `8-core CPU, 32GB Memory`
 
+![Dev Windows](/assets/homelab/geekbench5-8core.PNG)
 
-This is where most of the performance is allocated.
+> Tip: [Follow this guide to get the GPU vBios](https://www.youtube.com/watch?v=FWn6OCWl63o).
+> If you cannot start a VM after restart, [have a look at this script](https://gist.github.com/kaga/fdf5129d554474638ad24d532222172d) too.
 
-There is no performance difference
+Last but not least, it is the development virtual machine.
 
-For operating system, I have both Windows and Linux in a separate VM, and I can boot up into different environment very easily[^1]. Because the OS is in a virtual environment, I could add an extra graphics card and have both system running at the same time ( i.e. 8-core CPU, 16GB Memory each )
+In my option, this is also the place where the word "virtual" start to become philosophical. In the past, virtual machine usually perform poorly on consumer hardware because it could not access the hardware directly, like native OS would. Fortunately, there has been significant advancement in passing not only CPU, but also peripheral devices, such as GPU, NVMe SSD and USB controllers, to the virtual machine. Everything "just works".
+
+For the initial test, I have pass-through my existing Linux installation on a NVMe SSD, and the system booted perfectly.
+
+There are some leaky abstractions[^2] though, where some usb ports cannot pass-through because one of the port being used by Unraid. Thankfully,  
+[an Unraid community plugin ( LIBVIRT HOT PLUGIN USB )](https://forums.unraid.net/topic/70001-libvirt-hot-plugin-usb-usb-hot-plugin-for-vms/?tab=comments#comment-640678) make it so that, only an additional step is needed after plugging in the USB device.
+
+For the choice of operating system, I have both Windows and Linux in a separate VM. I can switch between different OS easily. Because the OS is in a virtual environment, I could add an extra graphics card and have both system running at the same time ( i.e. 4-core CPU, 16GB Memory each ). Alternatively, I could spin up 4 instances of mini Ubuntu Server ( 1-core CPU, 8GB Memory ) for learning [Kubernetes](https://kubernetes.io/).
+
+## Reference
+
+### Spaceinvader One YouTube Tutorials
+
+- [Unraid 6.9 - Install & Setup a New Server or Upgrade an Existing One](https://youtu.be/CcRwT7iHIcc)
+- [All about Using Multiple Cache Pools and Shares in Unraid 6.9](https://youtu.be/jgRSr7yBZfs)
+- [How to Easily Dump the vBios from any GPU for Passthrough](https://youtu.be/FWn6OCWl63o)
+- [Dump GPU vBIOS Github](https://github.com/SpaceinvaderOne/Dump_GPU_vBIOS)
+
+### List of Recommended Unraid Plugins
+
+- [Community Applications](https://lime-technology.com/forums/topic/38582-plug-in-community-applications/)
+- [User Scripts](http://lime-technology.com/forum/index.php?topic=49992.0)
+- [CA Mover Tuning](https://lime-technology.com/forums/topic/70783-plugin-mover-tuning/)
+- [Libvert Hotplug USB](https://forums.unraid.net/topic/70001-libvirt-hot-plugin-usb-usb-hot-plugin-for-vms/?tab=comments#comment-640678)
+- [Preclear Disks](http://lime-technology.com/forum/index.php?topic=39985.0)
+- [Unassigned Devices](https://forums.unraid.net/topic/92462-unassigned-devices-managing-disk-drives-and-remote-shares-outside-of-the-unraid-array/)
 
 [^1]: [THIS Replaced Every PC in my House!](https://www.youtube.com/watch?v=jvzeZCZluJ0)
 [^2]: [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
-
-Unraid 6.9
-https://unraid.net/blog/unraid-os-6-9-2
-
-Docker + Virtualization Management
