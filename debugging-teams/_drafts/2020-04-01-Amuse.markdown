@@ -1,6 +1,82 @@
-Amusing  Ourselves to Death and thoughts on Development 
+---
+layout: post
+title: "Team Communication"
+date: 2021-06-20 22:01:00 +1300
+categories: debugging-teams
+tags: read
+---
+
+![Amusing Ourselves to Death]()
+
+## Medium - Life / Culture
+
+- Books
+- News Paper
+- TV
+- Instagram and Youtube 
+
+- shorter attention span
+- take the statement at face value, or
+
+## Medium - Work
+
+- emails
+- group chats ( slack, msteam )
+- jira
+- confluence
+	- adobe XD
+- bitbucket ( Pull Request ) 
+
+Why we have communication problem ?
+
+I don't see us not using writing as a main medium an
+
+## Acknowledging our life affect our work
+
+> Can serious national issues really be explored in any coherent, meaningful way in such a fragmented, attention-challenged environment?
 
 
+
+### Be mindful about people don't read / write
+
+Deliberate, to grab attention 
+Slow down the 
+
+### Agile manifecto is great
+- Prefer working software over documentation 
+
+### 3 bullets and call to action
+
+New Feature / Improvments  / Bug report 
+
+### Meetings
+
+Agenda 
+Small team 
+
+
+
+
+
+
+## Agile seen as a way to elimate all documentation 
+
+- Prefer working
+
+## Bridge the gap
+
+## Communication 
+
+
+Interactive UX Prototype 
+
+Setting expectation 
+
+
+
+
+
+Amusing Ourselves to Death and thoughts on Development 
 
 This book was written by Neil Postman back in 1985. This is not a review or summary of it but some thoughts on how it is related to software development.
 
@@ -14,13 +90,13 @@ Good vs evil
 
 Agile 是影響文化或只是反映文化？
 
-Can serious national issues really be explored in any coherent, meaningful way in such a fragmented, attention-challenged environment?
+
 
 The Medium is the Metaphor and Software Requirement 
 
 1. Shared Drive MS Doc 
 2. Pure UX Design 
-3. Interactive UX Prototype 
+3. 
 4. Overview Document in Confluence 
 
 Scroll through Facebook & Twitter 
@@ -47,8 +123,6 @@ Email
 促成行動
 Company email
 Scheduled change, p1 email
-
-
 
 Slack / ms team / Skype 
 Jira 
