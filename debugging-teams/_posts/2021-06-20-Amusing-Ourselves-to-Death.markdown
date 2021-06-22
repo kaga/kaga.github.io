@@ -8,7 +8,7 @@ tags: book
 
 ![Amusing Ourselves to Death](/assets/book/amusing-ourselves-to-death.jpg)
 
-Software development involves a lot of reading and writing. In order to write a program, one must read the API documentation, sample code and more, before a single line of code is written. To be a good developer, one must write readable code that at least the future self could understand[^1].
+Software development involves a lot of reading and writing. In order to write a program, one must read the API documentation, sample code and more, before a single line of code is written. To be a good software developer, one must write readable code that at least the future self could understand[^1].
 
 Similar to [GOTO Book Club](https://www.youtube.com/playlist?list=PLEx5khR4g7PJbSLmADahf0LOpTLifiCra), I will be discussing different areas of software development which inspired by a book. However, this is not a book review but hopefully spark your interest to join this book club.
 
@@ -19,74 +19,67 @@ Similar to [GOTO Book Club](https://www.youtube.com/playlist?list=PLEx5khR4g7PJb
 
 ## Receiving Information Everyday
 
-The world that we are living in, is a very different world compared to 1980s, which was also very different than the world in 1850s. Books, Telegram, Newspaper and TV were the main source of information for most people. Today, it is Facebook, Instagram, YouTube and the like.
+> By itself, a photograph cannot deal with the unseen, the remote, the internal, the abstract. It does not speak of "man," only of a man; not of "tree," only of a tree. You cannot produce a photograph of "nature," any more than a photograph of "the sea."
 
-However, the modern day medium is not equivalent to the medium of yesteryear.  An Instagram post is mostly imagery, and there is very little description to understand the context better. Besides, most people do not read the description at all. Most people just keep scrolling.
+The world that we are living in, is a very different world compared to 1980s, which was again very different world than the world in 1850s. Books, telegraphy, newspaper and TV were the main source of information for most people. Today, it is Facebook, Instagram, YouTube and the like.
 
-> What was the last time you pause and read an lengthy social media post ?
+However, the modern day medium is not equivalent to the medium of yesteryear. News delivered through Facebook, usually just the headline, does not delivered the same way on newspaper. An Instagram post is mostly imagery, and there is very little description to better understand the context.
+
+Besides, most people do not read the description at all. Most people just keep scrolling. What was the last time you read an article ?
 
 ## Receiving Information at Work
 
-Surprisingly, software development teams in the modern days still heavily rely on reading and writing. Most company still use email to "get things done" and instant messaging to discuss matter privately.
+On the other hand, companies still use email and instant messaging to get things done.
 
-There are issue tracking systems ( i.e. Jira ), which help the product team to record bugs to fix or feature to implement. There are Wikis ( i.e. Confluence ) to record architecture decisions and support note. For software development specific workflows. Pull request is mostly reading the code and the comments made by the developer.
+There are issue tracking systems ( e.g. Jira ), which help the team to record issues to fix or feature to implement. There are Wikis ( e.g. Confluence ) to record architecture decisions and support note. There are development platforms ( e.g. Github ) to code collaboratively on a project that is 100,000s if not million lines of code.
 
-All of the activities above involve a lot of reading and writing. Majority of those reading are not code either. There are a lot things has changed in the software industry, but this culture of reading and writing still remains.
+There are a lot of reading and writing, and majority of those are not code either. There are a lot things has changed in the software industry, but this "typographic minds" remains.
 
-There is such a huge contrast on the use of medium between work place and life. It is not hard to imagine that habits from the personal life presents at work. It is far too common to see someone scroll up and down a page, trying to search for certain keywords and jump to conclusion immediately.
+However, there is such a huge contrast on the use of medium between work place and life. It is not hard to imagine that habits from one place presents at the other. It is far too common to see someone scroll up and down a page, trying to search for certain keywords and jump to conclusion immediately.
 
 ## ~~The Solution~~
 
 > Can serious national issues really be explored in any coherent, meaningful way in such a fragmented, attention-challenged environment?
 
-I do not have a solution, but I am certain there is No Silver Bullet[^1]. However, there are few things that I thought [**Manifesto for Agile Software Development**](https://agilemanifesto.org/) was heading to the right direction. Heck, the document itself is the perfect example.
+I do not claim to have a solution, but I am certain there is **No Silver Bullet**[^2].
 
-### Individuals and interactions  
+However, I thought [**Manifesto for Agile Software Development**](https://agilemanifesto.org/) was heading to the right direction.
 
-It is very good have good paper trail for a conversion. 
-Sometimes a problem could be solved by having a face to face conversation 
+### **Individuals and Interactions** Over Processes and Tools
 
-Meetings, Having an agenda
+Sometimes a lot problems or misunderstanding could simply go away by simply having a conversation.
 
-There is an even greater challenges for working from home 
+For example, issues with a software discovered by QA engineers can be faster and easier to identify by involving the development team earlier.
 
-### Working Software Over Comprehensive Documentation
+A lot of time needed to write a description of the issue. It is even harder and more time required to write a good one that can ensure every parties involved, such as the product owner, project manager and engineers, share the same understanding. If the issue only get exposure from the issue tracking system hours after first discovery, it is already too late.
 
-Similar to skunk works[^2]
+Having said that, it is very good have paper trail for the conversation took place. A summary of the conversation could be posted instead in the issue tracking system.
 
-good software should help the user understand the world.
+### **Working software** Over Comprehensive Documentation
 
-This kind of easy-to-use should reduce the need for certain documentation. 
+> - A very simple drawing and drawing release system with great flexibility for making changes must be provided.
+> - There must be a minimum number of reports required, but important work must be recorded thoroughly.
+>
+> [Kelly's 14 Rules & Practices](https://www.lockheedmartin.com/en-us/who-we-are/business-areas/aeronautics/skunkworks/kelly-14-rules.html)
 
-At the same time,  
+It might not seems obvious at first. The focus on working software over comprehensive documentation lead to a better designed software, as it should be ease-to-use help the user understand the world.
 
-It seems counter-intuitive 
+However, it is not saying abundant all form of documentation altogether. On the contrary, the design of the software, and any major decisions should be documented. It must be every carefully, thoughtfully written and kept up-to-date as well.
 
-even more effort should be put into producing concise documentation
+Different style could be used depending on target audience too. When things do not work as expected, the report should be written in a way to maximize the [Information-action ratio](https://en.wikipedia.org/wiki/Information%E2%80%93action_ratio), and using [*Three Bullets and a Call to Action*](https://therealfitz.medium.com/how-to-ask-a-busy-executive-for-anything-e40291ebf066) as a template.
 
-Deliberate, to grab attention
-
-looking for solutions immediately 
-
-Requirement
-
-Not building up the arguments
-
-When things do not work as expect, the bug report should be written in a way to maximize the [Information-action ratio](https://en.wikipedia.org/wiki/Information%E2%80%93action_ratio)
-
-3 bullets and call to action
-
-
-## Conclusion
+### **Customer Collaboration** Over Contract Negotiation
 
 > A technology, in other words, is merely a machine. A medium is the social and intellectual environment a machine creates.
 
-Pull Request
+prototype 
 
+risk of entertaining 
 Resist the temptation to turn an environment for work and learning into entertainment.
 
 
 ## Reference
 
-[^1]:[Any fool can write code that a computer can understand. Good programmers write code that humans can understand. - Martin Fowler](https://en.wikiquote.org/wiki/Martin_Fowler)
-[^2]:[The Original Skunk Works – Nickolas Means](https://youtu.be/pL3Yzjk5R4M)
+[^1]: [Any fool can write code that a computer can understand. Good programmers write code that humans can understand. - Martin Fowler](https://en.wikiquote.org/wiki/Martin_Fowler)
+
+[The Original Skunk Works – Nickolas Means](https://youtu.be/pL3Yzjk5R4M)
