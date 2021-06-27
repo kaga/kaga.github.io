@@ -81,7 +81,7 @@ A piece of software could be legally bound by a contract to ensure mission criti
 
 > A very simple drawing and drawing release system with great flexibility for making changes must be provided. - Kelly's 14 Rules & Practices[^4]
 
-In the modern day software development, there are times everything has to stop and turn focus on addressing the immediate security threats or customer problems. In those times, it is more apparent the need to clearly communicate the change of directions and status update.
+In the modern day software development, there are times everything has to stop and turn focus on addressing the immediate security threats or customer problems. In those times, it is more apparent the need to clearly communicate the change of directions. The development team also needs to structure[^5] the source code and program so that such rapid change of direction is possible.
 
 ## Conclusion
 
@@ -95,6 +95,7 @@ This is also going to be a fun experiment for myself, to see if this few minutes
 [^2]: [No Silver Bullet](https://en.wikipedia.org/wiki/No_Silver_Bullet)
 [^3]: [Manifesto for Agile Software Development](https://agilemanifesto.org/)
 [^4]: [Kelly's 14 Rules & Practices](https://www.lockheedmartin.com/en-us/who-we-are/business-areas/aeronautics/skunkworks/kelly-14-rules.html)
+[^5]: [Trunk Based Development](https://trunkbaseddevelopment.com/)
 
 - [The Original Skunk Works – Nickolas Means](https://youtu.be/pL3Yzjk5R4M)
 - [The Surrender of Culture to Technology - Neil Postman](https://www.youtube.com/watch?v=hlrv7DIHllE)
