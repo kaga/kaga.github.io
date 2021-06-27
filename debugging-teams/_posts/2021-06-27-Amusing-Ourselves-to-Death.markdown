@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Amusing Ourselves to Death with... Documentation"
-date: 2021-06-20 18:01:00 +1300
+title: "Amusing Ourselves to Death with ...... Documentation"
+date: 2021-06-27 23:00:00 +1300
 categories: debugging-teams
 tags: book
 ---
