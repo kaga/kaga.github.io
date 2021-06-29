@@ -8,61 +8,45 @@ tags: team
 
 ![Debugging-teams](/assets/book/debugging-teams.jpg)
 
+
+
 > No man is an island entire of itself;
 > every man is a piece of the continent, a part of the main;
 > if a clod be washed away by the sea, Europe is the less, as well as if a promontory were, as well as any manner of thy friends or of thine own were;
 > any man's death diminishes me, because I am involved in mankind.
 > And therefore never send to know for whom the bell tolls; it tolls for thee. - John Donne
 
-Goal - Read the book 
 
 
-What is your kind of work place?
-- 8 hours day
-- 
-- Get mentorship from senior member
-- No Insecurity, Collaboration
+## One is The Loneliest Number
 
 
+## Build a Supertstar Team, ~Not Team of Superstars~ 
 
-A team lead - build such team
-- everyone needs to buy-in
-in-group / spread to out-group
-    immediate teams
-- Set goals, give purpose
+Software development is a creative process
 
-The purpose of building software
-- Involve user 
-    - Pick up the phone
+Software development is a team sport
 
+everyone
+include Product Owner, Engineering Manager 
 
+You will soon be amazed 
 
-Culture
-    - 
+**H**umility **R**espect **T**rust - The Three Pillars
 
+2 of 3 are bad
 
-It is very easy to get into a state of grumpyness
+Insecurity
 
-- No listening on 1st 2nd 3rd time
-- Applicable to yourself, team member and users
+Takes a long time to build
 
-This is more "Technical"
+Need emotionally invested
 
-Focusing on building Teams Culture,
+## Effective
 
-- Affect how enjoyable at your work
-- Choosing a workplace with good culture is more important
-
-How to be a Team lead
-How to deal with outside team - corporate , inner fight, insecure
-
-Sometimes it is okay to give up
-too much insecurity
-
-----
-
-
-
+- Standup ( don't be a cult )
+- 3 point to actions
+- Meetings
 
 ---
 
