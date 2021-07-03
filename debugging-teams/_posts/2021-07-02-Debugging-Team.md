@@ -25,7 +25,7 @@ Developing a piece software is very much a creative process. Some programs are i
 
 There are techniques to come up with solutions to a problem. There are [pair programming](https://en.wikipedia.org/wiki/Pair_programming) but sometimes I just leave it in back of my mind, the brain will surprise me with a solution the next day.
 
-On top of all that, the developer has to write the software for easy to read and understand as well. Once a particular part of a software is written, the developers will spent most of their time reading and understanding the source code, and only small portion of the time modifying it.
+On top of all that, the developer has to write the software for easy to read and understand as well. Once a particular part of a software is written, the developers will spent most of their time reading and understanding the source code, and only small portion of the time modifying it[^1].
 
 Software development is so much of a creative activities, that in my opinion, it should be regarded the same as any craftsmanship, just like hand built supercar in the automotive industry. The developer has pride in crafting the most elegant solution.
 
@@ -35,7 +35,7 @@ Software development is so much of a creative activities, that in my opinion, it
 
 For simple program, it is possible for a single developer to come up with an idea and write the software.
 
-However, there is only so much a single person can do, especially when the software is a product, which involves much greater complexity[^1]. Besides developers, there are tech lead, product owner, testers, engineering manager and marketing in a team.
+However, there is only so much a single person can do, especially when the software is a product, which involves much greater complexity[^2]. Besides developers, there are tech lead, product owner, testers, engineering manager and marketing in a team.
 
 > Bus factor (noun): the number of people that need to get hit by a bus before your project is completely doomed.
 
@@ -81,4 +81,5 @@ protect your team from all the storm
 - [2011 - Programming Well with Others: Social Skills for Geeks](https://youtu.be/q-7l8cnpI4k)
 - [2012 - The Art of Organizational Manipulation](https://youtu.be/OTCuYzAw31Y)
 
-[^1]: [Software as a Product](https://en.wikipedia.org/wiki/Software_as_a_Product)
+[^1]: [Learn to read the source luke](https://blog.codinghorror.com/learn-to-read-the-source-luke/)
+[^2]: [Software as a Product](https://en.wikipedia.org/wiki/Software_as_a_Product)
