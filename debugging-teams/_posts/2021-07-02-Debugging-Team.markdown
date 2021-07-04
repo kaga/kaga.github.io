@@ -14,10 +14,12 @@ tags: team
 > any man's death diminishes me, because I am involved in mankind.
 > And therefore never send to know for whom the bell tolls; it tolls for thee. - John Donne
 
-- [Amusing Ourselves to Death with Documentation](% post_url debugging-teams/2021-06-20-Amusing-Ourselves-to-Death %)
-- [Debugging Teams with Humility, Respect and Trust (You are here)](% post_url debugging-teams/2021-07-02-Debugging-Team.md %)
+- [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
+- [Debugging Teams with Humility, Respect and Trust  ( You are here )]({% post_url debugging-teams/2021-07-02-Debugging-Team %})
 - The Manager’s Path
 - The Mythical Man-Month
+
+
 
 ## Software Development is a Creative Process
 
@@ -33,9 +35,9 @@ Software development is so much of a creative activities, that in my opinion, it
 
 > Writing software is a team sport, and we posit that the human factors involved have as much influence on the outcome as the technical factors.
 
-For simple program, it is possible for a single developer to come up with an idea and write the software. However, there is only so much a single person can do, especially when the software is being sold as a product, which involves much greater complexity[^2]. 
+For simple program, it is possible for a single developer to come up with an idea and write the software. However, there is only so much a single person can do, especially when the software is being sold as a product, which involves much greater complexity[^2].
 
-For building software as a commerical product, besides developers, there are additional personal in the project that, do different jobs than writing code, but are equaly important. Such as tech lead, product owner, testers, engineering manager and marketing. 
+For building software as a commerical product, besides developers, there are additional personal in the project that, do different jobs than writing code, but are equaly important. Such as tech lead, product owner, testers, engineering manager and marketing.
 
 ### Bus Factor (noun)
 
@@ -43,12 +45,11 @@ For building software as a commerical product, besides developers, there are add
 
 Everyone in the team do different tasks so that developers can focus on writing great code. When the team get bigger and get more developers, work could be devided by each working on specific areas of the product.
 
-However, it is obvious to everyone it will be a major problem when there is only 1 developer holding a specific knowledge about the product. The bus factor in this case would be 1. The developer might not literally hit by a bus, but she could be taking personal time off, or decided to retired altogether. 
+However, it is obvious to everyone it will be a major problem when there is only 1 developer holding a specific knowledge about the product. The bus factor in this case would be 1. The developer might not literally hit by a bus, but she could be taking personal time off, or decided to retired altogether.
 
-It is very obvious as well to alleviate this situation by training one or more developers up to share the responsiblitiy. 
+It is very obvious as well to alleviate this situation by training one or more developers up to share the responsiblitiy.
 
-
-However, it is also possible that a large project failed because it was the marketing guy that hit by the bus. 
+However, it is also possible that a large project failed because it was the marketing guy that hit by the bus.
 
 ### Build Superstar Team, ~~Not Team of Superstars~~
 
@@ -68,7 +69,7 @@ Micro manage
 
 a superstar team, where everyone complement each other and mastered the craft of **H**umility **R**espect **T**rust, is a stronger well-rounded team.
 
-  may be an indivual task would take fast to complete and ultimately can deliver a better product.
+may be an indivual task would take fast to complete and ultimately can deliver a better product.
 
 ## Conclusion
 
@@ -78,7 +79,7 @@ Such environment does not created overnight
 
 The Three Pillars, it cannot pick 2 and expect it will stay upright securely
 
-Pillars of 
+Pillars of
 Roof
 protect your team from all the storm
 
