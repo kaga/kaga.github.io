@@ -33,15 +33,24 @@ Software development is so much of a creative activities, that in my opinion, it
 
 > Writing software is a team sport, and we posit that the human factors involved have as much influence on the outcome as the technical factors.
 
-For simple program, it is possible for a single developer to come up with an idea and write the software.
+For simple program, it is possible for a single developer to come up with an idea and write the software. However, there is only so much a single person can do, especially when the software is being sold as a product, which involves much greater complexity[^2]. 
 
-However, there is only so much a single person can do, especially when the software is a product, which involves much greater complexity[^2]. Besides developers, there are tech lead, product owner, testers, engineering manager and marketing in a team.
+For building software as a commerical product, besides developers, there are additional personal in the project that, do different jobs than writing code, but are equaly important. Such as tech lead, product owner, testers, engineering manager and marketing. 
 
-> Bus factor (noun): the number of people that need to get hit by a bus before your project is completely doomed.
+### Bus Factor (noun)
 
-It is obvious a if there is only 1 developer holding a specific knowledge about the product, the bus factor here would be 1. However, it is possible that a large project failed because it was the marketing guy that hit by the bus.
+> the number of people that need to get hit by a bus before your project is completely doomed.
 
-## Build Superstar Team, ~~Not Team of Superstars~~
+Everyone in the team do different tasks so that developers can focus on writing great code. When the team get bigger and get more developers, work could be devided by each working on specific areas of the product.
+
+However, it is obvious to everyone it will be a major problem when there is only 1 developer holding a specific knowledge about the product. The bus factor in this case would be 1. The developer might not literally hit by a bus, but she could be taking personal time off, or decided to retired altogether. 
+
+It is very obvious as well to alleviate this situation by training one or more developers up to share the responsiblitiy. 
+
+
+However, it is also possible that a large project failed because it was the marketing guy that hit by the bus. 
+
+### Build Superstar Team, ~~Not Team of Superstars~~
 
 > Geniuses still make mistakes, and having brilliant ideas and elite programming skills doesn't guarantee that your software will be a hit.
 
