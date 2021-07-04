@@ -14,22 +14,22 @@ tags: team
 > any man's death diminishes me, because I am involved in mankind.
 > And therefore never send to know for whom the bell tolls; it tolls for thee. - John Donne
 
-In the previous post, I started this book club with talking about reading is a way to learn, and simply having a conversation would help with team members that struggle to read. This post I will be discussing further about team work.
+In the previous post, I started this book club talking about reading is a way to learn, and stated the idea that software development requires a lot of reading, and different ways to help struggling team members with communication and careful writing. This post I will be discussing further about team work.
 
 - [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
-- [Debugging Teams with Humility, Respect and Trust  ( You are here )]({% post_url debugging-teams/2021-07-02-Debugging-Team %})
+- [Debugging Teams with Humility, Respect and Trust ( You are here )]({% post_url debugging-teams/2021-07-02-Debugging-Team %})
 - The Manager’s Path
 - The Mythical Man-Month
 
 ## Software Development is a Creative Process
 
-Developing a piece software is a creative process. It takes a creative mind to come up a solution to solve a problem. Many software are invented because the inventor encountered a bad experience and decided there is a better way.
+Developing a piece software is a creative process. It takes a creative mind to come up a solution to solve a problem. Many software are invented because the inventor encountered a bad experience and decided there is a better way. No 2 days are exactly same for a software developer.
 
-When write the program, there are also enormous creativity to just make the software run a bit faster as well. Such as the use of software algorithms, specific usage of language features and frameworks.
+When write the program, there are also creativity involved to just make the software run a bit faster as well. Such as the use of software algorithms, specific usage of language features and frameworks.
 
-Furthermore, there are different techniques to come up with solutions to a problem, such as [pair programming](https://en.wikipedia.org/wiki/Pair_programming) or sometimes I just leave it in back of my mind. The brain will surprise me with a solution the next day.
+Furthermore, there are different techniques to come up with solutions to a problem, such as [pair programming](https://en.wikipedia.org/wiki/Pair_programming). Alternatively, sometimes I just leaving it in back of my mind. The brain will surprise me with a solution the next day[^1].
 
-On top of all that, the developer has to write the software for easy to read and understand as well. Once a particular part of a software is written, the developer will spent most of her time reading and understanding the source code, and only small portion of the time modifying it[^1].
+On top of all that, the developer has to write the software for easy to read and understand as well. Once a particular part of a software is written, the developer will spent most of her time reading and understanding the source code, and only small portion of the time modifying it[^2].
 
 Software development is so much of a creative activities, that in my opinion, it should be well regarded as any other craftsmanship. The developer has the right to be pride of crafting the most elegant solution.
 
@@ -37,7 +37,7 @@ Software development is so much of a creative activities, that in my opinion, it
 
 > Writing software is a team sport, and we posit that the human factors involved have as much influence on the outcome as the technical factors.
 
-There are many ways to express ones craftsmanship. For example in the automotive world, on one end of the spectrum, one could hand beating every single panel on her own, or having a team of talents using the latest technologies to deliver the "last analog supercar"[^2].
+There are many ways to express ones craftsmanship. For example in the automotive world, on one end of the spectrum, one could hand beating every single panel on her own, or having a team of talents using the latest technologies to deliver the "last analog supercar"[^3].
 
 For computer program, it is possible for a single developer to come up with an idea and write the software all by herself. However, there is only so much a single person can do.aoe project that, do different jobs than writing code, but are equally important. Such as tech lead, product owner, testers, engineering manager and marketing.
 
@@ -47,7 +47,7 @@ Everyone in the team do different tasks so that developers can focus on writing 
 
 > the number of people that need to get hit by a bus before your project is completely doomed.
 
-When the team get bigger and especially more developers come onboard. One common way to divide the work is having developer each working on specific areas of the product. For example, for a 2 developers scenario working in a client-server based application, one would work on the client side and the other work on the server side.  
+When the team get bigger and especially more developers come onboard. One common way to divide the work is having developer each working on specific areas of the product. For example, for a 2 developers scenario working in a client-server based application, one would work on the client side and the other work on the server side.
 
 In this case, it is obvious to everyone that, it will be a major problem when there is only 1 developer holding a specific knowledge about the product. The bus factor in this case would be 1. The developer might not literally hit by a bus, but she could be taking personal time off, sick days, or simply decided to retire.
 
@@ -55,35 +55,28 @@ It is very evident as well the solution to alleviate this situation by training 
 
 ### Build a Superstar Team, ~~Not Team of Superstars~~
 
-> Geniuses still make mistakes, and having brilliant ideas and elite programming skills doesn't guarantee that your software will be a hit.
-
-Therefore in many cases, having a team is unavoidable for building great software product.
-
-There are many misconceptions in building a team.
-
-Some would proceed hiring many "genius developer" or the "10x developer", which created a team of superstars. Everyone in the team mastered their craft but has strong personal ego and does not work well with others.
-
-> There seems to be a sort of disease that strikes new managers where they forget about all the awful things their managers did to them and suddenly start doing these same things "manage" the people that report to them.
-
-Micro manage
-
 > Only by giving up some ego will you ever change directions and get exposed to new things. Again, it's about increasing humility and being willing to learn as much as teach.
 
-a superstar team, where everyone complement each other and mastered the craft of **H**umility **R**espect **T**rust, is a stronger well-rounded team.
+There are many ways to increase the bus factor, one would hires a lot of superstars / genius / guru developer, who mastered the craft of writing software, or can crank out new features 10x faster than most developer. It might work for a start because everyone are able to dive into any code base when the time comes.
 
-may be an indivual task would take fast to complete and ultimately can deliver a better product.
+May be because I am not one of those "10x developer", but I think those developers are very rare and hard to find. It is even harder to find those that  
+everyone can work with. It is far to common to mistaken arrogance and difficult to work with as someone prides in ones craftsmanship.
+
+I would much prefer a superstar team instead, where everyone has the will the learn and mastered the craft of **Humility**, **Respect**, and **Trust**. An individual task might be solved a lot faster. However the team is stronger as a whole, and get better results over a long period of time.
+
+> Managers wind up acting like parents, and consequently employees react like children.
+
+After so carefully constructed a team so everyone complement each other. It would be very dangerous for the ~~manager~~ leader to take ownership of the team's culture. The team might work very well while the manager is around, but once the manager get promoted to elsewhere as a result, the team quickly started to fall apart. Therefore, it is crucial to involve everyone in maintaining the culture and environment.
 
 ## Conclusion
 
+> The moral is this: do not underestimate the power of playing the social game. It's not about tricking or manipulating people; it's about creating relationships to get things done, and relationships always outlast projects.
+
+This book is so full of advice that I could spend so much more time writing everything about it. It is very suitable for developers in different stages of carrier. When I first become a team lead and read this book for the first time, I thought the major take-home message was **manager is a four-letter word** and be a **servant leader**. Recently when I got the opportunity to lead another team, I realized the true values of **HRT** and how my **visible attitude about absolutely everything - no matter how trivial is unconsciously noticed and spreads infectiously to your team**.
+
+I will definitely reading this book again for the third time in few years time, and review my progress.
+
 > You'll end up spending less energy dealing with people-related problems and more time writing great code.
-
-Such environment does not created overnight
-
-The Three Pillars, it cannot pick 2 and expect it will stay upright securely
-
-Pillars of
-Roof
-protect your team from all the storm
 
 ## Reference
 
@@ -93,7 +86,7 @@ protect your team from all the storm
 - [2011 - Programming Well with Others: Social Skills for Geeks](https://youtu.be/q-7l8cnpI4k)
 - [2012 - The Art of Organizational Manipulation](https://youtu.be/OTCuYzAw31Y)
 
-[^1]: [Learn to read the source luke](https://blog.codinghorror.com/learn-to-read-the-source-luke/)
-[^2]: [Gordon Murray Automotive T.50](https://gordonmurrayautomotive.com/cars/t50)
-[^3]: [Software as a Product](https://en.wikipedia.org/wiki/Software_as_a_Product)
+[^1]: [Unconscious Congnition](https://en.wikipedia.org/wiki/Unconscious_cognition)
+[^2]: [Learn to read the source luke](https://blog.codinghorror.com/learn-to-read-the-source-luke/)
+[^3]: [Gordon Murray Automotive T.50](https://gordonmurrayautomotive.com/cars/t50)
 [^4]: [The Development Abstraction Layer](https://www.joelonsoftware.com/2006/04/11/the-development-abstraction-layer-2/)
