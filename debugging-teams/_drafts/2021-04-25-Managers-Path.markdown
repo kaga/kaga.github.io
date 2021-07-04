@@ -55,7 +55,7 @@ do you know what is happening around your team? Do you know what is happening ar
 - given certain responsibilities
   You can contribute in the success of that objective
 
-##
+Optional to be a manager
 
 ---
 

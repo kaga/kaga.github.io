@@ -13,7 +13,7 @@ I have been using Macintosh as my main development machine since collage years. 
 However, recently I decided to built a new PC instead for my future experiments, which I haven't done for a long time. I have chosen this path because of both hardware and software reasons. This will be a slight departure of my software mythologies blog, and documenting my journey of learning and experimenting the different technologies at home.
 
 - [New Personal Computer ( You are here )]({% post_url home-lab/2021-06-13-New-PC %})
-- A NAS, a server and a PC - Unraid
+- [A NAS, a server and a PC - Unraid]({% post_url home-lab/2021-06-20-Unraid %})
 
 Here is the specification if you must know.
 
