@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Daily Drive Pop!_OS"
-date:   2021-07-01 00:00:00 +1300
+title: "Daily Drive Pop!_OS"
+date: 2021-07-01 00:00:00 +1300
 categories: home lab
 tags: equipment
 ---
@@ -10,25 +10,25 @@ tags: equipment
 
 In my new PC build series, a keen eye would notice I was using Windows 10 to benchmark the virtual machine. However, I never use Microsoft Windows at home.
 
-Since 2020, I started using Pop!_OS 
-1 year experience 
+Since 2020, I started using Pop!\_OS
+1 year experience
 serious day to day software development
-recently upgrade to Pop!_OS 21.04 
+recently upgrade to Pop!\_OS 21.04
 
-I support using the right OS for the right job, rather than shoehorn. 
-Mac for iOS development 
-Windows for C# 
+I support using the right OS for the right job, rather than shoehorn.
+Mac for iOS development
+Windows for C#
 
-## Pop!_OS by System 76
+## Pop!\_OS by System 76
 
-It is based on Ubuntu 
+It is based on Ubuntu
 System 76 sell their own hardware as well with reasonable price and very compact
 
 > To System76, this is not a review blog but I am keen if you can send a THELIO MIRA for evaluation =)
 
 ### Hardware Compatibility - "It just works!"
 
-I started the PoP!_OS experience with an Intel NUC (8i5BEH), which is very similar to System 76's mini lineup. WiFi and Bluetooth they just work after OS installation and no additional driver required. I don't have any connectivity issue with wireless headphone ( Sony WH-1000XM3 ). Even using Thunderbolt 3 connecting external GPU works out of the box too, albeit more friction than MacOS in my opinion.
+I started the PoP!\_OS experience with an Intel NUC (8i5BEH), which is very similar to System 76's mini lineup. WiFi and Bluetooth they just work after OS installation and no additional driver required. I don't have any connectivity issue with wireless headphone ( Sony WH-1000XM3 ). Even using Thunderbolt 3 connecting external GPU works out of the box too, albeit more friction than MacOS in my opinion.
 
 Peripherals are plug and play too. There is no issue for using [Security Key](https://www.yubico.com/) at all. 4K Monitor support are out of the box and scaling perfectly.
 
@@ -36,34 +36,38 @@ There is one issue with Bluethooth keyboard & mice, where I have trouble waking 
 
 ### Software
 
-| Software | Purpose |
-| --- | --- |
-| Browser | Brave, Chrome | 
-| Development | Visual Studio Code, Android Studio, Docker |
-| Shell | ZSH |
-| Git Client | Github Desktop |
-| Screenshot | Fameshot |
-| App Store | Snap, Pop Store |
-| Backup | Deja Dup |
-| Communication | Telegram, Discord |
+| Software      | Purpose                                    |
+| ------------- | ------------------------------------------ |
+| Browser       | Brave, Chrome                              |
+| Development   | Visual Studio Code, Android Studio, Docker |
+| Shell         | ZSH                                        |
+| Git Client    | Github Desktop                             |
+| Screenshot    | Fameshot                                   |
+| App Store     | Snap, Pop Store                            |
+| Backup        | Deja Dup                                   |
+| Communication | Telegram, Discord                          |
 
-Most of the software that I used daily can be accessed on a browser, such as Trello and Apple Music. For browser I start using [Brave](https://brave.com/) instead of Chrome. 
+Most of the software that I used daily can be accessed on a browser, such as Trello and Apple Music. For browser I start using [Brave](https://brave.com/) instead of Chrome.
 
-I think One of the best feature of PoP!OS is its Windows Tiling. It is very easy to get those applications organized 
+I think One of the best feature of PoP!OS is its Windows Tiling. It is very easy to get those applications organized
 with 21.04 update, it has even better support of having 3 columns layout
 
 ### Stability
 
 In general, the system is stable for day to day use. There are some odd screen rendering artifact after using it for few weeks, but it can be resolved quickly with a reboot.
 
-### Performance 
+### Performance
 
-This is not specfic to Pop!_OS but in 
+This is not specfic to Pop!\_OS but in
 
 This is the time required on compile and run the Signel android app
 
 https://github.com/signalapp/Signal-Android
 
-## Reference 
+2:15.98
+2:14.39
+2:21.16
 
-[Pop!_OS by System76](https://pop.system76.com/)
+## Reference
+
+[Pop!\_OS by System76](https://pop.system76.com/)
