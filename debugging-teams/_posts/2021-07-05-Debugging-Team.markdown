@@ -31,48 +31,49 @@ Furthermore, there are different techniques to come up with solutions to a probl
 
 On top of all that, the developer has to write the software for easy to read and understand as well. Once a particular part of a software is written, the developer will spent most of her time reading and understanding the source code, and only small portion of the time modifying it[^2].
 
-Software development is so much of a creative activities, that in my opinion, it should be well regarded as any other craftsmanship. The developer has the right to be pride of crafting the most elegant solution.
+Software development is so much of a creative activities, that in my opinion, it should be well regarded as any other craftsmanship. The developer should be pride in crafting a piece of software.
 
 ## Software Development is a Team Sport
 
 > Writing software is a team sport, and we posit that the human factors involved have as much influence on the outcome as the technical factors.
 
-There are many ways to express ones craftsmanship. For example in the automotive world, on one end of the spectrum, one could hand beating every single panel on her own, or having a team of talents using the latest technologies to deliver the "last analog supercar"[^3].
+There are many ways to express ones craftsmanship. For example in the automotive world, on one end of the spectrum, one could hand beating every single panel to create a timeless classic, like the [Eagle speedster](https://www.eaglegb.com/9/jaguar-e-type-special-editions/eagle-speedster), or having a team of talents using the latest technologies to deliver the "last analog supercar", [Gordon Murray Automotive T.50](https://gordonmurrayautomotive.com/cars/t50).
 
-For computer program, it is possible for a single developer to come up with an idea and write the software all by herself. However, there is only so much a single person can do.aoe project that, do different jobs than writing code, but are equally important. Such as tech lead, product owner, testers, engineering manager and marketing.
+For computer program, it is possible for a single developer to come up with an idea and write the software all by herself. However, there is only so much a single person can do. There are many roles in a team that, do different jobs than writing code yet equally important. Such as tech lead, product owner, testers, engineering manager and marketing.
 
-Everyone in the team do different tasks so that developers can focus on writing great code[^4].
+Everyone in the team do different tasks so that developers can focus on writing great code[^3].
 
 ### Bus Factor (noun)
 
 > the number of people that need to get hit by a bus before your project is completely doomed.
 
-When the team get bigger and especially more developers come onboard. One common way to divide the work is having developer each working on specific areas of the product. For example, for a 2 developers scenario working in a client-server based application, one would work on the client side and the other work on the server side.
+When the team get bigger and especially more developers come onboard. One common way to divide work is having developer each working on specific areas of the product. For example, for a 2 developers scenario working in a client-server based application, one would work on the client side and the other work on the server side.
 
-In this case, it is obvious to everyone that, it will be a major problem when there is only 1 developer holding a specific knowledge about the product. The bus factor in this case would be 1. The developer might not literally hit by a bus, but she could be taking personal time off, sick days, or simply decided to retire.
+In this case, it is obvious to everyone that, it will be a major problem when there is only 1 developer holding a specific knowledge about the product. The bus factor in this case would be 1. The developer might not literally hit by a bus, but she could be taking personal time off, sick days, or simply decided to retire. It is very evident as well the solution to alleviate this situation by training one or more developers up to share the responsibility.
 
-It is very evident as well the solution to alleviate this situation by training one or more developers up to share the responsibility. However, it is very easy to put much of the emphasis on the individual software developer causing the apparent low bus factor, and overlooked the rest of the team. A project could fail because the marketing guy, who also has in depth knowledge about the customer, got "hit by the bus".
+It is very easy to put too much of the emphasis on the individual software developer, who is the apparent low bus factor, and overlooked the rest of the team. A project could also failed because the marketing guy, who has in-depth knowledge about the customer, got "hit by the bus".
 
 ### Build a Superstar Team, ~~Not Team of Superstars~~
 
 > Only by giving up some ego will you ever change directions and get exposed to new things. Again, it's about increasing humility and being willing to learn as much as teach.
 
-There are many ways to increase the bus factor, one would hires a lot of superstars / genius / guru developer, who mastered the craft of writing software, or can crank out new features 10x faster than most developer. It might work for a start because everyone are able to dive into any code base when the time comes.
+There are many ways to increase the bus factor, one would hires a lot of superstars developer, who mastered the craft of writing software, or can crank out new features 10x faster than most regular developer. It might work for a start because the "genius" developer able to dive into any code base and solve problems.
 
-May be because I am not one of those "10x developer", but I think those developers are very rare and hard to find. It is even harder to find those that  
-everyone can work with. It is far to common to mistaken arrogance and difficult to work with as someone prides in ones craftsmanship.
+May be because I am not one of those "10x developer", but I think those developers are very rare and hard to find. It is even harder to find those that can work in a team. It is far too common to mistaken arrogance and difficult to work with as someone prides in ones craftsmanship.
 
-I would much prefer a superstar team instead, where everyone has the will the learn and mastered the craft of **Humility**, **Respect**, and **Trust**. An individual task might be solved a lot faster. However the team is stronger as a whole, and get better results over a long period of time.
+I would much prefer a superstar team instead, where everyone has the will the learn and mastered the craft of **Humility**, **Respect**, and **Trust**. An individual task might take a bit longer to solve. However the team is stronger as a whole, and deliver better results over a long period of time.
 
 > Managers wind up acting like parents, and consequently employees react like children.
 
-After so carefully constructed a team so everyone complement each other. It would be very dangerous for the ~~manager~~ leader to take ownership of the team's culture. The team might work very well while the manager is around, but once the manager get promoted to elsewhere as a result, the team quickly started to fall apart. Therefore, it is crucial to involve everyone in maintaining the culture and environment.
+After carefully constructed a team so everyone complement each other. It would be very dangerous for the ~~manager~~ leader alone to take ownership of the team's culture. The team might work very well while the manager is around, but once the manager get promoted to elsewhere as a result, the team quickly started to fall apart. Therefore, it is crucial to involve everyone in maintaining the culture and environment.
+
+Nothing more satisfying seeing a team remain a healthy culture even all original team members has left.
 
 ## Conclusion
 
 > The moral is this: do not underestimate the power of playing the social game. It's not about tricking or manipulating people; it's about creating relationships to get things done, and relationships always outlast projects.
 
-This book is so full of advice that I could spend so much more time writing everything about it. It is very suitable for developers in different stages of carrier. When I first become a team lead and read this book for the first time, I thought the major take-home message was **manager is a four-letter word** and be a **servant leader**. Recently when I got the opportunity to lead another team, I realized the true values of **HRT** and how my **visible attitude about absolutely everything - no matter how trivial is unconsciously noticed and spreads infectiously to your team**.
+This book is so full of advice that I could spend so much more time writing everything about it. It is very suitable for developers in different stages of their carrier. When I first become a team lead and read this book for the very first time, I thought the major take-home message was **manager is a four-letter word** and be a **servant leader**. Recently when I got the opportunity to lead another team and read it again, I realized the true values of **HRT** and how my **visible attitude about absolutely everything - no matter how trivial is unconsciously noticed and spreads infectiously to your team**.
 
 I will definitely reading this book again for the third time in few years time, and review my progress.
 
@@ -86,7 +87,6 @@ I will definitely reading this book again for the third time in few years time, 
 - [2011 - Programming Well with Others: Social Skills for Geeks](https://youtu.be/q-7l8cnpI4k)
 - [2012 - The Art of Organizational Manipulation](https://youtu.be/OTCuYzAw31Y)
 
-[^1]: [Unconscious Congnition](https://en.wikipedia.org/wiki/Unconscious_cognition)
+[^1]: [Unconscious Cognition](https://en.wikipedia.org/wiki/Unconscious_cognition)
 [^2]: [Learn to read the source luke](https://blog.codinghorror.com/learn-to-read-the-source-luke/)
-[^3]: [Gordon Murray Automotive T.50](https://gordonmurrayautomotive.com/cars/t50)
-[^4]: [The Development Abstraction Layer](https://www.joelonsoftware.com/2006/04/11/the-development-abstraction-layer-2/)
+[^3]: [The Development Abstraction Layer](https://www.joelonsoftware.com/2006/04/11/the-development-abstraction-layer-2/)
