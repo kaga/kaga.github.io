@@ -3,7 +3,7 @@ layout: post
 title: "Debugging Teams wth ...... Humility, Respect and Trust"
 date: 2021-07-05 01:00:00 +1300
 categories: debugging-teams
-tags: team
+tags: book
 ---
 
 ![Debugging-teams](/assets/book/debugging-teams.jpg)
@@ -17,7 +17,7 @@ tags: team
 In the previous post, I started this book club talking about reading is a way to learn, and stated the idea that software development requires a lot of reading, and different ways to help struggling team members with communication and careful writing. This post I will be discussing further about team work.
 
 - [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
-- [Debugging Teams with Humility, Respect and Trust ( You are here )]({% post_url debugging-teams/2021-07-02-Debugging-Team %})
+- [Debugging Teams with Humility, Respect and Trust ( You are here )]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
 - The Manager’s Path
 - The Mythical Man-Month
 
