@@ -17,13 +17,16 @@ However, recently I decided to built a new PC instead for my future experiments,
 
 Here is the specification if you must know.
 
-> AMD Ryzen 5900x with 12-core CPU  
+> AMD Ryzen 5900x with 12-core CPU
+> ASUS ROG STRIX B550-F GAMING*
 > 64GB memory  
 > Nvidia 2070 8GB memory  
 > 2x1TB SSD storage  
 > 3x3TB Hard drives  
 > Fractal Meshify 2 case  
-> Noctua NF-A14 and NH-D15 fan  
+> Noctua NF-A14 and NH-D15 fan
+>
+>*included motherboard for reference because not all boards support VFIO seamlessly[^1].
 
 ## Picking Right Hardware For The Right Job
 
@@ -91,6 +94,7 @@ However, I think software developer should at least build their own machine once
 
 - [Build a PC, Part IX: Downsizing - Coding Horror](https://blog.codinghorror.com/building-a-pc-part-ix-downsizing/)
 
-[^1]: [Ryzen 5000 Undervolting with PBO2 - Absolutely Worth Doing](https://youtu.be/dfkrp25dpQ0)
-[^2]: [the joel test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
-[^3]: [Look what's inside Linus Torvalds' latest Linux development PC](https://www.zdnet.com/article/look-whats-inside-linus-torvalds-latest-linux-development-pc/)
+[^1]: [All about VMs and GPU Passthrough](https://uncast.buzzsprout.com/1746902/8565052-all-about-vms-and-gpu-passthrough)
+[^2]: [Ryzen 5000 Undervolting with PBO2 - Absolutely Worth Doing](https://youtu.be/dfkrp25dpQ0)
+[^3]: [the joel test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+[^4]: [Look what's inside Linus Torvalds' latest Linux development PC](https://www.zdnet.com/article/look-whats-inside-linus-torvalds-latest-linux-development-pc/)
