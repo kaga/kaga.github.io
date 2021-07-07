@@ -26,6 +26,20 @@ System 76 sell their own hardware as well with reasonable price and very compact
 
 > To System76, this is not a review blog but I am keen if you can send a THELIO MIRA for evaluation =)
 
+## Use It At Work
+
+First linux distro to recommend over Ubuntu
+
+Situable for your environment 
+
+Trust, Automy 
+Use it at home ?
+Use it as 2nd drive installation 
+
+Support
+Security
+
+
 ### Hardware Compatibility - "It just works!"
 
 I started the PoP!\_OS experience with an Intel NUC (8i5BEH), which is very similar to System 76's mini lineup. WiFi and Bluetooth they just work after OS installation and no additional driver required. I don't have any connectivity issue with wireless headphone ( Sony WH-1000XM3 ). Even using Thunderbolt 3 connecting external GPU works out of the box too, albeit more friction than MacOS in my opinion.
@@ -75,3 +89,5 @@ AMD windows
 ## Reference
 
 [Pop!\_OS by System76](https://pop.system76.com/)
+[A REALLY Weird PC... - System76 Thelio Review](https://youtu.be/JTN1c1j6V1s)
+
