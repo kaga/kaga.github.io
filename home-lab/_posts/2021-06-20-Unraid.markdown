@@ -101,10 +101,12 @@ The server was allocated with its own 2-core ( 4-threads ) CPU and a separate ne
 ![Dev Windows](/assets/homelab/geekbench5-8core.PNG)
 
 > Tip: [Follow this guide to get the GPU vBios](https://www.youtube.com/watch?v=FWn6OCWl63o).
-> If you cannot start a VM after restart, [have a look at this script](https://gist.github.com/kaga/fdf5129d554474638ad24d532222172d) too. 
+> If you cannot start a VM after restart, [have a look at this script](https://gist.github.com/kaga/fdf5129d554474638ad24d532222172d) too.
+>
 > P.S. When installing new PCI-E hardware ( i.e. Network card ) or update BIOS, try
+>
 > 1. Stop the VM
-> 1. Perfrom the installation, or upgrade
+> 1. Perform the installation, or upgrade
 > 1. Update the VM configuration, bind VFIO device again if necessary
 > 1. Start and test the VM
 > 1. Reboot and check if all post reboot script successfully

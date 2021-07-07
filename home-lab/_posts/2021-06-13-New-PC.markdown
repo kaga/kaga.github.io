@@ -25,7 +25,8 @@ Here is the specification if you must know.
 > 3x3TB Hard drives  
 > Fractal Meshify 2 case  
 > Noctua NF-A14 and NH-D15 fan
-> *included motorboard for reference because not all boards support VFIO seemlessly[^1]
+>
+>*included motherboard for reference because not all boards support VFIO seamlessly[^1].
 
 ## Picking Right Hardware For The Right Job
 
