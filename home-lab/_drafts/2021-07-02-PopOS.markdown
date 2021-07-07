@@ -32,6 +32,10 @@ First linux distro to recommend over Ubuntu
 
 Situable for your environment 
 
+Chrome Web Application
+Confluence, Jira
+
+Company Policy
 Trust, Automy 
 Use it at home ?
 Use it as 2nd drive installation 
@@ -39,6 +43,8 @@ Use it as 2nd drive installation
 Support
 Security
 
+Problem with 
+Microsoft Office, Adobe
 
 ### Hardware Compatibility - "It just works!"
 
@@ -90,4 +96,3 @@ AMD windows
 
 [Pop!\_OS by System76](https://pop.system76.com/)
 [A REALLY Weird PC... - System76 Thelio Review](https://youtu.be/JTN1c1j6V1s)
-
