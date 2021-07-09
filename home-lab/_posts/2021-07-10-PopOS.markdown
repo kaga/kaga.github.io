@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Daily Drive Pop!_OS"
+title: "Pop!_OS"
 date: 2021-07-01 00:00:00 +1300
 categories: home lab
 tags: equipment
@@ -30,20 +30,20 @@ System 76 sell their own hardware as well with reasonable price and very compact
 
 First linux distro to recommend over Ubuntu
 
-Situable for your environment 
+Situable for your environment
 
 Chrome Web Application
 Confluence, Jira
 
 Company Policy
-Trust, Automy 
+Trust, Automy
 Use it at home ?
-Use it as 2nd drive installation 
+Use it as 2nd drive installation
 
 Support
 Security
 
-Problem with 
+Problem with
 Microsoft Office, Adobe
 
 ### Hardware Compatibility - "It just works!"
@@ -89,7 +89,7 @@ NUC
 2:14.39
 2:21.16
 
-AMD windows 
+AMD windows
 1:20
 
 ## Reference
