@@ -28,7 +28,7 @@ System 76 sell their own hardware as well, so you can rely on them if building a
 
 ## Things to Consider When Using Linux At Work
 
-This post is obviously try to convince you to start using Linux. However, before you start downloading the OS image and get going. There are few things to look for to increase your chance of success.
+This post is obviously try to convince you to start using Linux. However, before you start downloading the OS image and get going. Although I have not been using Linux on my work machine due to my current development stack is predominantly Microsoft, but here are few things to look for to increase your chance of success.
 
 ### Company Policy
 
@@ -52,25 +52,21 @@ Having separate drives also allow dual booting when the occasion arise. Alternat
 
 ## My 1st year Experience
 
-I recently upgraded my Pop!\_OS installation that I 
+After 1 year of use, I did not encounter any issues that caused me to reinstall the OS, and I have been using it for Android and Web services development, during occasion work from home and weekend projects.
 
-I could not use it for work  due to my current development stack is predominantly Microsoft, but I will be keep using  at home. 
+I recently upgraded my home Pop!\_OS installation from version 20.10 to 21.04 too. Apart from taking a longer than expected upgrade time, the upgrade went well for me and I can get back to work on the next day.
 
+It is also my first time to try a linux distribution that is not LTS ( Long Term Support ). In general, the system is stable enough for day to day use. There are some odd screen rendering artifacts after using it for few weeks, or some audio issues, possibly due to my 3rd party hardware ( See below ). However, all issues can be resolved quickly with a reboot, and the reboot is quick enough that does not cause annoyance.
 
-1 year experience
-A bit of android development and weekend projects
-
-recently upgraded from version 20.10 to 21.04
+In summary, I think Pop!\_OS is good enough for productivity.
 
 ### Hardware Compatibility - "It just works!"
 
-I started the PoP!\_OS experience with an Intel NUC ( [8i5BEH](https://ark.intel.com/content/www/us/en/ark/products/126148/intel-nuc-kit-nuc8i5beh.html) ), which is very similar to System 76's mini lineup. WiFi and Bluetooth they just work after OS installation and no additional driver required. I compiled the [Android version of Signal](https://github.com/signalapp/Signal-Android) and it seems to be performing identical ( 2:15 to compile) to Windows, if not better.
+I started using Pop!\_OS with an Intel NUC ( [8i5BEH](https://ark.intel.com/content/www/us/en/ark/products/126148/intel-nuc-kit-nuc8i5beh.html) ), which is very similar to System 76's mini lineup. WiFi and Bluetooth they just work after OS installation and no additional drivers required. I compiled the [Android version of Signal](https://github.com/signalapp/Signal-Android) for performance test and it seems to be performing identical ( 2m15s to compile) to Windows, if not better.
 
-I don't have any connectivity issue with wireless headphone ( Sony WH-1000XM3 ). Even using Thunderbolt 3 connecting external GPU works out of the box too, albeit more friction than MacOS in my opinion.
+Peripherals are plug and play too. 4K or Ultra-wide monitor are supported out of the box and scaling perfectly. There is no issue for using [Security Key](https://www.yubico.com/) at all. I don't have any major connectivity issue with wireless headphone ( Sony WH-1000XM3 ). Even using Thunderbolt 3 connecting external GPU works out of the box too, albeit more friction than MacOS in my opinion. Issues can be resolved by a reboot.
 
-Peripherals are plug and play too. There is no issue for using [Security Key](https://www.yubico.com/) at all. 4K or Ultra-wide monitor are supported out of the box and scaling perfectly.
-
-There is one issue with Bluethooth keyboard & mice, where I have trouble waking the PC up after sleep. Luckily the keyboard supports USB connection and I used the USB dongle that come with the mice ( Logitech MX Master 3 ).
+There is one issue that I have with Bluetooth keyboard & mice, where I have trouble waking the PC up and Bluetooth being slow to reconnect. Luckily the keyboard supports USB connection and I used the USB dongle that come with the mice ( Logitech MX Master 3 ).
 
 ### Software
 
@@ -93,7 +89,7 @@ with 21.04 update, it has even better support of having 3 columns layout
 
 ### Should You Use Pop!_OS ?
 
-In general, the system is stable for day to day use. There are some odd screen rendering artifacts after using it for few weeks, or some audio issues, but it can be resolved quickly with a reboot. I think it is pretty good for an OS, that is still quite new running on 3rd party hardware.
+
 
 
 ## Reference
