@@ -9,12 +9,12 @@ tags: equipment
 ![Pop!_0S Desktop](/assets/homelab/pop-os.png)
 
 - [New Personal Computer]({% post_url home-lab/2021-06-13-New-PC %})
-- [A NAS, a server and a PC - Unraid ( You are here )]({% post_url home-lab/2021-06-20-Unraid %})
-- [Using Linux Daily - Pop!_OS]({% post_url home-lab/2021-07-10-PopOS %})
+- [A NAS, a server and a PC - Unraid]({% post_url home-lab/2021-06-20-Unraid %})
+- [Using Linux Daily - Pop!_OS ( You are here )]({% post_url home-lab/2021-07-10-PopOS %})
 
-> To System76, this is not a review blog but I am keen if you can send a THELIO MIRA for evaluation =)
+> To System76: this is not a review blog but I am keen if you can send a THELIO MIRA for evaluation =)
 
-In my new PC build series, a keen eye would notice I was using Windows 10 to benchmark the virtual machine. However, I have not use Microsoft Windows at home for a long time. Since last year ( 2020 ), I started using Pop!\_OS as my daily OS instead of MacOS. This will be my thoughts on Ubuntu favoured Linux as a Graphical Operating System for daily use.
+In my new PC build series, a keen eye would notice I was using Windows 10 to benchmark the virtual machine. However, I have not use Microsoft Windows at home for a long time. Since last year ( 2020 ), I started using Pop!\_OS as my daily OS instead of macOS. This will be my thoughts on Ubuntu favoured Linux as a Graphical Operating System for daily use.
 
 ## Pop!\_OS by System 76
 
@@ -28,37 +28,34 @@ System 76 sell their own hardware as well, so you can rely on them if building a
 
 ## Things to Consider When Using Linux At Work
 
-This post is obviously try to convince you to start using Linux at work. However, before you start downloading the installation image and get going. There are few things to look for to increase your chance of successful deployment.
+This post is obviously try to convince you to start using Linux. However, before you start downloading the OS image and get going. There are few things to look for to increase your chance of success.
 
 ### Company Policy
 
-There are concerns for keeping the OS up-to-date to protect from security issues
+For a smaller software start up where everyone can take care of their own machine, or companies that give great degree of mastery and autonomy, it is not a problem to run Linux on your own workstation. Security is a primary concerns and the OS needs to be kept up to date. There will be little support from your support team when you encounter issues with the OS or other software.
 
-Support team has to be knowledgeable to support
+This is going to be a very good idea to communicate your intention well in advance to your manager and mentor. You can propose a plan to trial this OS for 3 to 6 months and report at the end of the evaluation.
 
-### Appropriate for Your Development Environment
+### Appropriate for the Development Environment
 
-I support using the right OS for the right job
+It does not make sense to switch to Linux when the software stack is Microsoft based. It is very exciting time to see [.Net Core](https://dotnet.microsoft.com/download) and [.Net Multi-platform App UI ( MAUI )](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/) are getting tractions. However, it might be more appropriate to first try [Windows Subsystem for Linux ( WSL )](https://docs.microsoft.com/en-us/windows/wsl/install-win10) first. It will become another reason for easy management approval in the future, since you have been using the OS and familiar with it.
 
-Chrome Web Application
-Confluence, Jira
-
-Mac for iOS development
-Windows for C#
-
-Problem with
-Microsoft Office, Adobe
+Many productivity applications are now web based, such as Confluence, Jira and Google services, so it is not a concern when switching to Linux. However, in a company that still rely on Microsoft Office or Adobe Creative Cloud on a shared network drive. It could get tricky to open the file. It can get even trickier when the Linux workstation are not allowed to be in the company trusted network.
 
 ### Use a 2nd Drive For Easy Fallback
 
-> Tip: Disconnect the Windows drive before installation
+> Tip: Disconnect the Windows drive before installation to keep both drives bootable.
 
-It is always unconfor
+Linux is sightly different from macOS and Windows enough that it can take some time to get used to. Installing Linux in a separate drive will allow you fall back if it is determined not suitable for work after the first week of trial. There will be no time to be lost to re-install Windows. Setting up a new OS takes time, time that can better be used for delivering values to customer. A 256GB SATA SSD is cheap and should be enough storage for most.
 
-For someone that never used Linux before
-small incremental steps.
+Having separate drives also allow dual booting when the occasion arise. Alternatively it is possible to run Unraid OS as host, with 2 graphics cards it is totally possible to run 2 systems at the same time[^1].
 
-## My 1 year Experience
+## My 1st year Experience
+
+I recently upgraded my Pop!\_OS installation that I 
+
+I could not use it for work  due to my current development stack is predominantly Microsoft, but I will be keep using  at home. 
+
 
 1 year experience
 A bit of android development and weekend projects
@@ -77,27 +74,33 @@ There is one issue with Bluethooth keyboard & mice, where I have trouble waking 
 
 ### Software
 
-| Purpose       | Software                                   |
-| ------------- | ------------------------------------------ |
-| Browser       | Brave, Chrome                              |
-| Development   | Visual Studio Code, Android Studio, Docker |
-| Shell         | ZSH                                        |
-| Git Client    | Github Desktop                             |
-| Screenshot    | Fameshot                                   |
-| App Store     | Snap, Pop Store                            |
-| Backup        | Deja Dup                                   |
-| Communication | Telegram, Discord                          |
+| Purpose         | Software                                                |
+| --------------- | ------------------------------------------------------- |
+| Browser         | [Brave](https://brave.com/), Chrome                     |
+| Development     | Visual Studio Code, Android Studio, Docker              |
+| Shell           | ZSH, [Oh my zsh](https://github.com/ohmyzsh/ohmyzsh)    |
+| Git Client      | [Github Desktop](https://github.com/shiftkey/desktop)   |
+| Screenshot      | [Flameshot](https://github.com/flameshot-org/flameshot) |
+| App Store       | [Snap](https://snapcraft.io/store), Pop Store           |
+| Backup          | [Deja Dup](https://wiki.gnome.org/Apps/DejaDup)         |
+| Communication   | Telegram, Discord                                       |
+| Gnome Extension | Brightness-ddcutil[^1], Clipboard Indicator[^2]         |
 
-Most of the software that I used daily can be accessed on a browser, such as Trello and Apple Music. For browser I start using [Brave](https://brave.com/) instead of Chrome.
+Most of the software that I used daily can be accessed on a browser, such as Trello and Apple Music. For browser I start using Brave instead of Chrome.
 
 I think One of the best feature of PoP!OS is its Windows Tiling. It is very easy to get those applications organized
 with 21.04 update, it has even better support of having 3 columns layout
 
-### Stability
+### Should You Use Pop!_OS ?
 
-In general, the system is stable for day to day use. There are some odd screen rendering artifact after using it for few weeks, but it can be resolved quickly with a reboot.
+In general, the system is stable for day to day use. There are some odd screen rendering artifacts after using it for few weeks, or some audio issues, but it can be resolved quickly with a reboot. I think it is pretty good for an OS, that is still quite new running on 3rd party hardware.
+
 
 ## Reference
 
 - [Pop!\_OS by System76](https://pop.system76.com/)
 - [A REALLY Weird PC... - System76 Thelio Review](https://youtu.be/JTN1c1j6V1s)
+
+[^1]: [How to dual boot baremetal windows and unRAID then boot the same windows as a vm](https://www.youtube.com/watch?v=fnIn6GnA87c)
+[^2]: [Brightness control using ddcutil](https://extensions.gnome.org/extension/2645/brightness-control-using-ddcutil/)
+[^3]: [Clipboard Indicator by Tudmotu](https://extensions.gnome.org/extension/779/clipboard-indicator/)
