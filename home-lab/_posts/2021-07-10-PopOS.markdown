@@ -1,62 +1,83 @@
 ---
 layout: post
-title: "Pop!_OS"
-date: 2021-07-01 00:00:00 +1300
+title: "Using Linux Daily - Pop!_OS"
+date: 2021-07-10 00:00:00 +1300
 categories: home lab
 tags: equipment
 ---
 
-![Pop!_0S Desktop]()
+![Pop!_0S Desktop](/assets/homelab/pop-os.png)
 
-In my new PC build series, a keen eye would notice I was using Windows 10 to benchmark the virtual machine. However, I never use Microsoft Windows at home.
-
-Since 2020, I started using Pop!\_OS
-1 year experience
-serious day to day software development
-recently upgrade to Pop!\_OS 21.04
-
-I support using the right OS for the right job, rather than shoehorn.
-Mac for iOS development
-Windows for C#
-
-## Pop!\_OS by System 76
-
-It is based on Ubuntu
-System 76 sell their own hardware as well with reasonable price and very compact
+- [New Personal Computer]({% post_url home-lab/2021-06-13-New-PC %})
+- [A NAS, a server and a PC - Unraid ( You are here )]({% post_url home-lab/2021-06-20-Unraid %})
+- [Using Linux Daily - Pop!_OS]({% post_url home-lab/2021-07-10-PopOS %})
 
 > To System76, this is not a review blog but I am keen if you can send a THELIO MIRA for evaluation =)
 
-## Use It At Work
+In my new PC build series, a keen eye would notice I was using Windows 10 to benchmark the virtual machine. However, I have not use Microsoft Windows at home for a long time. Since last year ( 2020 ), I started using Pop!\_OS as my daily OS instead of MacOS. This will be my thoughts on Ubuntu favoured Linux as a Graphical Operating System for daily use.
 
-First linux distro to recommend over Ubuntu
+## Pop!\_OS by System 76
 
-Situable for your environment
+> Pop!\_OS is an operating system for STEM and creative professionals who use their computer as a tool to discover and create. Unleash your potential on secure, reliable open source software. Based on your exceptional curiosity, we sense you have a lot of it.
+
+There are many communities package Linux up with their preferred software and distribute to the world. [Pop!\_OS](https://pop.system76.com/) is similar. It is a Linux distribution, which first based on [Ubuntu](https://ubuntu.com/). Pop!\_OS put their focus on consumer experience.
+
+> People who are really serious about software should make their own hardware - Alan Kay
+
+System 76 sell their own hardware as well, so you can rely on them if building a computer is not your interest, or the after-sales support is required.
+
+## Things to Consider When Using Linux At Work
+
+This post is obviously try to convince you to start using Linux at work. However, before you start downloading the installation image and get going. There are few things to look for to increase your chance of successful deployment.
+
+### Company Policy
+
+There are concerns for keeping the OS up-to-date to protect from security issues
+
+Support team has to be knowledgeable to support
+
+### Appropriate for Your Development Environment
+
+I support using the right OS for the right job
 
 Chrome Web Application
 Confluence, Jira
 
-Company Policy
-Trust, Automy
-Use it at home ?
-Use it as 2nd drive installation
-
-Support
-Security
+Mac for iOS development
+Windows for C#
 
 Problem with
 Microsoft Office, Adobe
 
+### Use a 2nd Drive For Easy Fallback
+
+> Tip: Disconnect the Windows drive before installation
+
+It is always unconfor
+
+For someone that never used Linux before
+small incremental steps.
+
+## My 1 year Experience
+
+1 year experience
+A bit of android development and weekend projects
+
+recently upgraded from version 20.10 to 21.04
+
 ### Hardware Compatibility - "It just works!"
 
-I started the PoP!\_OS experience with an Intel NUC (8i5BEH), which is very similar to System 76's mini lineup. WiFi and Bluetooth they just work after OS installation and no additional driver required. I don't have any connectivity issue with wireless headphone ( Sony WH-1000XM3 ). Even using Thunderbolt 3 connecting external GPU works out of the box too, albeit more friction than MacOS in my opinion.
+I started the PoP!\_OS experience with an Intel NUC ( [8i5BEH](https://ark.intel.com/content/www/us/en/ark/products/126148/intel-nuc-kit-nuc8i5beh.html) ), which is very similar to System 76's mini lineup. WiFi and Bluetooth they just work after OS installation and no additional driver required. I compiled the [Android version of Signal](https://github.com/signalapp/Signal-Android) and it seems to be performing identical ( 2:15 to compile) to Windows, if not better.
 
-Peripherals are plug and play too. There is no issue for using [Security Key](https://www.yubico.com/) at all. 4K Monitor support are out of the box and scaling perfectly.
+I don't have any connectivity issue with wireless headphone ( Sony WH-1000XM3 ). Even using Thunderbolt 3 connecting external GPU works out of the box too, albeit more friction than MacOS in my opinion.
+
+Peripherals are plug and play too. There is no issue for using [Security Key](https://www.yubico.com/) at all. 4K or Ultra-wide monitor are supported out of the box and scaling perfectly.
 
 There is one issue with Bluethooth keyboard & mice, where I have trouble waking the PC up after sleep. Luckily the keyboard supports USB connection and I used the USB dongle that come with the mice ( Logitech MX Master 3 ).
 
 ### Software
 
-| Software      | Purpose                                    |
+| Purpose       | Software                                   |
 | ------------- | ------------------------------------------ |
 | Browser       | Brave, Chrome                              |
 | Development   | Visual Studio Code, Android Studio, Docker |
@@ -76,23 +97,7 @@ with 21.04 update, it has even better support of having 3 columns layout
 
 In general, the system is stable for day to day use. There are some odd screen rendering artifact after using it for few weeks, but it can be resolved quickly with a reboot.
 
-### Performance
-
-This is not specfic to Pop!\_OS but in
-
-This is the time required on compile and run the Signel android app
-
-https://github.com/signalapp/Signal-Android
-
-NUC
-2:15.98
-2:14.39
-2:21.16
-
-AMD windows
-1:20
-
 ## Reference
 
-[Pop!\_OS by System76](https://pop.system76.com/)
-[A REALLY Weird PC... - System76 Thelio Review](https://youtu.be/JTN1c1j6V1s)
+- [Pop!\_OS by System76](https://pop.system76.com/)
+- [A REALLY Weird PC... - System76 Thelio Review](https://youtu.be/JTN1c1j6V1s)
