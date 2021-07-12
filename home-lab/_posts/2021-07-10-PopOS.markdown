@@ -26,6 +26,23 @@ There are many communities package Linux up with their preferred software and di
 
 System 76 sell their own hardware as well, so you can rely on them if building a computer is not your interest, or the after-sales support is required.
 
+## Why Pop!\_OS ?
+
+> TLDR;
+> Best in class Terminal ( i.e. ZSH )
+> Same environment as the deployment enivorment ( i.e. Ubuntu Server ) 
+> GPU accelarated Docker based development[^1]
+> Auto-Tiling works with ultra-wide screen
+> Linux is just as poplular as macOS ( 26.6% vs 27.5% )[^2]
+
+Linux being free is a huge advantage for home use, but not so much for an advantage for work. It is because most companies are expected to pay for the Windows OS license, or supplied with Apple computers instead.
+
+It is an strong alternative to macOS because the Terminal experience is basically identical on both platforms, with the differce of not using Apple hardware. The Terminal is so integral with modern development that even a novice command line user would be able to benefit a lot, such as using `history` and `grep`.
+
+Furthermore, the deployment environments are mostly linux based as well, with new micro services are more and more running on containerized technology that based on Linux. When the odd time comes to setup a CRON job or use Vi to update a config file, being already used to the tools will have huge time savings and help the devOps movement.
+
+In summary, I see running Pop!\OS is like running macOS with X86 based hardware and no legal issues with Hackintosh.
+
 ## Things to Consider When Using Linux At Work
 
 This post is obviously try to convince you to start using Linux. However, before you start downloading the OS image and get going. Although I have not been using Linux on my work machine due to my current development stack is predominantly Microsoft, but here are few things to look for to increase your chance of success.
@@ -48,7 +65,7 @@ Many productivity applications are now web based, such as Confluence, Jira and G
 
 Linux is sightly different from macOS and Windows enough that it can take some time to get used to. Installing Linux in a separate drive will allow you fall back if it is determined not suitable for work after the first week of trial. There will be no time to be lost to re-install Windows. Setting up a new OS takes time, time that can better be used for delivering values to customer. A 256GB SATA SSD is cheap and should be enough storage for most.
 
-Having separate drives also allow dual booting when the occasion arise. Alternatively it is possible to run Unraid OS as host, with 2 graphics cards it is totally possible to run 2 systems at the same time[^1].
+Having separate drives also allow dual booting when the occasion arise. Alternatively it is possible to run Unraid OS as host, with 2 graphics cards it is totally possible to run 2 systems at the same time[^2].
 
 ## My 1st year Experience
 
@@ -80,7 +97,7 @@ There is one issue that I have with Bluetooth keyboard & mice, where I have trou
 | App Store       | [Snap](https://snapcraft.io/store), Pop Store           |
 | Backup          | [Deja Dup](https://wiki.gnome.org/Apps/DejaDup)         |
 | Communication   | Telegram, Discord                                       |
-| Gnome Extension | Brightness-ddcutil[^1], Clipboard Indicator[^2]         |
+| Gnome Extension | Brightness-ddcutil[^3], Clipboard Indicator[^4]         |
 
 Most of the software that I used daily can be accessed on a browser, such as Trello and Apple Music. For browser I start using Brave instead of Chrome.
 
@@ -97,6 +114,8 @@ with 21.04 update, it has even better support of having 3 columns layout
 - [Pop!\_OS by System76](https://pop.system76.com/)
 - [A REALLY Weird PC... - System76 Thelio Review](https://youtu.be/JTN1c1j6V1s)
 
-[^1]: [How to dual boot baremetal windows and unRAID then boot the same windows as a vm](https://www.youtube.com/watch?v=fnIn6GnA87c)
-[^2]: [Brightness control using ddcutil](https://extensions.gnome.org/extension/2645/brightness-control-using-ddcutil/)
-[^3]: [Clipboard Indicator by Tudmotu](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+[^1]: [Docker GPU Support for Tensorflow](https://www.tensorflow.org/install/docker)
+[^2]: [Stack Overflow Annual Developer Survey 2020](https://insights.stackoverflow.com/survey/2020#technology-collaboration-tools-all-respondents)
+[^3]: [How to dual boot baremetal windows and unRAID then boot the same windows as a vm](https://www.youtube.com/watch?v=fnIn6GnA87c)
+[^4]: [Brightness control using ddcutil](https://extensions.gnome.org/extension/2645/brightness-control-using-ddcutil/)
+[^5]: [Clipboard Indicator by Tudmotu](https://extensions.gnome.org/extension/779/clipboard-indicator/)
