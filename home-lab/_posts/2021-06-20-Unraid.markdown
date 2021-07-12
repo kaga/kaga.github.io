@@ -9,6 +9,7 @@ categories: homelab
 
 - [New Personal Computer]({% post_url home-lab/2021-06-13-New-PC %})
 - [A NAS, a server and a PC - Unraid ( You are here )]({% post_url home-lab/2021-06-20-Unraid %})
+- [Using Linux Daily - Pop!_OS]({% post_url home-lab/2021-07-12-PopOS %})
 
 In the previous post, I have introduced the hardware aspect of my new build. It is arguably overpowered for a development machine, especially one that is not being used daily. However, I am not using the machine for a single purpose, but 3 different machines all roll into 1.
 

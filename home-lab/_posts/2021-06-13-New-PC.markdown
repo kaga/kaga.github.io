@@ -14,6 +14,7 @@ However, recently I decided to built a new PC instead for my future experiments,
 
 - [New Personal Computer ( You are here )]({% post_url home-lab/2021-06-13-New-PC %})
 - [A NAS, a server and a PC - Unraid]({% post_url home-lab/2021-06-20-Unraid %})
+- [Using Linux Daily - Pop!_OS]({% post_url home-lab/2021-07-12-PopOS %})
 
 Here is the specification if you must know.
 
