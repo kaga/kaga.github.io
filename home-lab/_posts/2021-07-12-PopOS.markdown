@@ -28,6 +28,8 @@ System76 sell their own hardware as well, so you can rely on them if building a 
 
 ## Why Pop!\_OS ?
 
+![Pop!_OS Auto Tiling](/assets/homelab/pop-os-tile.png)
+
 > TLDR;  
 > 👍 Best in class Terminal ( i.e. ZSH )  
 > 👍 Same environment as the deployment environment ( i.e. Ubuntu Server )  
@@ -37,9 +39,9 @@ System76 sell their own hardware as well, so you can rely on them if building a 
 
 Linux being free is a huge advantage for home use, but not so much as an advantage for work. It is because most companies are already expected to pay for the Windows OS license, or supplied with Apple computers instead.
 
-It is an strong alternative to macOS because the Terminal experience is basically identical on both platforms, with the difference of not using Apple hardware. The Terminal is so integral with modern development that even a novice command line user would be able to benefit a lot, such as using [`history`](<https://en.wikipedia.org/wiki/History_(command)>) and [`grep`](https://en.wikipedia.org/wiki/Grep).
+It is an strong alternative to macOS for the Terminal experience is basically identical on both platforms, with the difference of not using Apple hardware. The Terminal is so integral with modern development that even a novice command line user would benefit a lot, such as using [`history`](<https://en.wikipedia.org/wiki/History_(command)>) and [`grep`](https://en.wikipedia.org/wiki/Grep).
 
-Furthermore, the deployment OS are mostly Linux too. Newly developed web services, even C# with .Net core, are commonly running on containerized technology that also based on Linux. When the time comes to setup a [`CRON`](https://en.wikipedia.org/wiki/Cron) job or use [`Vi`](https://en.wikipedia.org/wiki/Vi) to update a config file, being already used to the tools will save huge amount time.
+Furthermore, the deployment OS are mostly Linux too. Newly developed web services, even C# with [.Net Core](https://dotnet.microsoft.com/download), are commonly running on containerized technology that also based on Linux. When the time comes to setup a [`CRON`](https://en.wikipedia.org/wiki/Cron) job or use [`Vi`](https://en.wikipedia.org/wiki/Vi) to update a config file, being already used to the tools will save huge amount time.
 
 Ubuntu is a popular choice for both workstation and server OS. However, I think Pop!\_OS is better as a workstation OS because it has all the benefits of Ubuntu, but with better user interface. I think one of the best feature of Pop!\_OS is the Windows Tiling. It is very easy to get organized with latest 21.04 update 3 columns layout support.
 
@@ -65,9 +67,9 @@ Many productivity applications are now web based, such as Confluence, Jira and G
 
 Linux is sightly different from macOS and Windows enough that it can take some time to get used to. Installing Linux in a separate drive will allow you fall back if it is determined not suitable for work after the first week. There will be no time to be lost to re-install Windows. Setting up a new OS takes time, time that can better be used for delivering values to customer. A 256GB SATA SSD is cheap and should be enough storage for most.
 
-Having separate drives also allow dual booting when the occasion arise. Alternatively it is possible to run Unraid OS as host, with 2 graphics cards and a KVM monitor, it is possible to run 2 systems at the same time[^2].
+Having separate drives also allow dual booting when the occasion arise. Alternatively it is possible to run Unraid OS as host, with 2 graphics cards and a KVM monitor, it is possible to run 2 systems at the same time[^3].
 
-## My 1st year Experience
+## My 1st year Experience - "It just works!"
 
 After 1 year of use, I did not encounter any issues that caused me to reinstall the OS, and I have been using it for Android and Web services development, during occasion work from home and weekend projects.
 
@@ -77,13 +79,13 @@ It is also my first time to try a linux distribution that is not LTS ( Long Term
 
 In summary, I think Pop!\_OS is good enough for productivity.
 
-### Hardware Compatibility - "It just works!"
+### Hardware Compatibility
 
 I started using Pop!\_OS with an Intel NUC ( [8i5BEH](https://ark.intel.com/content/www/us/en/ark/products/126148/intel-nuc-kit-nuc8i5beh.html) ), which is very similar to [System 76's Meerkat](https://system76.com/desktops/meerkat) lineup. WiFi and Bluetooth they just work after OS installation and no additional drivers required. I compiled the [Android version of Signal](https://github.com/signalapp/Signal-Android) for performance test and it seems to be performing identical ( 2m15s to compile) to Windows, if not better.
 
 Peripherals are plug and play too. 4K or Ultra-wide monitor are supported out of the box and scaling perfectly. There is no issue for using [Security Key](https://www.yubico.com/) at all. I don't have any major connectivity issue with wireless headphone ( Sony WH-1000XM3 ). Even using Thunderbolt 3 connecting external GPU works out of the box too, albeit more friction than MacOS in my opinion. Issues can be resolved by a reboot.
 
-There is one issue that I have with Bluetooth keyboard & mice, where I have trouble waking the PC up and Bluetooth being slow to reconnect. Luckily the keyboard supports USB connection and I used the USB dongle that come with the mice ( Logitech MX Master 3 ).
+There is one issue that I have with Bluetooth keyboard & mice, where I have trouble waking the PC up and Bluetooth being slow to reconnect. Fortunately the keyboard supports USB connection and I used the USB dongle that come with the mice ( Logitech MX Master 3 ).
 
 ### Software
 
@@ -97,9 +99,9 @@ There is one issue that I have with Bluetooth keyboard & mice, where I have trou
 | App Store       | [Snap](https://snapcraft.io/store), Pop Store           |
 | Backup          | [Deja Dup](https://wiki.gnome.org/Apps/DejaDup)         |
 | Communication   | Telegram, Discord                                       |
-| Gnome Extension | Brightness-ddcutil[^3], Clipboard Indicator[^4]         |
+| Gnome Extension | Brightness-ddcutil[^4], Clipboard Indicator[^5]         |
 
-Most of the software that I used daily can be accessed on a browser, such as Trello and Apple Music. For browser I start using Brave instead of Chrome. There are so little additional software that I needed to install to have the OS functional, which says a lot about where the current trends of software development.
+Most of the software that I used daily can be accessed on a browser, such as Trello and Apple Music. For browser I start using [Brave](https://brave.com/) instead of Chrome. There are so little additional software that I needed to install to have the OS functional, which says a lot about the current trends of software development.
 
 ## Reference
 
