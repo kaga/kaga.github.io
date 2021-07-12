@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Linux Daily - Pop!_OS"
-date: 2021-07-10 00:00:00 +1300
+date: 2021-07-12 23:00:00 +1300
 categories: home lab
 tags: equipment
 ---
@@ -10,7 +10,7 @@ tags: equipment
 
 - [New Personal Computer]({% post_url home-lab/2021-06-13-New-PC %})
 - [A NAS, a server and a PC - Unraid]({% post_url home-lab/2021-06-20-Unraid %})
-- [Using Linux Daily - Pop!_OS ( You are here )]({% post_url home-lab/2021-07-10-PopOS %})
+- [Using Linux Daily - Pop!_OS ( You are here )]({% post_url home-lab/2021-07-12-PopOS %})
 
 > To System76: this is not a review blog but I am keen if you can send a THELIO MIRA for evaluation =)
 
