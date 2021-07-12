@@ -20,7 +20,7 @@ In my new PC build series, a keen eye would notice I was using Windows 10 to ben
 
 > Pop!\_OS is an operating system for STEM and creative professionals who use their computer as a tool to discover and create. Unleash your potential on secure, reliable open source software. Based on your exceptional curiosity, we sense you have a lot of it. - System76
 
-There are many communities package Linux up with their preferred software and distribute to the world. [Pop!\_OS](https://pop.system76.com/) is a Linux distribution too, which first based on [Ubuntu](https://ubuntu.com/) and now starting to get their own style. Pop!\_OS put their focus on consumer experience first over able to run in server environment.
+There are many communities package Linux up with their preferred software and distribute to the world. [Pop!\_OS](https://pop.system76.com/) is a Linux distribution too, which first based on [Ubuntu](https://ubuntu.com/) and now starting to get their own style. Pop!\_OS put their focus on consumer experience first over running in server environment.
 
 > People who are really serious about software should make their own hardware - Alan Kay
 
@@ -35,37 +35,37 @@ System76 sell their own hardware as well, so you can rely on them if building a 
 > 🤘 Auto-Tiling works with ultra-wide screen  
 > 🥳 Linux is just as popular as macOS ( 26.6% vs 27.5% )[^2]
 
-Linux being free is a huge advantage for home use, but not so much as an advantage for work. It is because most companies are expected to pay for the Windows OS license, or supplied with Apple computers instead.
+Linux being free is a huge advantage for home use, but not so much as an advantage for work. It is because most companies are already expected to pay for the Windows OS license, or supplied with Apple computers instead.
 
-It is an strong alternative to macOS because the Terminal experience is basically identical on both platforms, with the difference of not using Apple hardware. The Terminal is so integral with modern development that even a novice command line user would be able to benefit a lot, such as using `history` and `grep`.
+It is an strong alternative to macOS because the Terminal experience is basically identical on both platforms, with the difference of not using Apple hardware. The Terminal is so integral with modern development that even a novice command line user would be able to benefit a lot, such as using [`history`](<https://en.wikipedia.org/wiki/History_(command)>) and [`grep`](https://en.wikipedia.org/wiki/Grep).
 
-Furthermore, the deployment system are mostly Linux too. Newly developed web services, even C# with .Net core, are commonly running on containerized technology that also based on Linux. When the time comes to setup a [`CRON`](https://en.wikipedia.org/wiki/Cron) job or use [`Vi`](https://en.wikipedia.org/wiki/Vi) to update a config file, being already used to the tools will save huge amount time.
+Furthermore, the deployment OS are mostly Linux too. Newly developed web services, even C# with .Net core, are commonly running on containerized technology that also based on Linux. When the time comes to setup a [`CRON`](https://en.wikipedia.org/wiki/Cron) job or use [`Vi`](https://en.wikipedia.org/wiki/Vi) to update a config file, being already used to the tools will save huge amount time.
 
-Ubuntu is a common choice for both workstation and server OS. However, I think Pop!\_OS is better as a workstation OS because it has all the benefits of Ubuntu, but with better user interface.
+Ubuntu is a popular choice for both workstation and server OS. However, I think Pop!\_OS is better as a workstation OS because it has all the benefits of Ubuntu, but with better user interface. I think one of the best feature of Pop!\_OS is the Windows Tiling. It is very easy to get organized with latest 21.04 update 3 columns layout support.
 
 ## Things to Consider When Using Linux At Work
 
-This post obviously tries to convince you to start using Linux. However, before you start downloading the OS image and get going, here are few things to look for to increase your chance of success.
+This post obviously tries to convince you to start using Pop!\_OS or any Linux variant. However, before you start downloading the OS image and get going, here are few things to look for to increase your chance of success.
 
 ### Company Policy
 
 For a smaller start up where everyone can take care of their own machine, or companies that give great degree of mastery and autonomy, it is not a problem to run Linux on your own workstation. Security is a primary concerns these days and the OS needs to be kept up to date. There will be little support from your support team when you encounter issues with the OS or other software as well.
 
-More importantly, it is going to be a very good idea to communicate your intention of switching the environment well in advance to your manager and mentor. If they do not know if you can use Linux for work, at least they should know who to ask. You can propose a plan to trial this OS for 3 to 6 months and report at the end of the evaluation.
+More importantly, it is going to be a very good idea to communicate your intention of switching the environment well in advance to your manager and mentor. If they do not know if you can use Linux for work, at least they should know who to ask. You can propose a plan to trial this for 3 to 6 months and report back at the end of the evaluation.
 
 ### Appropriate for the Development Environment
 
-It does not make sense to switch to Linux when the software stack is Microsoft based. It is very exciting time to see [.Net Core](https://dotnet.microsoft.com/download) and [.Net Multi-platform App UI ( MAUI )](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/) are getting tractions. However, it might be more appropriate to first try [Windows Subsystem for Linux ( WSL )](https://docs.microsoft.com/en-us/windows/wsl/install-win10) first. It will become another reason for easier management approval in the future, since you have been using the OS and familiar with it.
+It does not make sense switching to Linux when the software stack is Microsoft based. It is very exciting time to see [.Net Core](https://dotnet.microsoft.com/download) and [.Net Multi-platform App UI ( MAUI )](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/) are getting tractions. However, it might be more appropriate to first try [Windows Subsystem for Linux ( WSL )](https://docs.microsoft.com/en-us/windows/wsl/install-win10) first instead. It will become another reason for easier management approval in the future, since you have been using the OS and familiar with it.
 
-Many productivity applications are now web based, such as Confluence, Jira and Google services, so it is not a concern for software compatibility when switching to Linux. However, in a company that still rely on Microsoft Office or Adobe Creative Cloud on a shared network drive. It could get tricky just to open the file. It can get even trickier when the Linux workstation are not allowed to be in the company's trusted network.
+Many productivity applications are now web based, such as Confluence, Jira and Google services, so it is not a concern for software compatibility. However, in a company that still rely on Microsoft Office or Adobe Creative Cloud on a shared network drive. Things could get tricky just to open the file. It can get even trickier when the Linux workstation are not allowed to be in the company's trusted network.
 
 ### Use a 2nd Drive For Easy Fallback
 
 > Tip: Disconnect the Windows drive before installation to keep both drives bootable.
 
-Linux is sightly different from macOS and Windows enough that it can take some time to get used to. Installing Linux in a separate drive will allow you fall back if it is determined not suitable for work after the first week of trial. There will be no time to be lost to re-install Windows. Setting up a new OS takes time, time that can better be used for delivering values to customer. A 256GB SATA SSD is cheap and should be enough storage for most.
+Linux is sightly different from macOS and Windows enough that it can take some time to get used to. Installing Linux in a separate drive will allow you fall back if it is determined not suitable for work after the first week. There will be no time to be lost to re-install Windows. Setting up a new OS takes time, time that can better be used for delivering values to customer. A 256GB SATA SSD is cheap and should be enough storage for most.
 
-Having separate drives also allow dual booting when the occasion arise. Alternatively it is possible to run Unraid OS as host, with 2 graphics cards it is totally possible to run 2 systems at the same time[^2].
+Having separate drives also allow dual booting when the occasion arise. Alternatively it is possible to run Unraid OS as host, with 2 graphics cards and a KVM monitor, it is possible to run 2 systems at the same time[^2].
 
 ## My 1st year Experience
 
@@ -79,7 +79,7 @@ In summary, I think Pop!\_OS is good enough for productivity.
 
 ### Hardware Compatibility - "It just works!"
 
-I started using Pop!\_OS with an Intel NUC ( [8i5BEH](https://ark.intel.com/content/www/us/en/ark/products/126148/intel-nuc-kit-nuc8i5beh.html) ), which is very similar to System 76's mini lineup. WiFi and Bluetooth they just work after OS installation and no additional drivers required. I compiled the [Android version of Signal](https://github.com/signalapp/Signal-Android) for performance test and it seems to be performing identical ( 2m15s to compile) to Windows, if not better.
+I started using Pop!\_OS with an Intel NUC ( [8i5BEH](https://ark.intel.com/content/www/us/en/ark/products/126148/intel-nuc-kit-nuc8i5beh.html) ), which is very similar to [System 76's Meerkat](https://system76.com/desktops/meerkat) lineup. WiFi and Bluetooth they just work after OS installation and no additional drivers required. I compiled the [Android version of Signal](https://github.com/signalapp/Signal-Android) for performance test and it seems to be performing identical ( 2m15s to compile) to Windows, if not better.
 
 Peripherals are plug and play too. 4K or Ultra-wide monitor are supported out of the box and scaling perfectly. There is no issue for using [Security Key](https://www.yubico.com/) at all. I don't have any major connectivity issue with wireless headphone ( Sony WH-1000XM3 ). Even using Thunderbolt 3 connecting external GPU works out of the box too, albeit more friction than MacOS in my opinion. Issues can be resolved by a reboot.
 
@@ -99,15 +99,14 @@ There is one issue that I have with Bluetooth keyboard & mice, where I have trou
 | Communication   | Telegram, Discord                                       |
 | Gnome Extension | Brightness-ddcutil[^3], Clipboard Indicator[^4]         |
 
-Most of the software that I used daily can be accessed on a browser, such as Trello and Apple Music. For browser I start using Brave instead of Chrome.
-
-I think One of the best feature of PoP!OS is its Windows Tiling. It is very easy to get those applications organized
-with 21.04 update, it has even better support of having 3 columns layout
+Most of the software that I used daily can be accessed on a browser, such as Trello and Apple Music. For browser I start using Brave instead of Chrome. There are so little additional software that I needed to install to have the OS functional, which says a lot about where the current trends of software development.
 
 ## Reference
 
 - [Pop!\_OS by System76](https://pop.system76.com/)
 - [A REALLY Weird PC... - System76 Thelio Review](https://youtu.be/JTN1c1j6V1s)
+- [Terminal Basics](https://support.system76.com/articles/terminal-basics)
+- [Dual Boot Windows 10 Alongside Pop!\_OS](https://support.system76.com/articles/dual-booting)
 
 [^1]: [Docker GPU Support for Tensorflow](https://www.tensorflow.org/install/docker)
 [^2]: [Stack Overflow Annual Developer Survey 2020](https://insights.stackoverflow.com/survey/2020#technology-collaboration-tools-all-respondents)
