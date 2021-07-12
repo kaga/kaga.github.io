@@ -69,7 +69,7 @@ Linux is sightly different from macOS and Windows enough that it can take some t
 
 Having separate drives also allow dual booting when the occasion arise. Alternatively it is possible to run Unraid OS as host, with 2 graphics cards and a KVM monitor, it is possible to run 2 systems at the same time[^3].
 
-## My 1st year Experience - "It just works!"
+## My 1st year Experience
 
 After 1 year of use, I did not encounter any issues that caused me to reinstall the OS, and I have been using it for Android and Web services development, during occasion work from home and weekend projects.
 
