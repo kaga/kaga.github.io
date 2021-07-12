@@ -14,50 +14,50 @@ tags: equipment
 
 > To System76: this is not a review blog but I am keen if you can send a THELIO MIRA for evaluation =)
 
-In my new PC build series, a keen eye would notice I was using Windows 10 to benchmark the virtual machine. However, I have not use Microsoft Windows at home for a long time. Since last year ( 2020 ), I started using Pop!\_OS as my daily OS instead of macOS. This will be my thoughts on Ubuntu favoured Linux as a Graphical Operating System for daily use.
+In my new PC build series, a keen eye would notice I was using Windows 10 to benchmark the virtual machine. However, I have not use Microsoft Windows at home for a long time. Since last year ( 2020 ), I started using Pop!\_OS as my daily OS instead of macOS. This will be my thoughts on Pop!\_OS, an Ubuntu favoured Linux as a Graphical Operating System ( OS ) for daily use.
 
-## Pop!\_OS by System 76
+## Pop!\_OS by System76
 
-> Pop!\_OS is an operating system for STEM and creative professionals who use their computer as a tool to discover and create. Unleash your potential on secure, reliable open source software. Based on your exceptional curiosity, we sense you have a lot of it.
+> Pop!\_OS is an operating system for STEM and creative professionals who use their computer as a tool to discover and create. Unleash your potential on secure, reliable open source software. Based on your exceptional curiosity, we sense you have a lot of it. - System76
 
-There are many communities package Linux up with their preferred software and distribute to the world. [Pop!\_OS](https://pop.system76.com/) is similar. It is a Linux distribution, which first based on [Ubuntu](https://ubuntu.com/). Pop!\_OS put their focus on consumer experience.
+There are many communities package Linux up with their preferred software and distribute to the world. [Pop!\_OS](https://pop.system76.com/) is a Linux distribution too, which first based on [Ubuntu](https://ubuntu.com/) and now starting to get their own style. Pop!\_OS put their focus on consumer experience first over able to run in server environment.
 
 > People who are really serious about software should make their own hardware - Alan Kay
 
-System 76 sell their own hardware as well, so you can rely on them if building a computer is not your interest, or the after-sales support is required.
+System76 sell their own hardware as well, so you can rely on them if building a computer is not your interest, or the after-sales support is desired.
 
 ## Why Pop!\_OS ?
 
-> TLDR;
-> Best in class Terminal ( i.e. ZSH )
-> Same environment as the deployment enivorment ( i.e. Ubuntu Server ) 
-> GPU accelarated Docker based development[^1]
-> Auto-Tiling works with ultra-wide screen
-> Linux is just as poplular as macOS ( 26.6% vs 27.5% )[^2]
+> TLDR;  
+> 👍 Best in class Terminal ( i.e. ZSH )  
+> 👍 Same environment as the deployment environment ( i.e. Ubuntu Server )  
+> 🤘 GPU accelerated Docker based development[^1]  
+> 🤘 Auto-Tiling works with ultra-wide screen  
+> 🥳 Linux is just as popular as macOS ( 26.6% vs 27.5% )[^2]
 
-Linux being free is a huge advantage for home use, but not so much for an advantage for work. It is because most companies are expected to pay for the Windows OS license, or supplied with Apple computers instead.
+Linux being free is a huge advantage for home use, but not so much as an advantage for work. It is because most companies are expected to pay for the Windows OS license, or supplied with Apple computers instead.
 
-It is an strong alternative to macOS because the Terminal experience is basically identical on both platforms, with the differce of not using Apple hardware. The Terminal is so integral with modern development that even a novice command line user would be able to benefit a lot, such as using `history` and `grep`.
+It is an strong alternative to macOS because the Terminal experience is basically identical on both platforms, with the difference of not using Apple hardware. The Terminal is so integral with modern development that even a novice command line user would be able to benefit a lot, such as using `history` and `grep`.
 
-Furthermore, the deployment environments are mostly linux based as well, with new micro services are more and more running on containerized technology that based on Linux. When the odd time comes to setup a CRON job or use Vi to update a config file, being already used to the tools will have huge time savings and help the devOps movement.
+Furthermore, the deployment system are mostly Linux too. Newly developed web services, even C# with .Net core, are commonly running on containerized technology that also based on Linux. When the time comes to setup a [`CRON`](https://en.wikipedia.org/wiki/Cron) job or use [`Vi`](https://en.wikipedia.org/wiki/Vi) to update a config file, being already used to the tools will save huge amount time.
 
-In summary, I see running Pop!\OS is like running macOS with X86 based hardware and no legal issues with Hackintosh.
+Ubuntu is a common choice for both workstation and server OS. However, I think Pop!\_OS is better as a workstation OS because it has all the benefits of Ubuntu, but with better user interface.
 
 ## Things to Consider When Using Linux At Work
 
-This post is obviously try to convince you to start using Linux. However, before you start downloading the OS image and get going. Although I have not been using Linux on my work machine due to my current development stack is predominantly Microsoft, but here are few things to look for to increase your chance of success.
+This post obviously tries to convince you to start using Linux. However, before you start downloading the OS image and get going, here are few things to look for to increase your chance of success.
 
 ### Company Policy
 
-For a smaller software start up where everyone can take care of their own machine, or companies that give great degree of mastery and autonomy, it is not a problem to run Linux on your own workstation. Security is a primary concerns and the OS needs to be kept up to date. There will be little support from your support team when you encounter issues with the OS or other software.
+For a smaller start up where everyone can take care of their own machine, or companies that give great degree of mastery and autonomy, it is not a problem to run Linux on your own workstation. Security is a primary concerns these days and the OS needs to be kept up to date. There will be little support from your support team when you encounter issues with the OS or other software as well.
 
-This is going to be a very good idea to communicate your intention well in advance to your manager and mentor. You can propose a plan to trial this OS for 3 to 6 months and report at the end of the evaluation.
+More importantly, it is going to be a very good idea to communicate your intention of switching the environment well in advance to your manager and mentor. If they do not know if you can use Linux for work, at least they should know who to ask. You can propose a plan to trial this OS for 3 to 6 months and report at the end of the evaluation.
 
 ### Appropriate for the Development Environment
 
-It does not make sense to switch to Linux when the software stack is Microsoft based. It is very exciting time to see [.Net Core](https://dotnet.microsoft.com/download) and [.Net Multi-platform App UI ( MAUI )](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/) are getting tractions. However, it might be more appropriate to first try [Windows Subsystem for Linux ( WSL )](https://docs.microsoft.com/en-us/windows/wsl/install-win10) first. It will become another reason for easy management approval in the future, since you have been using the OS and familiar with it.
+It does not make sense to switch to Linux when the software stack is Microsoft based. It is very exciting time to see [.Net Core](https://dotnet.microsoft.com/download) and [.Net Multi-platform App UI ( MAUI )](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/) are getting tractions. However, it might be more appropriate to first try [Windows Subsystem for Linux ( WSL )](https://docs.microsoft.com/en-us/windows/wsl/install-win10) first. It will become another reason for easier management approval in the future, since you have been using the OS and familiar with it.
 
-Many productivity applications are now web based, such as Confluence, Jira and Google services, so it is not a concern when switching to Linux. However, in a company that still rely on Microsoft Office or Adobe Creative Cloud on a shared network drive. It could get tricky to open the file. It can get even trickier when the Linux workstation are not allowed to be in the company trusted network.
+Many productivity applications are now web based, such as Confluence, Jira and Google services, so it is not a concern for software compatibility when switching to Linux. However, in a company that still rely on Microsoft Office or Adobe Creative Cloud on a shared network drive. It could get tricky just to open the file. It can get even trickier when the Linux workstation are not allowed to be in the company's trusted network.
 
 ### Use a 2nd Drive For Easy Fallback
 
@@ -103,11 +103,6 @@ Most of the software that I used daily can be accessed on a browser, such as Tre
 
 I think One of the best feature of PoP!OS is its Windows Tiling. It is very easy to get those applications organized
 with 21.04 update, it has even better support of having 3 columns layout
-
-### Should You Use Pop!_OS ?
-
-
-
 
 ## Reference
 
