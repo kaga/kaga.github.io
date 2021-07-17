@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Debugging Teams wth ...... Humility, Respect and Trust"
+title: "Debugging Teams with ...... Humility, Respect and Trust"
 date: 2021-07-05 01:00:00 +1300
 categories: debugging-teams
 tags: book

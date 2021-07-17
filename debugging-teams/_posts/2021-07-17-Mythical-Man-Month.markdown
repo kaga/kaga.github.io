@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Adding Manpower To a Late Software Project Makes It Later"
-date: 2021-05-24 00:45:49 +1300
+title: "Estimating Project Completion with ...... Mythical Man-Month"
+date: 2021-07-17 00:45:49 +1300
 categories: debugging-teams
 tags: team
 ---
 
 ![Mythical Man Month](assets/book/mythical-man-month.jpg)
-
 
 Projects
     - There are many different types of projects
@@ -26,4 +25,6 @@ Projects
     - Documentation 
     - No Sliver Bullet
 
-[A Path to Better Programming • Robert "Uncle Bob" Martin & Allen Holub • GOTO 2021](https://youtu.be/QnmRpHFoYLk)
+
+
+- [A Path to Better Programming • Robert "Uncle Bob" Martin & Allen Holub • GOTO 2021](https://youtu.be/QnmRpHFoYLk)
