@@ -1,15 +1,13 @@
 ---
 layout: post
 title: "Adding Manpower To a Late Software Project Makes It Later"
-date: 2021-04-25 00:45:49 +1300
+date: 2021-05-24 00:45:49 +1300
 categories: debugging-teams
 tags: team
 ---
 
-It is a book that always known, but didn't have the motivation to read it 
+![Mythical Man Month](assets/book/mythical-man-month.jpg)
 
-Goto 
-https://youtu.be/QnmRpHFoYLk
 
 Projects
     - There are many different types of projects
@@ -27,5 +25,5 @@ Projects
         - Communication over contract negotiation
     - Documentation 
     - No Sliver Bullet
-    
 
+[A Path to Better Programming • Robert "Uncle Bob" Martin & Allen Holub • GOTO 2021](https://youtu.be/QnmRpHFoYLk)
