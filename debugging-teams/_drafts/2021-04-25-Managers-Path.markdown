@@ -134,6 +134,7 @@ Healthy Relationship - measurable success - Clear expectation - remove
 
 ## Reference
 
+- [Dropbox Engineering Career Framework](https://dropbox.github.io/dbx-career-framework/overview.html)
 [The Career Paths in Software Engineering - Mayuko](https://youtu.be/JAkGtHz9MLc)
 
 [^1]: I used the term "manager" very loosely here. She could be a senior engineer that work with you on day to day basis, or a team lead that may be the same level as you in the organization chart.
