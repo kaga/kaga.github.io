@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "The Terminal"
+date:   2021-07-22 00:00:00 +1300
+categories: linux
+---
+
+## Shell 
+
+ZSH + Oh My ZSH
+Bash also works 
+
+## Navigating
+
+Tab
+Option + Arrow
+Command + w
+Home
+
+## Basic Commands
+
+### `cd` 
+
+
+
+### ``
+
+
+
+[The Unix Chainsaw - Gary Bernhardt](https://youtu.be/ZQnyApKysg4)
