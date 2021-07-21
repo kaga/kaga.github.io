@@ -35,11 +35,18 @@ The timing of which new developers joining the team are also important as well. 
 
 > Setting of external specifications is not more creative work than the designing of implementations. It is just different creative work.
 
-As a software engineer, I think the best code is the code that need not writing, by carefully balancing the act of building new software and purchasing off the shelf solution. It is espically a valuable skill to have when the team is small but a lot work has to be done. Focus all the effort in delivering the core value for the customer. It is as highly creative work as writing the most elegant efficent code, and I think it is better to rotate the roles of Architecture and Implement
+As a software engineer, I think the best code is the code that need not writing, by carefully balancing the act of building new software and purchasing off the shelf solution. It is espically a valuable skill to have when the team is small but a lot work has to be done. Focus all the effort in delivering the core value for the customer. It is as highly creative work as writing the most elegant efficent code, and I think it is better to rotate the roles of architects and implementors
 
 ### Schedule 
 
 > when schedule slippage is recognized, the natural ( and traditional ) response is to add manpower. Like dousing a fire with gasoline, this makes matters worse, much worse. More fire requires more gasoline, and thus begins a regenerative cycle with ends in disaster.
+
+
+In this post-agile world, 
+
+I think it is safe to say, the industry is starting to head towards the post-agile world. 
+
+where 
 
 
 
@@ -68,4 +75,5 @@ Project
 - [A Path to Better Programming • Robert "Uncle Bob" Martin & Allen Holub • GOTO 2021](https://youtu.be/QnmRpHFoYLk)
 - [Why Scaling Agile Doesn't Work • Jez Humble • GOTO 2015](https://youtu.be/2zYxWEZ0gYg)
 - [Frankenbuilds; if Agile is so Good, why are our Products so Bad? • Gabrielle Benefield • GOTO 2012](https://youtu.be/2JNXx8VdbAE)
+- [Surviving Your Inevitable Agile Transition](https://youtu.be/UQOmGiv7rUk)
 - [#NoEstimates (Allen Holub)](https://youtu.be/QVBlnCTu9Ms)
