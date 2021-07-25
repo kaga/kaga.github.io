@@ -1,30 +1,70 @@
 ---
 layout: post
-title:  "The Terminal"
+title:  "The Terminal - ZSH"
 date:   2021-07-22 00:00:00 +1300
 categories: linux
 ---
 
-## Shell 
+[In the last post, I advocated using Pop!_OS at work]({% post_url home-lab/2021-07-12-PopOS %}). This is another long term series on the terminal, or commonly known as "shell".
 
-ZSH + Oh My ZSH
-Bash also works 
+I am definitely not an expert in command line interface but hopefully this should get you started on the journey. This should be also applicable on macOS and [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) as well. Another reason this fit in this blog because the terminal is not going away, I think the reverse is more true.
+
+## **ZSH** - The Terminal
+
+![ZSH shell](/assets/linux/zsh.png)
+
+In this series, I will be using [ZSH](https://en.wikipedia.org/wiki/Z_shell) on Pop!_OS. There is no partiular reason I prefer ZSH over any other alternatives, beside ZSH has become the default shell in recent macOS release as well. [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) is an addition program that I install after ZSH installation.
+
+[Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) should work too, but it is not recommended learn the command line interface on Git Bash on Windows. I think there is a slight difference compared to ZSH that I found myself does not use it as often.
+
+It is also possible and sometimes advantage to use the terminal from IDE as well, such as [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Navigating
 
-Tab
-Option + Arrow
-Command + w
-Home
+Once you launch the Terminal program. You will be greeted with an mostly empty screen. You can interact with it by typing commands. Such as `echo Hello World` will echo "Hello World" as a result.
+
+There are many keyboard shortcuts to help interacting with the Terminal in a very efficiently. Keep learning new shortcuts is as important as learning new command line programs, so you can find your preferred way of working with the program.
+
+### `Control ⌘ + W` Delete the Whole Word
+
+One good example of such productivity keyboard shortcut is 
+hitting Backspace multiple times
+
+### `Tab` Auto Complete
+
+```zsh
+➜  ~ git clone --re
+--recurse-submodules               -- initialize submodules in the clone      
+--recursive                        -- initialize all contained submodules     
+--reference-if-able   --reference  -- reference repository                    
+--remote-submodules                -- any cloned submodules will use their rem
+```
 
 ## Basic Commands
 
-### `cd` 
+### `cd`
+
+finder
+
+`ls` `pwd`
+
+### `history`
 
 
+Up arrow
 
-### ``
+!390
+
+!!
+
+### `grep`
+
+`|`
+
+### `cat`
 
 
+## Reference
 
+[How to Install ZSH on Many Platforms](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 [The Unix Chainsaw - Gary Bernhardt](https://youtu.be/ZQnyApKysg4)
