@@ -73,7 +73,7 @@ Nothing more satisfying seeing a team maintaining a healthy culture even all ori
 
 > The moral is this: do not underestimate the power of playing the social game. It's not about tricking or manipulating people; it's about creating relationships to get things done, and relationships always outlast projects.
 
-This book is so full of advice that I could spend so much more time writing everything about it. It is very suitable for developers in different stages of their carrier. When I first become a team lead and read this book for the very first time, I thought the major take-home message was **manager is a four-letter word** and be a **servant leader**. 
+This book is so full of advice that I could spend so much more time writing everything about it. It is very suitable for developers in different stages of their carrier. When I first become a team lead and read this book for the very first time, I thought the major take-home message was **manager is a four-letter word** and be a **servant leader**.
 
 Recently when I got the opportunity to lead another team and read it again, I realized the true values of **HRT** and how my **visible attitude about absolutely everything - no matter how trivial is unconsciously noticed and spreads infectiously to your team**.
 
