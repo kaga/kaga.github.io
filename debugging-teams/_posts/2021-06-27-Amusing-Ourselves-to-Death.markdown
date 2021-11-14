@@ -12,10 +12,10 @@ Software development involves a lot of reading and writing. In order to write a 
 
 Similar to [GOTO Book Club](https://www.youtube.com/playlist?list=PLEx5khR4g7PJbSLmADahf0LOpTLifiCra), I will be discussing different areas of software development which inspired by a book. However, this is not a book review.
 
-- [Amusing Ourselves to Death with Documentation ( You are here )]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
+- [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
 - [Debugging Teams with Humility, Respect and Trust]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
+- [Mythical Man-Month]({% post_url debugging-teams/2021-11-14-Mythical-Man-Month %})
 - The Manager’s Path
-- The Mythical Man-Month
 
 ## Receiving Information Everyday
 

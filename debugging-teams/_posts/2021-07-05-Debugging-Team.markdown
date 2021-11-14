@@ -17,9 +17,9 @@ tags: book
 In the previous post, I started this book club talking about reading is a way to learn, and stated the idea that software development requires a lot of reading, and different ways to help struggling team members with communication and careful writing. This post I will be discussing further about team work.
 
 - [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
-- [Debugging Teams with Humility, Respect and Trust ( You are here )]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
+- [Debugging Teams with Humility, Respect and Trust]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
+- [Mythical Man-Month]({% post_url debugging-teams/2021-11-14-Mythical-Man-Month %})
 - The Manager’s Path
-- The Mythical Man-Month
 
 ## Software Development is a Creative Process
 
@@ -73,7 +73,7 @@ Nothing more satisfying seeing a team maintaining a healthy culture even all ori
 
 > The moral is this: do not underestimate the power of playing the social game. It's not about tricking or manipulating people; it's about creating relationships to get things done, and relationships always outlast projects.
 
-This book is so full of advice that I could spend so much more time writing everything about it. It is very suitable for developers in different stages of their carrier. When I first become a team lead and read this book for the very first time, I thought the major take-home message was **manager is a four-letter word** and be a **servant leader**. 
+This book is so full of advice that I could spend so much more time writing everything about it. It is very suitable for developers in different stages of their carrier. When I first become a team lead and read this book for the very first time, I thought the major take-home message was **manager is a four-letter word** and be a **servant leader**.
 
 Recently when I got the opportunity to lead another team and read it again, I realized the true values of **HRT** and how my **visible attitude about absolutely everything - no matter how trivial is unconsciously noticed and spreads infectiously to your team**.
 
