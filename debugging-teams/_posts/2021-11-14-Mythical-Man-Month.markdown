@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Many ...... Mythical Man-Month ...... to Finish a Project"
-date: 2021-11-11 00:45:49 +1300
+date: 2021-11-14 23:35:49 +1300
 categories: debugging-teams
 tags: book
 ---
@@ -10,13 +10,17 @@ tags: book
 
 - [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
 - [Debugging Teams with Humility, Respect and Trust]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
-- [Mythical Man-Month ( You are here )]({% post_url debugging-teams/2021-07-17-Mythical-Man-Month %})
+- [Mythical Man-Month]({% post_url debugging-teams/2021-11-14-Mythical-Man-Month %})
 - The Manager’s Path
 
 *Long time no write. After I first draft this post on 17th July 2021, I took a 3 months break experimenting what I have learned.*
 
 > Why is programming fun? What delights may its practitioner expect as his reward?
-> First is the sheer joy of making things...... Second is the pleasure of making things that are useful to other people...... Third is the fascination of fashioning complex puzzle-like objects of interlocking moving parts and watching them work in subtle cycles, playing out the consequences of principles built in from the beginning...... Fourth is the joy of always learning, which springs from the non-repeating nature of the task...... Finally, there is the delight of working in such a tractable medium.
+>
+> First is the sheer joy of making things......
+> Second is the pleasure of making things that are useful to other people......
+> Third is the fascination of fashioning complex puzzle-like objects of interlocking moving parts and watching them work in subtle cycles, playing out the consequences of principles built in from the beginning......
+> Fourth is the joy of always learning, which springs from the non-repeating nature of the task...... Finally, there is the delight of working in such a tractable medium.
 
 As a software engineer, one could be programming for oneself, or for someone. One could be the sole programmer in a company, working on integration different programs, or fortunate enough to be part of a team, crafting a product for consumer market. It is very exciting to lear new ideas and software development technique everyday, to solve a technical problem. Time can go by very fast, especially when one is in the zone, implement a sorting algorithm or experimenting with a new framework.
 

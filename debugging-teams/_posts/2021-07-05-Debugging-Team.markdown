@@ -17,9 +17,9 @@ tags: book
 In the previous post, I started this book club talking about reading is a way to learn, and stated the idea that software development requires a lot of reading, and different ways to help struggling team members with communication and careful writing. This post I will be discussing further about team work.
 
 - [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
-- [Debugging Teams with Humility, Respect and Trust ( You are here )]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
+- [Debugging Teams with Humility, Respect and Trust]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
+- [Mythical Man-Month]({% post_url debugging-teams/2021-11-14-Mythical-Man-Month %})
 - The Manager’s Path
-- The Mythical Man-Month
 
 ## Software Development is a Creative Process
 
