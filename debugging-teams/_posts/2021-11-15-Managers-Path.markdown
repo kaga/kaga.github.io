@@ -1,18 +1,21 @@
 ---
 layout: post
-title: "Career Progression"
-date: 2021-05-04 01:55:49 +1300
+title: "The Manager's Path ...... As a Developer"
+date: 2021-11-15 01:55:49 +1300
 categories: debugging-teams
 tags: read
 ---
 
 ![The Manager's Path](/assets/book/the-managers-path.jpg)
 
+- [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
+- [Debugging Teams with Humility, Respect and Trust]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
+- [Mythical Man-Month]({% post_url debugging-teams/2021-11-14-Mythical-Man-Month %})
+- [The Manager’s Path]({% post_url debugging-teams/2021-11-15-Managers-Path %})
+
 I amire developer who can write performan eligate code, and interested in exploring the latest software framework trends or language features. However, there are so much more than being knowledgeable on certain technology stack. Skills such as working collaboratively in a team environment, and building relationship with user in requirement gathering and gathering feedbacks.
 
 In my opinion, I believe a successful software developer one should put equal focus on social and technical aspect.
-
-- [The Manager’s Path (You are here)](% post_url debugging-teams/2021-05-04-Managers-Path %)
 
 ## Management ≠ Evil
 
