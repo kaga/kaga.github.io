@@ -13,7 +13,7 @@ tags: book
 - [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
 - [Debugging Teams with Humility, Respect and Trust]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
 - [Mythical Man-Month]({% post_url debugging-teams/2021-11-14-Mythical-Man-Month %})
-- The Manager’s Path
+- [The Manager’s Path]({% post_url debugging-teams/2021-11-28-Managers-Path %})
 
 > Why is programming fun? What delights may its practitioner expect as his reward?
 >
