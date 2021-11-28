@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Manager's Path ...... As a Developer"
+title: "The Manager's Path ...... As a Software Engineer"
 date: 2021-11-15 01:55:49 +1300
 categories: debugging-teams
 tags: read
@@ -8,137 +8,63 @@ tags: read
 
 ![The Manager's Path](/assets/book/the-managers-path.jpg)
 
+## Series Review
+
+This is the last post for a while for this book club. I started by expressing mordern software engineering requires a lot of reading and writing, even ironiclly it is the same industry that changed how people communicate for the worse. Nevertheless, conscious of different communication medium key to the success of what we do. 
+
+I then expressed how software development is a craftmanship but also a team sport. Only by working as a team, we could achive a lot more.
+
+In the last post, I expressed there are much more than "writing code" as a software engineer, that software is a service that you provide to your customer. In this post, I will be discussing a similar topic but it is more personal.
+
 - [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
 - [Debugging Teams with Humility, Respect and Trust]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
 - [Mythical Man-Month]({% post_url debugging-teams/2021-11-14-Mythical-Man-Month %})
 - [The Manager’s Path]({% post_url debugging-teams/2021-11-15-Managers-Path %})
 
-I amire developer who can write performan eligate code, and interested in exploring the latest software framework trends or language features. However, there are so much more than being knowledgeable on certain technology stack. Skills such as working collaboratively in a team environment, and building relationship with user in requirement gathering and gathering feedbacks.
+This happened to myself early in my career, and many software engineers that I have met over the years, that after few years of working, we all at a lost of what is the career path of a software engineer. 
 
-In my opinion, I believe a successful software developer one should put equal focus on social and technical aspect.
+There are more companys nowadays, such as dropbox, have a clear definition[^1]. However, there are much more companys have just simple 2-levels structure, one level for the out of collage, and became a "Senior Software Engineer" for those that have worked for few years. The senior positions often are not well defined, mostly driven by time or technical knowledge in your domains.    
 
-## Management ≠ Evil
+Moreover, I was also horrified by the sea of non-technical managers, who knows little about project management and software engineering. They came up with unrealistic schedules and cared little about the team, or the project.
 
-As a software developer progress her career from a junior position to a senior position. Some might prefer being a senior software developer because that was what she would love to do. While others might prefer not promoting into management position simply because they were horrified by less-than-ideal managers.
+On the other hand, we also seen our former peers, who was a good developer, promoted to management level only to witness she is fully ocupied by endless meaningless meetings and project status reports.
 
-They thought becoming a manager would mean departure to their technical skills and stop writing code.
+## Being a ~Manager~ Leader Can Be Fun
 
-There are many roles involved in an organization, that contribute in developing and delivering a product, in the name of 'manager' and 'CTO'. Some might focusing on the big pictures, while others ensure multiple projects will deliver on time. It does not mean the manager will stand behind your shoulders watching, but to provide guidance, mentorship, training and generally cares for your wellbeing.
+> Developing a sense of ownership and authority for your own experiences at work, and not relying on your manager to set the entire tone for your relationship, is an important step in owning your career and workplace happiness.
 
-## You Are In Control
+I am not trying to argue management is more fun than being a indivual contributor writing code and everyone should be a manager, but I do see management when properly utilized could help everyone in the team be much more effective in building the right product, and overall more enjoyable work everyday.
 
-One of the biggest lessons that I have learned over the years was that, there are no one but myself to be responsible for my own future. While there are good managers, who will inspire you and help you tremendously in your career, but they can only help so much and you will be doing bulk of the work. Your manager might recommand you to read a book or learn Test-Driven Development, but it is up to you to read and practice it.
+Taking extra steps to start looking at a new feature from a product perspective, and questioning how it fits into the short and medium term product stralegies. I found this hoslistic way of thinking can help answer a lot of day to day questions. For example, if customer discovered an issue, how and when to resolve the issue became really clear. A mistake was found in the core parts of a program should be fixed with much more care and attention. A wrong architectial decision should be reviewed and addressed.
 
-### What is Your Ideal Way of Work?
+In other words, the experience of a software engineer, in my opinion is determined by how she can look at an issue at a higher level. Being a manager or team lead is not necessary means having more responsibilites, but rather different kind of responsibilies.  
 
-> Do you prefer waiting your manager to assign tasks to you, or you prefer to have choice over which task to do?
+## Don't Forget What You Do Best 
 
-One of my struggles as a team lead was picking a right task for a junior developer. I was very concerned if the task was too difficult, it might dents her confidence level. Conversely, if I pick an easy task, I fear that I might limit her growth as a developer.
+> If you don’t stay in the code, you risk making yourself technically obsolete too early in your career. You may be on a management career path, but that doesn’t mean that you should wash your hands of technical responsibilities. In fact, I mention specifically in my engineering lead job description that I expect managers at this level to implement small features and bug fixes.
 
-> Do you prefer having a peer program with you all the time or enjoy work alone ?
+After promoted to manager or tech lead because of this new gain perspective. In my opinion, it is very important to stay close to your roots, even few years in the management. 
 
-Different developer has different style of working and there are no right way. Some prefer leaving them alone to figure out. Some prefer bounding off ideas but can manage to finish the work on her own. Some requires clear expectations. Some would like to do the task as a team.
+While it is true being a tech lead and above are involved in some "abstractions tasks"[^2]. Those tasks can help your team focus on one thing - deliver values to user. It could be seemingly trivial tasks, from getting office chairs, replacing light bulbs. However, it does not mean departure to your technical skills and stop writing code altogether.
 
-Finding out which way help you accomptilsh the task
+First of all, the ability to contribute to the project occationally will help understand the day to day frustrations, such as tools relibility, or workflow setup. For example, if a simple 1 hour change takes 3 months to get to the customer hands, or impossible to incorporate into a release at all. This information will help you determine how you could help and stay close to the team. Techique such as Trunk based development and continuous delivery mindset plays hand in hand with this management style.
 
-do you know what is happening around your team? Do you know what is happening around
+Secondly, the quality of the code for the project will improve a lot because of your limited contributions as well. It is because in order for any occuicational or new contributors to work effectively, it is particular important everything has to be easy to understand and well documented.
 
-[from the leader perspective]
+## Pay It Forward
 
-- How work should assign to you
-  - All Bug Fix no Feature ?!
-  - What are your views
-- From junior to become a senior developer
-- What's your expectation from a manager
+> I do not pretend to give such a deed; I only lend it to you. When you [...] meet with another honest Man in similar distress, you must pay me by lending this sum to him; enjoining him to discharge the debt by a like operation, when he shall be able, and shall meet with another opportunity. I hope it may thus go thro' many hands, before it meets with a knave that will stop its progress. This is a trick of mine for doing a deal of good with a little money. - Benjamin Franklin
 
-- 1 on 1 with your manager focusing on your goal
+Another aspect of taking a software engineer career to the next level is helping your peers, sometimes even managers, to see the lights at the end of the tunnel. It could in the form of having a warm onboarding[^3]. It could be having constructive purposeful 1-1 meetings, or start mentoring your team members who are struggling at work.
 
-- PRD ( Having a goal ) is not necessary bad
-
-- given certain responsibilities
-  You can contribute in the success of that objective
-
-Optional to be a manager
-
----
-
-In the tech industry, I think far more resources was put on the technical aspect of building a software. Some focus on the language features, or algorithms and pattern to write the most beautiful code.
-
-It is also common to for companies to look for **guru**, **geeks**, **genius developer**, with selection criteria heavily focused on
-
-- Debugging Teams
-- Amusing Ourselves to Death
-
-## A Long Time Ago in a Galaxy Far, Far Away
-
-Congratulations! You have landed your first job as a software developer. You are energetic and very keen to solve real world problems. You might already have been furiously crafting the best code and possibly delivered few applications to user.
-
-Slowly but surely your reputation of turning ideas to reality starting to spread. You start getting more freedom into how you do things. You have opinions on how certain features should work. You crank out features after features at truly astonishing rate.
-
-Your work has inspired your manager[^1] to pursue bigger work that were deemed too difficult previously. So you start assembling a team to tackle the problem. You managed to pull it off too.
-
-Let's take a deep breath.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-Now you just found yourself become a manager working with hundreds of developer.
-
-## Software Development is not About Writing Code
-
-The story shows there are many roles in an organization. There are senior engineers, tech leads, managers and CTO. Every roles focus on different areas of delivering great product to user.
-
-Those "abstractions"[^2] are there to help the team focus on one thing, deliver values to user. It could be seemingly trivial tasks, from getting office chairs, replacing light bulbs, to setting the scene for more effective development process and the product roadmap.
-
-Understanding and appreciating the processes in order to get your software into hand of user, will help delivering better software faster and construct a collaborative environment.
-
-## You Are In Control
-
-Progress to senior position
-PRD / 1 on 1 - Measure success
-
-be a senior software engineer and choose not to be a team lead.
-
-I think this kind of decision should be a conscious one.
-
-Your manager is not perfect and does not mind read.
-
-You can't control how your manager should have known / reaction
-
-- But you can take initiative to communticate what you want
-- But it will be a mistake to assume it is
-
-It might stress you out because it is a hard problem, or simply out of your control
-I.e. company culture / strategy / Project goal , metric for success
-
-Setting expectation , communicate with your manager
-Collaboration and work towards that goal.
-
-get the support you need to success - Manager involvement - Relationship
-Between You and Your Mentor, Leader, Manager
-
-via
-PRD,
-1 on 1
-Learning Relationship
-
-Healthy Relationship - measurable success - Clear expectation - remove
-
-## Giving Back
+This is in my view much harder than architecting a solution, because it requires a lot of patient and time. However, this will defines your team's cluture, and your team effectiveness. 
 
 ## Reference
 
-- [Dropbox Engineering Career Framework](https://dropbox.github.io/dbx-career-framework/overview.html)
-[The Career Paths in Software Engineering - Mayuko](https://youtu.be/JAkGtHz9MLc)
-
-[^1]: I used the term "manager" very loosely here. She could be a senior engineer that work with you on day to day basis, or a team lead that may be the same level as you in the organization chart.
+[^1]: [Dropbox Engineering Career Framework](https://dropbox.github.io/dbx-career-framework/overview.html)
 [^2]: [The Development Abstraction Layer](https://www.joelonsoftware.com/2006/04/11/the-development-abstraction-layer-2/)
+[^3]: [Patterns of Effective Teams • Dan North • GOTO 2017](https://youtu.be/lvs7VEsQzKY?t=1623)
+
+- [The Career Paths in Software Engineering - Mayuko](https://youtu.be/JAkGtHz9MLc)
+- [Beyond Developer • Dan North • GOTO 2017](https://youtu.be/wYEk0y8LYfg)
+
