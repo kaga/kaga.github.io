@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Setup Tour - Keyboard & Mice"
-date:   2021-11-30 12:05:49 +1300
+date:   2021-12-26 00:12:24 +1300
 categories: personal
 tags: tools
 ---
