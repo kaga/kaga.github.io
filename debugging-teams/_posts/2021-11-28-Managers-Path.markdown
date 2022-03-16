@@ -10,7 +10,7 @@ tags: read
 
 ## Review
 
-This is the last post for a while for this book club. I started by expressing software engineering these days requires a lot of reading and writing, even ironically it is the same industry that changed how people communicate. Nevertheless, conscious of different communication medium key to the success of what we do.
+This is the last post for a while for this book club. I started by expressing software engineering these days requires a lot of reading and writing, even ironically it is the same industry that changed how people communicate. Nevertheless, conscious of different communication medium is key to the success of what we do.
 
 I then expressed how software development is a craftsmanship but also a team sport. Only by working as a team, we could achieve a lot more.
 
@@ -19,7 +19,7 @@ In the last post, I expressed there are much more than "writing code" as a softw
 - [Amusing Ourselves to Death with Documentation]({% post_url debugging-teams/2021-06-27-Amusing-Ourselves-to-Death %})
 - [Debugging Teams with Humility, Respect and Trust]({% post_url debugging-teams/2021-07-05-Debugging-Team %})
 - [Mythical Man-Month]({% post_url debugging-teams/2021-11-14-Mythical-Man-Month %})
-- [The Manager’s Path]({% post_url debugging-teams/2021-11-28-Managers-Path %})
+- [The Manager's Path]({% post_url debugging-teams/2021-11-28-Managers-Path %})
 
 This happened to myself early in my career, and many software engineers that I have met over the years too, that after few years of working, we all at a lost the career path of a software engineer.
 
@@ -27,7 +27,7 @@ There are more companies nowadays, such as Dropbox, have a very clear definition
 
 Moreover, I was also horrified by the sea of non-technical managers, who knows little about project management nor software engineering. They came up with unrealistic schedules and cared little about the team, or the project. To those managers, software engineer seems to be a cog in a massive factory.
 
-On the other hand, I have also saw our former peers, who was a good developer, promoted to management level only to witness she is fully occupied by endless meaningless meetings and project status reports.
+On the other hand, I have also witnessed my former peers, who was a good developer then promoted to management level, fully occupied by endless meaningless meetings and project status reports.
 
 ## Being a ~~Manager~~ Leader Can Be Fun
 
@@ -43,7 +43,7 @@ In other words, the experience of a software engineer, in my opinion is determin
 
 ## Don't Forget What You Do Best
 
-> If you don’t stay in the code, you risk making yourself technically obsolete too early in your career. You may be on a management career path, but that doesn’t mean that you should wash your hands of technical responsibilities. In fact, I mention specifically in my engineering lead job description that I expect managers at this level to implement small features and bug fixes.
+> If you don't stay in the code, you risk making yourself technically obsolete too early in your career. You may be on a management career path, but that doesn't mean that you should wash your hands of technical responsibilities. In fact, I mention specifically in my engineering lead job description that I expect managers at this level to implement small features and bug fixes.
 
 After promoted to manager or tech lead because of this new gain perspective. In my opinion, it is very important to stay close to your roots, even few years in the management role.
 
@@ -51,7 +51,7 @@ While it is true being a tech lead and above are involved in some "abstraction t
 
 First of all, the ability to contribute to the project occasionally will help understand the day to day frustrations, such as tools reliability, or workflow setup. For example, if a simple 1 hour change takes 3 months to get to the customer hands, or impossible to incorporate into a release at all. This information will help you determine how you could help. Technique such as [Trunk based development](https://trunkbaseddevelopment.com/) and [continuous delivery](https://youtu.be/MnyvgFDh-kw) mindsets play hand in hand with this management style.
 
-Secondly, the quality of the code for the project will improve a lot because of the limited contributions as well. It is because in order for any occupational or new contributors to work effectively, it is particular important everything has to be easy to understand and well documented.
+Secondly, the quality of the code for the project will improve a lot because of the limited contributions as well. It is because in order for any occasional or new contributors to work effectively, it is particular important everything has to be easy to understand and well documented.
 
 ## Pay It Forward
 
