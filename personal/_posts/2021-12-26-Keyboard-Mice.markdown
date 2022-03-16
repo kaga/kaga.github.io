@@ -8,15 +8,15 @@ tags: tools
 
 ![HHKB](/assets/personal/hhkb.JPG)
 
-When I mainly use a single iMac for my daily workstation. It was a very straight forward choice for me to use the Magic Keyboard and Magic Trackpad.
+When I mainly use an iMac for my daily workstation. It was a very straight forward choice for me to use, the Magic Keyboard and Magic Trackpad.
 
-When I start working with different technologies and start daily driving Windows and Linux. I wanted a Apple-like experience using the machine. Both Windows 10 and Pop!OS do support both the keyboard and trackpad but never work as well as on native MacOS.
+When I start working with different technologies ( i.e. C# ) and start daily driving Windows and Linux this year. I wanted a Apple-like experience using the machine. Both Windows ~~10~~ 11 and [Pop!_OS]({% post_url home-lab/2021-07-12-PopOS %}) do support both the keyboard and trackpad but never work as well as on native MacOS.
 
-Most workplaces will supply standard keyboard and mice, which I got ergonomic issues with the keyboard being too wide and the mice lacking smooth scrolling. After few years of struggling, I came to a conclusion to do some research and bring my own peripherals to work.
+Most workplaces will supply standard 108 keys keyboard and mice, which I got ergonomic issues with the keyboard being too wide and the mice lacking smooth scrolling. After some struggling, I came to a conclusion to do some research and bring my own peripherals to work.
 
 My current setup is not cheap, and it is a very personal choice. It would be very nice gesture, but I am not expecting my workplace compensate for it.
 
-~This is not a sponsored content.~
+*This is not a sponsored content.*
 
 ## Keyboard [`HHKB Pro HYBRID Type-S`](https://hhkeyboard.us/hhkb)
 
@@ -25,18 +25,19 @@ My current setup is not cheap, and it is a very personal choice. It would be ver
 As much as I enjoyed my time at [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/). There are few important criteria for me when picking a keyboard.
 
 > My HHKB DIP Settings
-> 1 - Off
-> 2 - On
-> 3 - Off
-> 4 - Off
-> 5 - Off
+>
+> 1 - Off,
+> 2 - On,
+> 3 - Off,
+> 4 - Off,
+> 5 - Off,
 > 6 - On
 
 ### 1. Physical Layout
 
 ![HHKB Layout ref from https://deskthority.net/wiki/HHKB_Professional2](/assets/personal/HHKB_Pro_2_-_keyboard_layout_editor_-_final.png)
 
-I preferred the Mac layout, which has the ⌥ ( **option/alt** ) key and ⌘ ( **Windows/command** ) key swapped. I also preferred the 65% layout, which the whole function keys and numeric pad are removed, that enables shorter distance travel to the mice.
+I still preferred the Mac layout, which has the ⌥ ( **option/alt** ) key and ⌘ ( **Windows/command** ) key swapped. I also preferred the 65% layout, which the whole function keys and numeric pad are removed, that enables shorter distance travel to the mice.
 
 At first I was very happy about the Keychron K2 because it satisfied my 2 requirements. It even has a switch to quickly swap between ⌥ and ⌘ key. However, the HHKB layout took this to the next level, by placing the frequently used Control key and Delete key much closer to your fingers.
 
@@ -54,9 +55,9 @@ Having a USB wired option is a bonus when the monitor supports Keyboard, Video a
 
 The Keychron K2 was my first mechanical keyboard, and I picked brown switches for quietness. After all, software engineering is a social activities and having a clicky keyboard is definitely disruptive. However, I found the brown switches in practice still bit too loud and the Topre silent switches is definitely a quieter options.
 
-I found myself not care too much about the tactical feeling from the switches, but the textured key cap does play a big part in brining me joy in day to day usage.
+I found myself not care too much about the tactical feeling from the switches, but the textured key cap does play a big part in brining me joy in day to day usage. Definitely 10/10 recommending the HHKB. 
 
-## Mouse [`Logitech MX Master 3`](https://www.logitech.com/en-nz/products/mice/mx-master-3.910-005698.html)
+## Mice [`Logitech MX Master 3`](https://www.logitech.com/en-nz/products/mice/mx-master-3.910-005698.html)
 
 ![MX Master 3](/assets/personal/mx-master-3.jpg)
 
@@ -64,21 +65,21 @@ For the pointing device, it is a simpler choice since I have only few requiremen
 
 ### 1. Natural Smooth Scrolling
 
-I think one of the best features on Apple computer is the smooth scrolling experience. Reading documentations, which is one of my core activities at work, is much smoother because the text does not jump on each scroll and I can quickly scroll in large long documents.
+I think one of the best features on Apple computer is the smooth scrolling experience. Reading documentations, which is one of my core activities at work, is much smoother because the text smoothly move up between each scroll, instead of a sudden jump up, and I can quickly scroll in large long documents.
 
 ### 2. Multi-input Connectivity ( Again )
 
 This is the same requirement as keyboard, so I can switch to different workstations quickly. I plugged the USB receiver to a KVM monitor so that, when using in conjunction with wired keyboard, I can press 1 key and switch to different input sources.
 
-> Tip: Even when using the bluetooth connection alone, I always map the same bluetooth pairing number on both keyboard and mice. i.e. Select source **1** on both keyboard and mice.
+> Tip: Even when using the bluetooth connection alone, I always map the same bluetooth pairing number for a workstation on both keyboard and mice. i.e. Select source *1* on both keyboard and mice would select the Windows, source *2* for iPad.
 
-### 3. Economical to Use ( Somewhat )
+### 3. Ergonomical to Use ( Somewhat )
 
-It is last but definitely not the least, even if I could do most of the task on a keyboard, I would much rather prefer to have a mice that I can hold. I have small hands but I found most mice, the Magic Mice included, are too small too hold. I found myself often using the mice like a trackpad. The MX Master 3 is the first mouse I can hold it like it was intended to.
+Last but definitely not the least, even if I could do most of the task on a keyboard, I would much prefer to have a mice that I can hold. I have small hands but I found most mice, the Magic Mice included, are too small too hold. I found myself often using the mice like a trackpad. The MX Master 3 is the first mice I can hold it like it was intended to.
 
 ### Complaints - Scroll Reliability and Linux version of [LogiOption](https://www.logitech.com/en-nz/product/options#top)
 
-The MX Master 3 is a good product, but it is hard to recommend because it is very often for it too went into "hyper sensitive" mode and require **Turning it on and off again™**.
+The MX Master 3 is a good product, but it is hard to recommend because it is very often for it too went into "hyper sensitive" mode and often require **Turning it on and off** to get working again.
 
 ## Reference
 
